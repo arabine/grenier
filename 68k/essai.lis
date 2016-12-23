@@ -1,0 +1,46 @@
+
+Source file: ESSAI.X68
+Assembled on: 02-05-15 at: 21:04:30
+          by: X68K PC-2.1 Copyright (c) University of Teesside 1989,93
+Defaults: ORG $0/FORMAT/OPT A,BRL,CEX,CL,FRL,MC,MD,NOMEX,NOPCO
+
+    1  00000000                        ORG       $0
+    2                        
+    3                        
+    4           00010040     TRMSTAT:  EQU       $10040                ;;TERMINAL STATUS REGISTER
+    5           00010042     TRMDATA:  EQU       $10042                ;;TERMINAL DATA REGISTERS
+    6                        
+    7                        
+    8  00000000              DEBUT:              
+    9                        
+   10                         
+   11  00000000 163C0034               MOVE.B    #$34,D3
+   12  00000004 4EB90000000E           JSR       SENDCHAR
+   13                        
+   14  0000000A 60000014               BRA       FIN
+   15                        
+   16                        
+   17                        
+   18                        
+   19                        
+   20                        
+   21                        
+   22                        
+   23                        
+   24                        
+   25                        
+   26                        
+   27                        
+   28  0000000E              SENDCHAR:           
+   29  0000000E              WAITOUT:            
+   30  0000000E 083900010001           BTST      #1,TRMSTAT
+                0040        
+   31  00000016 67F6                   BEQ       WAITOUT               ;;WAIT FOR OUTPUT READY
+   32  00000018 13C300010042           MOVE.B    D3,TRMDATA            ;;OUTPUT CHARACTER IN D3
+   33  0000001E 4E75                   RTS       
+   34                        
+   35  00000020              FIN:                
+   36  00000020 4E722700               STOP      #$2700                ;Stop the program
+   37           00000000               END       $0                    ;End of assembly
+
+Lines: 37, Errors: 0, Warnings: 0.

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ ! -e /dev/iZap ];
+then
+    echo "/dev/iZap pas trouvé, création...";
+    mknod /dev/iZap c 254 0;
+	echo "/dev/iZap créé.";
+else
+	echo "/dev/iZap trouvé, effaçage...";
+	rm -f /dev/iZap;
+	mknod /dev/iZap c 254 0;
+	echo "/dev/iZap créé.";
+fi;

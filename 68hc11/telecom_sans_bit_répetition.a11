@@ -1,0 +1,162 @@
+;signal télécommande sur Pa0 (TIC3)	
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;adresse registre 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TIC3	equ	$14
+TCTL2	equ	$21
+TMSK1	equ	$22
+TFLG1	equ	$23
+vecTIC3	equ	$01E3
+
+
+
+	CODE
+	org $9100
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;programme principal
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jsr	init
+BEST			
+	bra 	BEST
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+init
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	ldx	#IT_TIC3		; redirection du vecteur d'interruption
+ 	stx	vecTIC3
+	
+	ldx	#$1000
+	bset	TCTL2,X %00000011	; TIC3 capture sur les fronts montants et descendants
+	bset	TMSK1,X %00000001	; autorise les interruptions de TIC3
+
+	ldd	#$0000
+	std	trRC5	
+	
+	
+	rts
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+IT_TIC3		; interruption a chaque appuie sur une touche de la télécommande
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	; récéption de la trame et stockage dans trRC5 (prise en compte du bit de répétion)
+	ldd	#$0000			; effacage de la trame précédente
+	std	trRC5	
+			
+	jsr	recep_trame		; alors on ne peut pas tester le bit de répétition 
+	
+
+
+	jsr	tempo	
+	bset	TFLG1,X %00000001	;réautorisation interruption
+	rti
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+tempo 	; temporisation de quelques ms
+;;;;;;;;;;;;;;;;;;;;;;;;;
+	pshx			
+	ldx	#$0300
+wait1	decx
+	bne	wait1
+	pulx
+	rts	
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+recep_trame  		; récéption de la trame 
+;entrée : signal numérique sur Pa0 (TIC3)
+;sortie : trRC5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jsr	mes_per			; mesure de la période de référence
+	lda	#13
+	sta	nb_dec			;12 boucles sont necessaires pour le decodage des 12 bits
+
+tstmeme		
+	jsr	det_front
+testdif	
+	std	savetap			;sauvegarde l etat precedent de TIC3
+	jsr	det_front
+	std	savetat			;sauvegarde la date actuel de TIC3(nouvelle origine)
+	subd	savetap			;donne à D la valeur d une periode
+
+	subd	demiper			;si l ecart entre 2 fronts est inferieur 
+	ble	memeta			;a la demie-periode+ 1/4 on a le meme etat
+
+	;si non, on a un etat different
+	dec	nb_dec			;
+	beq	fin_sp_Acq_tr		;si tout les bits ont été reconnus je quitte le sp d'acquisition
+	com	nivlog			;inverse le niveau logique
+	jsr	stockage		;stockage du bit dans trRC5
+	ldd	savetat			;recupere la nouvelle origine
+	bra	testdif	
+	
+memeta	
+	dec	nb_dec			
+	beq	fin_sp_Acq_tr		;si les 12 bit ont eté reconnu je quitte la fonction
+	jsr	stockage		;stockage du bit dans trRC5
+	bra	tstmeme
+fin_sp_Acq_tr
+	rts
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mes_per		; mesure de la période de référence
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	ldx	#$1000
+	ldd	TIC3,X
+	std	savetat			; sauvegarde du temps dans savetat
+
+	ldy	#$FFFF
+	sty	nivlog			;positionne le niveau logique au niveau haut
+
+	jsr	det_front		; détection front montant 
+
+	subd	savetat			;mesure l'ecart de TIC3 par rapport a son origine (savetat)
+	addd	#$0300
+	std	demiper			;nombre de cycles representant la demie periode + 1/4
+	rts
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+det_front		; détection front montant + mémorisation du temps
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	bset	TFLG1,X %00000001	;réautorisation interruption
+	brclr	TFLG1,X	%00000001 *	;attente du prochain front
+	ldd	TIC3,X			;met dans D la valeur contenue de tic3(representative du temps ecoule)
+	rts
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;stockage du bit (niveau) dans la trame TrRC5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+stockage
+	ldd 	trRC5
+	tst 	nivlog			;test du niveau 
+	beq	et1			
+
+	lsld				;si le niveau est à 1 : rotation vers la gauche et mise à 1 du 1er bit
+	incb
+	std	trRC5
+	rts
+et1	
+	lsld				;si le niveau est à 0 : rotation vers la gauche et mise à 0 du 1er bit			
+	std	trRC5
+	rts
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;variables situees en RAM
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+savetat		rmb	2	; variable utilisée pour décoder la trame de la télécommande
+nivlog		rmb	2
+savetap		rmb	2
+demiper		rmb	2
+nb_dec		rmb	1	; utilisé pour compter les 12 bits de la trame de la télécommande
+
+trRC5		rmb	2	; variable qui stoque la trame de la télécommande (12 bits)

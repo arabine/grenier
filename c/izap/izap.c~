@@ -1,0 +1,254 @@
+/**
+	Pilote de périphérique pour le module infrarouge
+	Anthony Rabine
+	arabine@programmationworld.com
+	Version : 0.1
+	Date : 17/01/2003
+
+*/
+
+/*
+Quelques commandes Shell :
+stty -a < /dev/ttyS0 donne des infos sur le paramétrage du port série COM1
+stty 115200 < /dev/ttyS0 > /dev/ttyS0 configure COM1 à 115200 bauds
+
+*/
+
+
+/* 
+ * Defines et includes du kernel,
+ * si elles n'ont pas été spécifiées dans le Makefile
+ */
+#ifdef CONFIG_SMP
+# define __SMP__
+#endif
+
+#ifndef __KERNEL__
+#  define __KERNEL__
+#endif
+
+#ifndef MODULE
+#  define MODULE
+#endif
+
+#include <linux/config.h>
+#include <linux/module.h>
+#include <linux/kernel.h> /* printk */
+#include <linux/init.h> /* module_init et module_exit */
+#include <linux/fs.h>
+#include <linux/errno.h>    /* error codes */
+#include <linux/types.h>    /* size_t */
+#include <linux/ioport.h>
+
+#include <asm/io.h>    /* inb, outb */
+
+// changer ici l'adresse des ports
+// dans la majorité des cas, laisser par défaut
+#define COM1 0x3F8
+#define COM2 0x2F8
+#define COM3 0x3E8
+#define COM4 0x2E8
+
+// on défini ici le port courant
+// il y a juste ce paramètre à changer
+#define COMx COM1
+
+/* Adresses des registres
+  Pour plus de modularité, on fait
+  un offset par rapport à l'adresse de base */
+#define TxD COMx
+#define RxD COMx
+#define DLLB COMx
+#define IER (COMx+1)
+#define DLHB (COMx+1)
+#define IIR (COMx+2)
+#define FCR (COMx+2)
+#define LCR (COMx+3)
+#define MCR (COMx+4)
+#define LSR (COMx+5)
+#define MSR (COMx+6)
+
+
+#if LINUX_VERSION_CODE < 0x020400
+#  error "This module needs at least Kernel 2.4 to work (but easy to modify for 2.2)."
+#else
+
+
+static int major = 0; /* dynamic by default */
+
+/*
+ * Cette macro est nécessaire pour éviter un warning au chargement du
+ * module. Il faut éviter d'attacher à un noyau GPL des modules propriétaires.
+ */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Anthony RABINE");
+MODULE_DESCRIPTION("Driver for infrared device on ttySx port.");
+
+/*
+ * Fonctions d'interface entre l'espace utilisateur et l'espace noyau
+ */
+
+int izap_open(struct inode *inode, struct file *filp);
+int izap_release(struct inode *inode, struct file *filp);
+
+/*
+ * Ces fonctions sont regroupées dans une structure
+ */
+struct file_operations izap_fops = {
+    open:		izap_open,
+    release:	izap_release,
+//	read:		izap_read,
+//	write:		izap_write,
+};
+
+/*
+ * Fonctions proprement dîtes
+ */
+int izap_open(struct inode *inode, struct file *filp)
+{
+	MOD_INC_USE_COUNT;
+	return 0;
+}
+
+int izap_release(struct inode *inode, struct file *filp)
+{
+	MOD_DEC_USE_COUNT; // on décrémente le compteur d'utilisation
+	return 0;
+}
+/*
+ssize_t izap_read(struct file *filp,char *, size_t , loff_t *)
+{
+
+
+}
+
+ssize_t izap_write(struct file *filp,const char *, size_t , loff_t *)
+{
+
+
+}
+*/
+
+
+static int init_serial_port(void)
+{
+// Initialise le port série
+// 9600 bauds, pas de parité, 1 bit de stop et pas de contrôle de flux.
+// L'alimentation se fait par les broches RTS=0 et DTR=0 (12V).
+
+//	outb(IIR,0x00); // DLAB = 1
+//	outb(IER,0x00); // DLAB = 1
+
+	char rep[2];
+	int i,j;
+
+	outb(LCR,0x80); // DLAB = 1
+
+	// 9600 bauds
+	outb(DLLB,0x0C); // Vitesse adresse basse
+	outb(DLHB,0x00); // Vitesse adresse haute
+
+	outb(LCR,0x03); // DLAB=0, 1 stop-bit, pas de parité
+
+	printk("<1>iZap - Configuration du port série terminée.\n");
+
+// Initialise le module
+// Pour l'initialiser : envoyer "IR" et attendre la réponse "OK".
+// (caractères ASCII en majuscules)
+
+	outb(TxD,'I');
+	outb(TxD,'R');
+
+	/* waste some time */
+	for(i=0;i<5000;i++)
+	  {
+	    
+
+	  }
+	
+
+	rep[0]=inb(RxD);
+	rep[1]=inb(RxD);
+
+	printk("<1>iZap - Réponse du module : %c%c.\n",rep[0],rep[1]);
+
+	return 0;
+}
+
+/*
+interruption_ir()
+{
+	// on arrive ici à chaque code infrarouge reçu
+	// on stocke la donnée dans un fichier texte pour le moment !!
+}
+
+*/
+
+
+
+
+/*
+ * Cette fonction est appelée au chargement du module par insmod.
+ * C'est le point d'entrée du module qui décrit les fonctionalités du module.
+ */
+int izap_init(void)
+{
+	int ret,err;
+	/*
+	 * Les messages du Kernel sont stockés dans un fichier log sur le disque.
+	 * L'emplacement de ce fichier varie selon les distribution. Sur une
+	 * Slackware 8.1, c'est dans le fichier /var/log/syslog
+	 */
+	printk("<1>iZap - Vive Progworld !\n");
+
+	SET_MODULE_OWNER(&izap_fops);
+
+	/*
+	 * On ajoute un nouveau pilote au système.
+	 * Nombre majeur : 254 (utilisation expérimentale)
+	 * Nombre mineur : 0
+	 * Nom : iZap, apparaît dans /proc/devices
+	 * Tous les droits, en lecture et écriture pour tout le monde
+	 */
+	ret = register_chrdev(major,"iZap",&izap_fops); // allocation dynamique du nombre majeur
+	if(ret < 0)
+	{
+		printk("<1>iZap - Erreur de démarrage du module\n");
+		release_region(COMx,8);
+		return ret;
+	}
+	
+	if (major == 0) major = ret; /* dynamic */
+	if((err = check_region(COMx,8))<0)
+	{
+		printk("<1>iZap - Espace mémoire occupé\n");
+		release_region(COMx,8);
+		return -1; // chercher un code d'erreur normaliser ...
+	}
+	request_region(COMx, 8, "iZap");
+	ret = init_serial_port();
+	return 0;
+
+}
+
+/*
+ * Cette fonction est appelée au déchargement du module par rmmod
+ */
+void izap_cleanup(void)
+{
+	int ret;
+	printk("<1>iZap - Bye bye les lecteurs...\n");
+
+	/* On supprime le pilote système */
+	ret = unregister_chrdev(major,"iZap");
+	release_region(COMx,8);
+}
+
+
+module_init(izap_init);
+module_exit(izap_cleanup);
+
+#endif
+//=========================================================================
+// Fin du fichier izap.c
+//=========================================================================

@@ -1,0 +1,406 @@
+;Programme qui affiche sur lcd heure et date
+; à partir du DCF-77
+; fonctionne sur la LC11
+; signal dcf sur PA0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; adresse registre
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Port_A		equ 	$00
+Port_D		equ	$08
+
+Tctl2		equ	$21
+Tmsk1		equ	$22
+Tflg1		equ	$23
+Tmsk2		equ	$24
+Tflg2		equ	$25
+
+Pactl		equ	$26
+
+Vectic3		equ	$01E3		;#Front_dcf
+Vectimer	equ	$01EC		;#Timer32
+vectover	equ	$01D1		;#Testdebut
+
+
+option		equ	$39
+adctl		equ	$30
+ADR1		equ	$31
+ADR2		equ	$32
+
+Tcnt		equ	$0E
+
+
+	org	$9100
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Programme principal
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jsr	initialisation
+
+
+debut
+	bra	debut
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+initialisation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	ldx	#Timer32		; redirection vecteur d'interruption en RAM
+	stx	Vectimer
+
+	ldx	#Front_dcf
+	stx	Vectic3
+
+	ldy	#Testdebut
+	sty	vectover
+
+	ldx	#$1000
+	bset	Tctl2,X %00000001	;  capture sur les fronts montants
+	bset	Tmsk1,X %00000001
+
+	bclr	Tmsk2,x %00000011	; configuration timer overflow pour detection début trame
+	bset	Tmsk2,x %10000000	; ( interruption toutes les 32ms)
+
+					
+	bset	Pactl,x	%00000011	; configuration timer RTI pour détection état bit
+	bclr	Tmsk2,x %01000000	; ( interruption toutes les 32ms)
+
+	clr	DIZ_HEURE		
+	clr	UNI_HEURE		
+	clr	DIZ_MINUTE		
+	clr	UNI_MINUTE		
+
+	clr	DIZ_JOUR		
+	clr	UNI_JOUR		
+	clr	DIZ_MOIS		
+	clr	UNI_MOIS		
+	clr	DIZ_ANNEE		
+	clr	UNI_ANNEE	
+
+	clr	DIZ_HEURE2		
+	clr	UNI_HEURE2		
+	clr	DIZ_MINUTE2		
+	clr	UNI_MINUTE2		
+
+	clr	DIZ_JOUR2		
+	clr	UNI_JOUR2		
+	clr	DIZ_MOIS2		
+	clr	UNI_MOIS2		
+	clr	DIZ_ANNEE2		
+	clr	UNI_ANNEE2			
+
+	clr	SECONDE				
+	clr	var		
+	clr	test_debut_trame	
+
+	bset	Tflg2,x %10000000		; autorisation interruption Testdebut 	
+	Bclr	Tflg2,x %01000000		; pas lancement timer 32ms		
+
+	jsr	Clear_display	
+
+	rts
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;
+Front_dcf 	; interruption à chaque front montant du dcf
+;;;;;;;;;;;;;;;;;;;;;
+
+	inc	SECONDE
+	jsr	aff_lcd
+	clr	test_debut_trame	; réinitialisation compteur "trou" de 1,5s
+	lda	#$05
+	sta	var
+	ldx	#$1000
+	Bset	Tflg2,x %01000000	; lancement timer32  var=5 car il faut le lancer 5 fois pour obtenir 150ms
+	bset	Tflg1,x %00000001	; réautorisation des interruptions
+	rti
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Timer32  	; test état du bit
+; ce timer est lancé 5 fois après un front montant du dcf
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	ldx	#$1000
+	dec	var
+	beq	fin_timer		; test fin du timer 5*35ms=150ms
+	Bset	Tflg2,x %01000000	; si timer pas fait 5 fois alors il faut le relancer
+	rti
+
+fin_timer				; fin timer 150 ms
+	lda	Port_A,x
+	anda	#%00000001
+	cmpa	#%00000001		; test état du niveau du dcf
+	beq	bit1
+		; le bit est à 0
+	clra	
+	bra	suite
+bit1		; le bit est à 1
+	lda	#$08
+suite		; stockage bit dans la variable correspondante
+	jsr	Stockage
+	rti
+
+
+;;;;;;;
+fin2
+;;;;;;;;
+	rts
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Stockage		; mémorisation du bit 
+; entrée : A <- etat du bit
+;	 : Seconde 	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	
+	ldb	#21
+	cmpb	SECONDE
+	bgt	fin2
+
+	ldb	#25
+	cmpb	SECONDE
+	blt	suite1
+	ldx	#UNI_MINUTE2
+	jmp	stock
+suite1	
+	ldb	#29
+	cmpb	SECONDE
+	blt	suite2
+	ldx	#DIZ_MINUTE2
+	bra	stock
+suite2
+	ldb	#33
+	cmpb	SECONDE
+	blt	suite3
+	ldx	#UNI_HEURE2
+	bra	stock
+suite3
+	ldb	#36
+	cmpb	SECONDE
+	blt	suite4
+	ldx	#DIZ_HEURE2
+	bra	stock
+suite4
+	ldb	#40
+	cmpb	SECONDE
+	blt	suite5
+	ldx	#UNI_JOUR2
+	bra	stock
+suite5
+	ldb	#42
+	cmpb	SECONDE
+	blt	suite6
+	ldx	#DIZ_JOUR2
+	bra	stock
+suite6
+	ldb	#45
+	cmpb	SECONDE
+	blt	suite7
+	ldx	#JOUR_SE
+	bra	stock
+suite7
+	ldb	#49
+	cmpb	SECONDE
+	blt	suite8
+	ldx	#UNI_MOIS2
+	bra	stock
+suite8
+	ldb	#50
+	cmpb	SECONDE
+	blt	suite9
+	ldx	#DIZ_MOIS2
+	bra	stock
+suite9
+	ldb	#54
+	cmpb	SECONDE
+	blt	suite10
+	ldx	#UNI_ANNEE2
+	bra	stock
+suite10
+	ldb	#58
+	cmpb	SECONDE
+	blt	suite11
+	ldx	#DIZ_ANNEE2
+	bra	stock
+suite11
+	ldb	#59
+	cmpb	SECONDE
+	blt	fin
+	jsr	Mise_forme
+	bra	fin
+
+stock
+	lsr	,x
+	ora	,x
+	sta	,x
+	rts
+fin
+	rts
+
+;;;;;;;;;;;;;;;;;;
+Mise_forme		; mise en forme des données
+; certaines des données sont codées sur 3 ou 2 bits dans la trame dcf 
+; il faut rajouter quelques décalages pour qu'il y ait 4 décalage en tout.
+;;;;;;;;;;;;;;;;;;;;
+	ldx	#DIZ_MINUTE2
+	Bclr	,x %00001000
+	ldx	#DIZ_HEURE2
+	lsr	,x
+	Bclr	,x %00001100
+
+	ldx	#DIZ_JOUR2
+	lsr	,x 
+	lsr	,x
+	ldx	#DIZ_MOIS2
+	lsr	,x 
+	lsr	,x
+	ldx	#DIZ_MOIS2
+	lsr	,x
+
+	lda	DIZ_HEURE2	; recopie des variables dans variables qui ne bougeront pas pendant 1 min
+	sta	DIZ_HEURE	
+	lda	UNI_HEURE2		
+	sta	UNI_HEURE	
+	lda	DIZ_MINUTE2	
+	sta	DIZ_MINUTE		
+	lda	UNI_MINUTE2	
+	sta	UNI_MINUTE
+
+	lda	DIZ_JOUR2	
+	sta	DIZ_JOUR		
+	lda	UNI_JOUR2	
+	sta	UNI_JOUR		
+	lda	DIZ_MOIS2	
+	sta	DIZ_MOIS		
+	lda	UNI_MOIS2	
+	sta	UNI_MOIS		
+	lda	DIZ_ANNEE2	
+	sta	DIZ_ANNEE	
+	lda	UNI_ANNEE2	
+	sta	UNI_ANNEE	
+	rts
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+aff_lcd		; affichage des données sur lcd
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jsr	Clear_display	
+	lda	DIZ_HEURE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	UNI_HEURE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	#$3A
+	jsr	Donnee
+
+	lda	DIZ_MINUTE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	UNI_MINUTE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	#$20
+	jsr	Donnee
+
+
+	lda	SECONDE
+	anda	#$F0
+	lsra
+	lsra
+	lsra
+	lsra
+	jsr	Conv_chiffre
+	jsr	Donnee
+
+	lda	SECONDE
+	anda	#$0F
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	#$20
+	jsr	Donnee
+
+	lda	DIZ_JOUR
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	UNI_JOUR
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	#$20
+	jsr	Donnee
+
+	lda	DIZ_MOIS
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	UNI_MOIS
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	#$20
+	jsr	Donnee
+
+	lda	DIZ_ANNEE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	lda	UNI_ANNEE
+	jsr	Conv_chiffre
+	jsr	Donnee
+	rts
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Testdebut		; interruption toutes les 32 ms	
+; test en permanence si il y a un "trou" de 1.5s
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	ldx	#$1000
+	bset	Tflg2,x %10000000	; réautorisation interruption	
+	inc	test_debut_trame
+	lda	#46
+	cmpa	test_debut_trame	; si pendant 46*32ms il n'y a pas eu de front alors debut trame
+	bne	Pas_debut	
+
+	clr	SECONDE			
+	clr	var		
+	clr	test_debut_trame	
+
+	bset	Tmsk2,x %01000000	; autorise les interruptions de détection de front_dcf
+	rti
+Pas_debut
+	rti
+
+;;;;;;;;;;;;;
+;variables en ram
+;;;;;;;;;;;;;;;
+
+DIZ_HEURE		rmb	1
+UNI_HEURE		rmb	1
+DIZ_MINUTE		rmb	1
+UNI_MINUTE		rmb	1
+
+DIZ_JOUR		rmb	1
+UNI_JOUR		rmb	1
+DIZ_MOIS		rmb	1
+UNI_MOIS		rmb	1
+DIZ_ANNEE		rmb	1
+UNI_ANNEE		rmb	1
+
+DIZ_HEURE2		rmb	1
+UNI_HEURE2		rmb	1
+DIZ_MINUTE2		rmb	1
+UNI_MINUTE2		rmb	1
+
+DIZ_JOUR2		rmb	1
+UNI_JOUR2		rmb	1
+DIZ_MOIS2		rmb	1
+UNI_MOIS2		rmb	1
+DIZ_ANNEE2		rmb	1
+UNI_ANNEE2		rmb	1
+
+SECONDE			rmb	1
+JOUR_SE			rmb	1
+var			rmb	1
+test_debut_trame	rmb	1
+	
+
+
+	inclu	"Xc_LCD.a11"

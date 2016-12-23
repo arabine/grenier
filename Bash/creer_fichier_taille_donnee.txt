@@ -1,0 +1,1 @@
+dd if=/dev/zero of=toto count=1 bs=1M
