@@ -1,0 +1,27 @@
+<team>
+	<name></name>
+	<race></race>
+	<rating></rating>
+	<treasury></treasury>
+	<coach></coach>
+	<logo></logo>
+	<reroll cost=""></reroll>
+	<fanfactor></fanfactor>
+	<assistants></assistants>
+	<cheerleaders></cheerleaders>
+	<apothecary></apothecary>
+	<wizard></wizard>
+	<player id="1">
+		<name></name>
+		<position></position>
+		<ma></ma>
+		<st></st>
+		<ag></ag>
+		<av></av>
+		<skills>
+			<skill id="0" />
+			<skill id="0" />
+		</skills>
+		<cost></cost>
+	</player>
+</team>

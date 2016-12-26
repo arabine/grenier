@@ -1,0 +1,32 @@
+- Faire en sorte de n'avoir qu'une seule méthode readXML et saveXML pour les 
+équipe ->> supprimer les méthodes dans le Team manager et tout mettre dans la 
+classe Equipe. FAIT
+
+- Passer à la deuxième version du fichier skills.xml, avec les règles et la 
+description de chaque compétence.
+
+- Team management : modifier la fenêtre de choix des compétences, ranger les 
+compétences dans l'ordre alphabétique et prévoir :
+
+  * 2 colonnes : une pour cocher/décocher et la deuxième avec le nom de 
+	la compétence
+
+  * Un texte qui affiche les règles et la description de la compétence. Texte 
+mis à jour à chaque sélection de compétence dans la deuxième colonne
+
+- mettre la lecture du fichier titles.xml dans la classe Game
+  --> une seule méthode init
+
+--------------------------------
+Doc :
+tout mettre en xml, puis programmer un logiciel 
+pour générer les formats standards :
+latex ---> ps et pdf
+html
+fichier texte
+--------------------------------
+outils :
+
+Perl : génère la doc dans tous les formats makedoc.pl
+lance xt, génère du latex et lance pdflatex
+xt.exe : pour la transfo xml+xsl vers HTML

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FBskills version="1.0" lang="fr">
+	<skill id="101">
+            <name>Arracher le ballon</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="102">
+            <name>Blocage</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="103">
+            <name>Blocage de passe</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="104">
+            <name>Chef</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="105">
+            <name>Dextérité</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="106">
+            <name>Frappe précise</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="107">
+            <name>Frénésie</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="108">
+            <name>Intrépidité</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="109">
+            <name>Joueur vicieux</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="110">
+            <name>Nerfs d'acier</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="111">
+            <name>Poursuite</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="112">
+            <name>Pro</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="113">
+            <name>Tacle</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="201">
+            <name>Blocage multiple</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="202">
+            <name>Châtaigne</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="203">
+            <name>Écrasement</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="204">
+            <name>Esquive en force</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="205">
+            <name>Garde</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="206">
+            <name>Lancer un coéquipier</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="207">
+            <name>Stabilité</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="301">
+            <name>Bond</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="302">
+            <name>Équilibre</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="303">
+            <name>Esquive</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="304">
+            <name>Glissade controlée</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="305">
+            <name>Plongeon</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="306">
+            <name>Poids plume</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="307">
+            <name>Réception</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="308">
+            <name>Saut</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="309">
+            <name>Sprint</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="310">
+            <name>Tacle plongeant</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="401">
+            <name>Costaud</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="402">
+            <name>La Main de Dieu</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="403">
+            <name>Lancer précis</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="404">
+            <name>Passe</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="405">
+            <name>Passe rapide</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+	<skill id="406">
+            <name>Précision</name>
+            <type>0</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="501">
+            <name>Aspect</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="502">
+            <name>Bâton à ressort</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="503">
+            <name>Bénédiction</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="504">
+            <name>Bombes</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="505">
+            <name>Chaîne et boulet</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="506">
+            <name>Dague empoisonnée</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="507">
+            <name>Ethère</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="508">
+            <name>Garou</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="509">
+            <name>Mutation Golemique</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="510">
+            <name>Puissance</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="511">
+            <name>Roule mort</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="512">
+            <name>Soins</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="513">
+            <name>Spécial</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="514">
+            <name>Tromblon</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="515">
+            <name>Tronçonneuse</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="601">
+            <name>Bras supplémentaires</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="602">
+            <name>Cornes</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="603">
+            <name>Crâne epais</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="604">
+            <name>Crocs acérés</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="605">
+            <name>Deux têtes</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="606">
+            <name>Griffes</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="607">
+            <name>Main demesurée</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="608">
+            <name>Minus</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="609">
+            <name>Pointes</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="610">
+            <name>Queue préhensile</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="611">
+            <name>Regard hypnotique</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="612">
+            <name>Regénération</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="613">
+            <name>Répulsion</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="614">
+            <name>Tentacules</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+	<skill id="615">
+            <name>Très longues jambes</name>
+            <type>1</type>
+            <rule></rule>
+        </skill>
+
+	<skill id="701">
+            <name>Animal sauvage</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="702">
+            <name>Calcairite aiguë</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="703">
+            <name>Débile</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="704">
+            <name>Fragile</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="705">
+            <name>Gro'Deb</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="706">
+            <name>Monstre</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="707">
+            <name>Nature froide</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="708">
+            <name>Pas d'bras</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="709">
+            <name>Pas de ce monde</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="710">
+            <name>Petite soif</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="711">
+            <name>PPPLPALI</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="712">
+            <name>Prendre racines</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+	<skill id="713">
+            <name>Toujours affamé</name>
+            <type>2</type>
+            <rule></rule>
+        </skill>
+
+</FBskills>

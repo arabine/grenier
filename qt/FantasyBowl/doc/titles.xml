@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FBtitles version="1.0" lang="fr">
+	<title id="0" pawn="B">Berserker</title>
+	<title id="1" pawn="Ct">Centaure taureau</title>
+	<title id="2" pawn="Ch">Champion</title>
+	<title id="3" pawn="C">Coureur</title>
+	<title id="4" pawn="Ce">Coureur d'égouts</title>
+	<title id="5" pawn="D">Danseur de guerre</title>
+	<title id="6" pawn="F">Furie</title>
+	<title id="7" pawn="G">Gobelin</title>
+	<title id="8" pawn="Go">Goule</title>
+	<title id="9" pawn="Gc">Guerrier du Chaos</title>
+	<title id="10" pawn="Gd">Guerrier Dragon</title>
+	<title id="11" pawn="Gl">Guerrier Lion</title>
+	<title id="12" pawn="Gp">Guerrier Phénix</title>
+	<title id="13" pawn="H">Halfling</title>
+	<title id="14" pawn="Ha">Homme arbre</title>
+	<title id="15" pawn="Hb">Homme bête</title>
+	<title id="16" pawn="Ho">Hobgobelin</title>
+	<title id="17" pawn="Hp">Humain possédé</title>
+	<title id="18" pawn="Hu">Husker</title>
+	<title id="19" pawn="K">Kroxigor</title>
+	<title id="20" pawn="L">Lanceur</title>
+	<title id="21" pawn="Lo">Longue barbe</title>
+	<title id="22" pawn="Mi">Minautore</title>
+	<title id="23" pawn="Mo">Momie</title>
+	<title id="24" pawn="N">Nain du Chaos</title>
+	<title id="25" pawn="O">Ogre</title>
+	<title id="26" pawn="On">Orque noir</title>
+	<title id="27" pawn="Ro">Rat ogre</title>
+	<title id="28" pawn="R">Revenant</title>
+	<title id="29" pawn="Sa">Saurus</title>
+	<title id="30" pawn="Sv">Seigneur Vampire</title>
+	<title id="31" pawn="Sk">Skink</title>
+	<title id="32" pawn="S">Sprinter</title>
+	<title id="33" pawn="Sq">Squelette</title>
+	<title id="34" pawn="T">Trois-quart</title>
+	<title id="35" pawn="Tr">Troll</title>
+	<title id="36" pawn="Tj">Troll de la jungle</title>
+	<title id="37" pawn="Tn">Troll des neiges</title>
+	<title id="38" pawn="Tt">Tueur de Troll</title>
+	<title id="39" pawn="V">Vampire</title>
+	<title id="40" pawn="Vc">Vermine de choc</title>
+	<title id="41" pawn="Z">Zombie</title>
+</FBtitles>

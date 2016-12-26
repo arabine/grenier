@@ -1,0 +1,5 @@
+- base de données des équipes officielles
+- afficher les compétences et leur règles d'application dans une fenêtre
+- arbitre -> fonction de superviseur pour le jeu sur table (les dés sont soit modifiés à la main ou fournissent un résultat pour les joueur (prévoir un exécutable à part ??)
+- Validateur d'équipes
+- Afficher toutes les tables

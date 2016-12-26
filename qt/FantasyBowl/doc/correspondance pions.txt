@@ -1,0 +1,45 @@
+Correspondance des pions et des positions
+------------------------------------------
+
+Berserker			B
+Centaure taureau	Ct
+Champion			Ch
+Coureur				C
+Coureur d'égouts	Ce
+Danseur de guerre	D
+Furie				F
+Gobelin				G
+Goule				Go
+Guerrier du Chaos	Gc
+Guerrier Dragon		Gd
+Guerrier Lion		Gl
+Guerrier Phénix		Gp
+Halfling			H
+Homme arbre			Ha
+Homme bête			Hb
+Hobgobelin			Ho
+Humain possédé		Hp
+Husker				Hu
+Kroxigor			K
+Lanceur				L
+Longue barbe		Lo
+Minautore			Mi
+Momie				Mo
+Nain du Chaos		N
+Ogre				O
+Orque noir			On
+Rat ogre			Ro
+Revenant			R
+Saurus				Sa
+Seigneur Vampire	Sv
+Skink				Sk
+Sprinter			S
+Squelette			Sq
+Trois-quart			T
+Troll				Tr
+Troll de la jungle	Tj
+Troll des neiges	Tn
+Tueur de Troll		Tt
+Vampire				V
+Vermine de choc		Vc
+Zombie				Z

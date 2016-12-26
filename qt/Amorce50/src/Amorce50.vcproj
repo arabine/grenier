@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8,00"
+	Name="Amorce50"
+	ProjectGUID="{35CFC2E7-1920-430F-A0DD-C444244AAC33}"
+	Keyword="MakeFileProj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="qmake &amp; nmake"
+				ReBuildCommandLine="qmake &amp; nmake"
+				CleanCommandLine="nmake clean"
+				Output="..\bin\Amorce50.exe"
+				PreprocessorDefinitions="WIN32;_DEBUG"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="qmake &amp; nmake release"
+				ReBuildCommandLine="qmake &amp; nmake"
+				CleanCommandLine="nmake clean"
+				Output="Amorce50.exe"
+				PreprocessorDefinitions="WIN32;NDEBUG"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Fichiers sources"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\Amorce50.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GrilleWindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ParametresWindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PointageWindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Resultat.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ResultWindow.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Fichiers d&apos;en-tête"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\Amorce50.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Classes.h"
+				>
+			</File>
+			<File
+				RelativePath=".\defines.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GrilleWindow.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ParametresWindow.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PointageWindow.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Resultat.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ResultWindow.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Fichiers de ressources"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\icon.rc"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,4 @@
+Numéro : 3 Statut : 0 Rang : 2 Tours : 7
+Numéro : 5 Statut : 0 Rang : 3 Tours : 7
+Numéro : 44 Statut : 0 Rang : 1 Tours : 7
+Numéro : 65 Statut : -1 Rang : 0 Tours : 7

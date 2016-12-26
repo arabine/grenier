@@ -1,0 +1,259 @@
+/*****************************************************************************/
+/**
+ * Générer une palette Pseudo-Couleur
+ */
+void CpnmFile::setPalette(unsigned int levelMax)
+{
+	unsigned char i;
+	COULEUR *pal;
+
+	pal = (COULEUR *)malloc(levelMax*sizeof(COULEUR));
+	if(!pal)
+		{printf("Erreur d'allocation memoire PAL");exit(0);}
+
+	for (i=0;i<levelMax;i++)
+	{
+		pal[i].rouge = i;
+		pal[i].vert = i;
+		pal[i].bleu = i;
+	}
+
+
+	pal[1].rouge = 255;
+	pal[1].vert = 0;
+	pal[1].bleu = 0;
+
+	pal[2].rouge = 0;
+	pal[2].vert = 255;
+	pal[2].bleu = 0;
+
+	pal[3].rouge = 0;
+	pal[3].vert = 0;
+	pal[3].bleu = 255;
+
+	pal[4].rouge = 255;
+	pal[4].vert = 255;
+	pal[4].bleu = 0;
+
+	pal[5].rouge = 0;
+	pal[5].vert = 255;
+	pal[5].bleu = 255;
+
+	pal[6].rouge = 255;
+	pal[6].vert = 0;
+	pal[6].bleu = 255;
+
+
+	pal[7].rouge = 0;
+	pal[7].vert = 128;
+	pal[7].bleu = 128;
+
+	pal[8].rouge = 128;
+	pal[8].vert = 0;
+	pal[8].bleu = 128;
+
+
+
+	return pal;
+
+}
+
+
+/****************************************/
+/* PBM : P1 ou P4						*/
+/* PGM : P2 ou P5						*/
+/* PNM : P3 ou P6						*/
+/****************************************/
+
+unsigned char *PgmRead(char * nom, char *ext, int *w, int *h, int *levels)
+{
+	FILE *in;
+	unsigned long length,offset;
+	char car,temp[80],type[5];
+	unsigned char pix1,pix2,pix3;
+	int l,c;
+	unsigned char *I;
+
+	in=NULL;
+	in=fopen(nom,"rb");
+	if(!in)	{ printf("impossible d'ouvrir le fichier %s",nom); exit(0);}
+
+	sprintf(type,ext);
+
+	/* Lecture de l'en-tête */
+	
+	fgets(temp,80,in);
+	fscanf(in,"%c",&car);
+	fseek(in,-1,SEEK_CUR);
+	if(car=='#') fgets(temp,80,in);
+	fscanf(in,"%d",&(*w));
+	fscanf(in,"%d",&(*h));
+		
+	fscanf(in,"%d",&(*levels));
+	fgets(temp,80,in);
+	offset=ftell(in);
+	fseek(in,0,SEEK_END);
+	length=ftell(in)-offset;
+
+	/* Lecture des valeurs des pixels */
+
+	
+	/* CAS PGM */
+	/* ------- */
+
+
+	if (!strcmp(type,".pgm"))
+	{
+
+		
+		if(length!=(unsigned long)((*w)*(*h))) { printf("ce fichier n'est pas un PGM P5 valide"); exit(0);}
+		fseek(in,offset,SEEK_SET);
+		
+		I=(unsigned char *)malloc(length*sizeof(unsigned char));
+		if(!(I)) { printf("erreur d'allocation memoire ImageRead"); exit(0);}
+
+		fread(I,1,length,in);
+
+	
+	}
+
+	/* CAS PNM */
+	/* ------- */
+
+	
+
+	else if (strcmp(type,".pnm")==0)
+	{
+		
+		if(length!=(unsigned long)((*w)*(*h)*3)) { printf("ce fichier n'est pas un PPM P6 valide"); exit(0);}
+		fseek(in,offset,SEEK_SET);
+		
+		I=(unsigned char *)malloc(length*sizeof(unsigned char));
+		if(!(I)) { printf("erreur d'allocation memoire ImageRead"); exit(0);	}
+
+		for (l=0;l<(*h);l++)
+			for (c=0;c<(*w);c++)
+			{
+				fread(&pix1,1,1,in);
+				fread(&pix2,1,1,in);
+				fread(&pix3,1,1,in);
+				I[l*(*w)+c] = pix1;
+			}
+
+	}
+
+
+	fclose(in);
+
+	return I;
+}
+
+
+
+
+/********************************************************/
+/* Sauver une image au formats pgm,ppm					*/
+/* PBM : P1 ou P4										*/
+/* PGM : P2 ou P5										*/
+/* PNM : P3 ou P6										*/
+/*														*/
+/* I0 : image initiale									*/
+/* RES : image que l'on veut sauver						*/
+/* PAL : palette de couleur								*/
+/* Overlay : utiliser ou pas fausse couleur superposées	*/
+/********************************************************/
+
+void PgmWrite(IMAGE *I, IMAGE *RES, COULEUR *PAL, char *nom, char *ext, unsigned char overlay)
+{
+	FILE *out;
+	char type[80];
+	int l,c;
+	unsigned char index;
+	int pash,pasw;
+
+
+	pash = I->h / RES->h ;
+	pasw = I->w / RES->w ;
+
+
+	out=NULL;
+	sprintf(type,ext);
+	out=fopen(nom,"wb");
+	if(!out) { printf("impossible d'ouvrir le fichier %s",nom); exit(0);}
+	if(!(RES->pixel)) { printf("fichier vide"); exit(0); }
+
+
+	if (!strcmp(type,".pgm"))
+	{
+		//Ecriture de l'en-tête
+		fprintf(out,"P5\n#\n%d %d\n%d\n",RES->w,RES->h,RES->levels);
+
+		//Ecriture des valeurs des pixels
+		fwrite(RES->pixel,1,(RES->w)*(RES->h),out);
+			
+	}
+
+	/* gestion de la palette de couleur */
+
+	else if (!strcmp(type,".pnm"))
+	{
+		
+		if (overlay)
+		{
+			//Ecriture de l'en-tête
+			fprintf(out,"P3\n#\n%d %d\n%d\n",I->w,I->h,I->levels);
+
+			//Ecriture des valeurs des pixels
+			for (l=0;l<(I->h);l++)
+				for (c=0;c<(I->w);c++)
+				{
+					if (((l/pash)*pash == l) && ((c/pasw)*pasw == c)) 
+					{
+						index = RES->pixel[(int)(l/pash)*(RES->w)+(int)(c/pasw)];
+						if (index==0)
+						{
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+						}
+						else
+						{
+							fprintf(out,"%d ",PAL[index].rouge);
+							fprintf(out,"%d ",PAL[index].vert);
+							fprintf(out,"%d ",PAL[index].bleu);
+						}
+					}
+					else 
+					{
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+							fprintf(out,"%d ",I->pixel[l*(I->w)+c]);
+					}
+				}
+
+		}
+
+		else
+		{
+			//Ecriture de l'en-tête
+			fprintf(out,"P3\n#\n%d %d\n%d\n",RES->w,RES->h,RES->levels);
+
+			//Ecriture des valeurs des pixels
+			for (l=0;l<(RES->h);l++)
+				for (c=0;c<(RES->w);c++)
+				{
+					fprintf(out,"%d ",RES->pixel[l*(RES->w)+c]);
+					fprintf(out,"%d ",RES->pixel[l*(RES->w)+c]);
+					fprintf(out,"%d ",RES->pixel[l*(RES->w)+c]);
+
+				}
+
+		}
+
+	}
+
+	fclose(out);
+
+
+	return;
+}

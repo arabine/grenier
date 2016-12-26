@@ -1,0 +1,66 @@
+		        VRAF PUBLIC LICENSE
+		       Version 462, June 2042
+
+ Copyright (C) 1758, 2003 VRAF Software Foundation, Inc.
+                       42 Ciboulette Place, PROUTLAND
+ 
+ A distribuer sans compter, c'est frais c'est gratuit et ça sert à 
+ rien donc absolument indispensable.
+
+			    Préambule
+
+  Ras le bol des licences ? Si oui, vous êtes au bon endroit. Ceci 
+est la licence officielle VRAF, courte et concise pour ne lasser 
+personne, et avec un peu d'anglais pour garder un style pompeux.
+
+		         VRAF PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. Cette licence s'applique à n'importe quel programme informatique 
+ou travail, à tout quoi. De toutes façons, tout le monde s'en fout.
+
+  1. Le programme peut être livré avec ses codes sources. Ou non. 
+Généralement il suffit de lire un super fichier README pour être 
+fixé.
+
+  2. Par contre, toute production sous licence VRAF doit être gratuite, 
+no soussous, rien de rien car tout le monde s'en bas le coquillard 
+de vos programmes. Alors payer pour ça, faut quand même pas pousser 
+mémé dans les orties.
+
+  3. Néanmoins Un programme sous licence VRAF peut être vendu, 
+ou faire parti d'un autre package payant, sous réserve de fournir 
+une version gratuite quelque part, au hasard sur Internet.
+
+  4. Si l'auteur d'un programme sous licence VRAF désobéit aux 
+règles du présent document, il sera puni comme il se doit : une 
+semaine d'écoute forcée du CD des Pop stars et enfermement pendant 
+quinze jours dans une cage avec un ours blanc des Carpates (ours qui 
+a lui aussi écouté ledit CD des Pop stars, donc passablement énervé).
+
+  5. Le reste, on s'en fout, et on ne veut pas le savoir.
+
+  6. Ah si une autre restriction : il est formellement interdit 
+d'utiliser une production sous licence VRAF pour déclencher une 
+guerre nucléaire. Si un tel cas se présente, voir le point 4.
+
+  7. Seconde restriction : il est interdit d'envoyer des questions 
+stupides à l'auteur à propos de l'utilisation de son logiciel. La 
+raison ? Parce que l'auteur s'en fout de vous ! En cas de désobéissance 
+avérée, l'auteur du message tombe sous le coup du point 4.
+
+
+			    NO WARRANTY
+
+  8. BECAUSE THE PROGRAM IS LICENSED UNDER THE VRAF LICENSE, THERE IS 
+NO WARRANTY. NONONO, NOTHING, JUST SIT DOWN AND THINK ABOUT YOUR LIFE. 
+DON'T TRY TO ANNOY THE AUTHOR BECAUSE YOU'RE TOO STUPID TO USE THIS 
+PROGRAM. YEAH! I LOVE BIG CAPS!
+
+		     END OF TERMS AND CONDITIONS
+
+	    How to Apply These Terms to Your New Programs
+
+  Just copy this file in your program directory and go out of your 
+home. Go to the cinema. Or go to the swimming pool. Or anything else, 
+but switch off your fucking computer !

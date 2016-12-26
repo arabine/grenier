@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FBskills version="1.0" lang="fr">
+	<skill id="101" type="0">Arracher le ballon</skill>
+	<skill id="102" type="0">Blocage</skill>
+	<skill id="103" type="0">Blocage de passe</skill>
+	<skill id="104" type="1">Chef</skill>
+	<skill id="105" type="0">Dextérité</skill>
+	<skill id="106" type="0">Frappe précise</skill>
+	<skill id="107" type="1">Frénésie</skill>
+	<skill id="108" type="1">Intrépidité</skill>
+	<skill id="109" type="0">Joueur vicieux</skill>
+	<skill id="110" type="1">Nerfs d'acier</skill>
+	<skill id="111" type="0">Poursuite</skill>
+	<skill id="112" type="0">Pro</skill>
+	<skill id="113" type="0">Tacle</skill>
+
+	<skill id="201" type="0">Blocage multiple</skill>
+	<skill id="202" type="0">Châtaigne</skill>
+	<skill id="203" type="0">Écrasement</skill>
+	<skill id="204" type="0">Esquive en force</skill>
+	<skill id="205" type="0">Garde</skill>
+	<skill id="206" type="2">Lancer un coéquipier</skill>
+	<skill id="207" type="1">Stabilité</skill>
+
+	<skill id="301" type="1">Bond</skill>
+	<skill id="302" type="0">Équilibre</skill>
+	<skill id="303" type="0">Esquive</skill>
+	<skill id="304" type="0">Glissade controlée</skill>
+	<skill id="305" type="0">Plongeon</skill>
+	<skill id="306" type="2">Poids plume</skill>
+	<skill id="307" type="0">Réception</skill>
+	<skill id="308" type="0">Saut</skill>
+	<skill id="309" type="0">Sprint</skill>
+	<skill id="310" type="0">Tacle plongeant</skill>
+
+	<skill id="401" type="1">Costaud</skill>
+	<skill id="402" type="0">La Main de Dieu</skill>
+	<skill id="403" type="0">Lancer précis</skill>
+	<skill id="404" type="0">Passe</skill>
+	<skill id="405" type="0">Passe rapide</skill>
+	<skill id="406" type="0">Précision</skill>
+
+	<skill id="501" type="2">Aspect</skill>
+	<skill id="502" type="2">Bâton à ressort</skill>
+	<skill id="503" type="2">Bénédiction</skill>
+	<skill id="504" type="2">Bombes</skill>
+	<skill id="505" type="2">Chaîne et boulet</skill>
+	<skill id="506" type="2">Dague empoisonnée</skill>
+	<skill id="507" type="2">Ethère</skill>
+	<skill id="508" type="2">Garou</skill>
+	<skill id="509" type="2">Mutation Golemique</skill>
+	<skill id="510" type="2">Puissance</skill>
+	<skill id="511" type="2">Roule mort</skill>
+	<skill id="512" type="2">Soins</skill>
+	<skill id="513" type="2">Spécial</skill>
+	<skill id="514" type="2">Tromblon</skill>
+	<skill id="515" type="2">Tronçonneuse</skill>
+
+	<skill id="601" type="1">Bras supplémentaires</skill>
+	<skill id="602" type="1">Cornes</skill>
+	<skill id="603" type="1">Crâne epais</skill>
+	<skill id="604" type="1">Crocs acérés</skill>
+	<skill id="605" type="1">Deux têtes</skill>
+	<skill id="606" type="1">Griffes</skill>
+	<skill id="607" type="1">Main demesurée</skill>
+	<skill id="608" type="2">Minus</skill>
+	<skill id="609" type="1">Pointes</skill>
+	<skill id="610" type="1">Queue préhensile</skill>
+	<skill id="611" type="2">Regard hypnotique</skill>
+	<skill id="612" type="2">Regénération</skill>
+	<skill id="613" type="1">Répulsion</skill>
+	<skill id="614" type="1">Tentacules</skill>
+	<skill id="615" type="1">Très longues jambes</skill>
+
+	<skill id="701" type="2">Animal sauvage</skill>
+	<skill id="702" type="2">Calcairite aiguë</skill>
+	<skill id="703" type="2">Débile</skill>
+	<skill id="704" type="2">Fragile</skill>
+	<skill id="705" type="2">Gro'Deb</skill>
+	<skill id="706" type="2">Monstre</skill>
+	<skill id="707" type="2">Nature froide</skill>
+	<skill id="708" type="2">Pas d'bras</skill>
+	<skill id="709" type="2">Pas de ce monde</skill>
+	<skill id="710" type="2">Petite soif</skill>
+	<skill id="711" type="2">PPPLPALI</skill>
+	<skill id="712" type="2">Prendre racines</skill>
+	<skill id="713" type="2">Toujours affamé</skill>
+
+</FBskills>

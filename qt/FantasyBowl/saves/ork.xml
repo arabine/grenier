@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FBteam version="1.0">
+   <name>Bugman Warriors</name>
+   <race>Nains</race>
+   <rating>100</rating>
+   <treasury>0</treasury>
+   <coach>Belegar</coach>
+   <logo>nain.png</logo>
+   <reroll cost="40000">0</reroll>
+   <fanfactor>1</fanfactor>
+   <assistants>1</assistants>
+   <cheerleaders>1</cheerleaders>
+   <apothecary>0</apothecary>
+   <wizard>0</wizard>
+   <player id="1">
+      <name>Gimli</name>
+      <position>Longue Barbe</position>
+      <ma>4</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="113"/>
+         <skill id="603"/>
+      </skills>
+      <cost>70000</cost>
+   </player>
+   <player id="2">
+      <name>Thorgrim</name>
+      <position>Tueur de Troll</position>
+      <ma>5</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>8</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="603"/>
+         <skill id="107"/>
+         <skill id="108"/>
+      </skills>
+      <cost>90000</cost>
+   </player>
+   <player id="3">
+      <name>Bugman</name>
+      <position>Longue Barbe</position>
+      <ma>4</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="113"/>
+         <skill id="603"/>
+      </skills>
+      <cost>70000</cost>
+   </player>
+   <player id="4">
+      <name>Groooaa</name>
+      <position>Ogre</position>
+      <ma>5</ma>
+      <st>5</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="202"/>
+         <skill id="703"/>
+         <skill id="603"/>
+         <skill id="206"/>
+         <skill id="706"/>
+      </skills>
+      <cost>120000</cost>
+   </player>
+   <player id="5">
+      <name>Flint</name>
+      <position>Longue Barbe</position>
+      <ma>4</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="113"/>
+         <skill id="603"/>
+      </skills>
+      <cost>70000</cost>
+   </player>
+   <player id="6">
+      <name>Fili</name>
+      <position>Longue Barbe</position>
+      <ma>4</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="113"/>
+         <skill id="603"/>
+      </skills>
+      <cost>70000</cost>
+   </player>
+   <player id="7">
+      <name>Kili</name>
+      <position>Longue Barbe</position>
+      <ma>4</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="113"/>
+         <skill id="603"/>
+      </skills>
+      <cost>70000</cost>
+   </player>
+   <player id="8">
+      <name>Thorin</name>
+      <position>Tueur de Troll</position>
+      <ma>5</ma>
+      <st>3</st>
+      <ag>2</ag>
+      <av>8</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="603"/>
+         <skill id="107"/>
+         <skill id="108"/>
+      </skills>
+      <cost>90000</cost>
+   </player>
+   <player id="9">
+      <name>Bofur</name>
+      <position>Sprinter</position>
+      <ma>6</ma>
+      <st>3</st>
+      <ag>3</ag>
+      <av>8</av>
+      <skills>
+         <skill id="105"/>
+         <skill id="603"/>
+      </skills>
+      <cost>80000</cost>
+   </player>
+   <player id="10">
+      <name>Bifur</name>
+      <position>Sprinter</position>
+      <ma>6</ma>
+      <st>3</st>
+      <ag>3</ag>
+      <av>8</av>
+      <skills>
+         <skill id="105"/>
+         <skill id="603"/>
+      </skills>
+      <cost>80000</cost>
+   </player>
+   <player id="11">
+      <name>Gloin</name>
+      <position>Coureur</position>
+      <ma>5</ma>
+      <st>3</st>
+      <ag>3</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="603"/>
+      </skills>
+      <cost>80000</cost>
+   </player>
+   <player id="12">
+      <name>Oin</name>
+      <position>Coureur</position>
+      <ma>5</ma>
+      <st>3</st>
+      <ag>3</ag>
+      <av>9</av>
+      <skills>
+         <skill id="102"/>
+         <skill id="603"/>
+      </skills>
+      <cost>80000</cost>
+   </player>
+</FBteam>

@@ -1,0 +1,35 @@
+/data
+
+Fichiers de données en XML nécessaires au fonctionnement du jeu. Ces fichiers sont ainsi mis à disposition afin de configurer/modifier/traduire facilement le jeu.
+
+/docs
+
+Répertoire contenant toutes les documentations de FantasyBowl, pour le joueur et le programmeur.
+
+/logos
+
+Placer ici les logos des équipes.
+
+/pawns
+
+Placer ici les pions représentants les joueurs sur le terrain.
+
+/pics
+
+Images nécessaires au jeu (terrain, dés, ...)
+
+/players
+
+images des joueurs ou de leurs figurines
+
+/saves
+
+Sauvegardes du jeu
+
+/sounds
+
+Sons, triés dans des sous répertoires selon leur catégorie
+
+/teams
+
+Fichiers XML des équipes

@@ -1,0 +1,20 @@
+Amorce50 0.2
+
++ indique une nouvelle fonctionnalité
+~ indique un bug corrigé ou un changement
+
+* version 0.2
+  -------------------------------
+        + Nouveau panneau : édition pilotes présents le jour de compétition
+	+ Possibilité de créer et générer la grille de départ
+        + Le nombre de manches est maintenant choisi pour chaque épreuve
+        + Nouveau classement de la saison
+        + Nouveau classement de la catégorie
+        ~ L'indication des identifiant de la base de données n'apparait plus
+          dans les tableaux (mais existe toujours virtuellement)
+        
+* version 0.1
+  -------------------------------
+	+ Version initiale
+
+(end of HISTORY)

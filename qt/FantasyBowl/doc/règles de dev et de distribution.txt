@@ -1,0 +1,59 @@
+Distribution :
+-------------------
+
+préparer plusieurs modules de dev :
+
+- un module pour les sources du jeu
+- un module pour chaque traduction des docs et des fichiers XML de ressources
+
+
+un pack pour chaque traduction des fichiers ressources (images, ...)
+
+Releases :
+
+une archive .tar.gz (Linux) et .rar (Windows) et un Setup (Windows, voir du côté de NIS, Nullsoft, ou d'autres gratos). Fichier RPM pour Linux ??
+
+
+Pour les versions Linux, fournir les habituels fichiers README, INSTALL
+
+Même chose pour les sources, + un Makefile
+
+Le site Internet :
+-------------------
+
+Quelques pages tout au plus, comprend les parties suivantes :
+
+Edito + News
+
+L'edito décrit le principe du jeu, progammé en Qt et tourne (normalement) partout où Qt tourne.
+
+Screenshots
+
+Quelques captures, sous Linux et Windows, montrant une phase de Jeu et le Team Manager
+
+Downloads
+
+Toutes les distributions précitées
+
+CVS
+
+Liens pour récupérer les sources + donner mon mail pour me contacter si quelqu'un veut rejoindre le développement
+
+Documentation
+
+Mettre les docs en download + la doc en HTML
+
+Links
+
+Liens vers progworld, liens vers des sites de BloodBowl/Games Workshop
+
+
+Menu : indiquer la dernière version du jeu
+
+Docs :
+--------
+
+En LaTeX, et exportation en : ps, HTML, PDF, fichiers textes
+
+
+

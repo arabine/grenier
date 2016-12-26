@@ -1,0 +1,17 @@
+Historique :
+-------------
+
+date : date de la release, voir le format de la date, chercher un format standard
+verson : version de la release
+comment : commentaire du changement en plusieurs langues
+type : famille du changement
+
+type = 0 : correction de bug. Signe fichier texte : +
+type = 1 : nouvelle fonctionalité. Signe fichier texte : o
+
+text : texte du commentaire proprement dit
+
+lang : langue du commentaire
+
+lang = fr : français
+lang = en : english

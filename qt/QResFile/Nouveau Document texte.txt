@@ -1,0 +1,1 @@
+ $(QTDIR)\lib\qt-mtnc321.lib $(QTDIR)\lib\qtmain.lib 

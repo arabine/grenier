@@ -1,0 +1,113 @@
+<ui version="4.0" >
+ <author></author>
+ <comment></comment>
+ <exportmacro></exportmacro>
+ <class>Deimos</class>
+ <widget class="QMainWindow" name="Deimos" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>675</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Deimos</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="res/deimos.qrc" >:/deimos.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QGridLayout" >
+    <property name="margin" >
+     <number>9</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item row="0" column="0" >
+     <layout class="QHBoxLayout" >
+      <property name="margin" >
+       <number>0</number>
+      </property>
+      <property name="spacing" >
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QTreeWidget" name="softList" >
+        <property name="maximumSize" >
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTreeWidget" name="keyList" />
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>675</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="newConfig" />
+    <addaction name="loadConfig" />
+    <addaction name="saveConfig" />
+    <addaction name="saveConfigAs" />
+    <addaction name="separator" />
+    <addaction name="exitDeimos" />
+   </widget>
+   <addaction name="menuFile" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="newConfig" >
+   <property name="text" >
+    <string>&amp;New configuration</string>
+   </property>
+  </action>
+  <action name="loadConfig" >
+   <property name="text" >
+    <string>&amp;Load</string>
+   </property>
+  </action>
+  <action name="saveConfig" >
+   <property name="text" >
+    <string>&amp;Save</string>
+   </property>
+  </action>
+  <action name="saveConfigAs" >
+   <property name="text" >
+    <string>Save &amp;as...</string>
+   </property>
+  </action>
+  <action name="exitDeimos" >
+   <property name="text" >
+    <string>E&amp;xit</string>
+   </property>
+  </action>
+  <action name="aboutDeimos" >
+   <property name="text" >
+    <string>&amp;About</string>
+   </property>
+  </action>
+ </widget>
+ <pixmapfunction></pixmapfunction>
+ <resources>
+  <include location="res/deimos.qrc" />
+ </resources>
+ <connections/>
+</ui>

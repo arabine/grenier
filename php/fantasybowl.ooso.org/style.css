@@ -1,0 +1,86 @@
+/*   Anthony Rabine - arabine@programmationworld.com */
+
+/*  Liens */
+a:link { text-decoration: none; color:blue;}
+a:visited { text-decoration: none; color: blue }
+a:active { text-decoration: underline; color: red }
+a:hover { text-decoration: underline; color: blue; background-color: #D6D7CE }
+
+p{
+	text-align : justify;
+}
+
+
+table {
+	border : 0px;
+	margin : 0px;
+	padding : 0px;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : small;
+	vertical-align : top;
+}
+
+tr {
+	border : 0px;
+	margin : 0px;
+	padding : 0px;
+}
+
+
+td {
+	border : 0px;
+	margin : 0px;
+	padding : 0px;
+}
+
+table.principal {
+	background: #EFDFB5;
+	border-color : #000000;
+	border-width : medium ;
+	border-style : solid ;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding : 0px;
+	margin : 0px;
+	width : 780px;
+
+}
+
+td.buttons {
+	background: #EFDFB5;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	padding : 0px;
+	margin : 0px;
+	height : 45px;
+	border : 0px;
+	width : 120px;
+	vertical-align : top;
+}
+
+td.subbuttons{
+	vertical-align : top;
+	background-image : url(images/b2_fill.png);
+	height : 30px;
+}
+
+td.pied {
+	background: #EFDFB5;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: center ;
+	padding : 5px;
+	margin : 5px;
+	border-color : #000000;
+	border-bottom-width : 0;
+	border-left-width : 0;
+	border-right-width : 0;
+	border-top-width : medium;
+	border-style : solid;
+	height : 30px;
+}
+
+/* Fin du fichier */ 

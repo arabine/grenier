@@ -1,0 +1,10 @@
+<Deimos version="1.0">
+    <application name="Winamp" classname="Winamp v1.x">
+    <action button="1">
+        <keycode></keycode>
+        <keystroke></keystroke>
+        <description></description>
+    </action>
+    </application>
+
+</Deimos>

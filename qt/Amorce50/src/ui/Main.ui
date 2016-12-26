@@ -1,0 +1,617 @@
+<ui version="4.0" >
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Amorce50</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QGridLayout" >
+    <property name="margin" >
+     <number>9</number>
+    </property>
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <item row="1" column="1" >
+     <widget class="QGroupBox" name="groupBox_2" >
+      <property name="title" >
+       <string>Epreuves</string>
+      </property>
+      <layout class="QGridLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item row="0" column="1" >
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="textLabel1_2_2" >
+           <property name="sizePolicy" >
+            <sizepolicy>
+             <hsizetype>7</hsizetype>
+             <vsizetype>5</vsizetype>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize" >
+            <size>
+             <width>160</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text" >
+            <string>&lt;b>&lt;p align="center">MANCHES&lt;/p>&lt;/b></string>
+           </property>
+           <property name="wordWrap" >
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="roundsList" >
+           <property name="editTriggers" >
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionMode" >
+            <enum>QAbstractItemView::SingleSelection</enum>
+           </property>
+           <property name="selectionBehavior" >
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+           <column>
+            <property name="text" >
+             <string>id</string>
+            </property>
+           </column>
+           <column>
+            <property name="text" >
+             <string>Manche</string>
+            </property>
+           </column>
+           <column>
+            <property name="text" >
+             <string>Statut</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0" >
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="textLabel1_2" >
+           <property name="text" >
+            <string>&lt;b>&lt;p align="center">CATEGORIES&lt;/p>&lt;/b></string>
+           </property>
+           <property name="wordWrap" >
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="categoriesList" >
+           <property name="editTriggers" >
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionMode" >
+            <enum>QAbstractItemView::SingleSelection</enum>
+           </property>
+           <property name="selectionBehavior" >
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+           <column>
+            <property name="text" >
+             <string>id</string>
+            </property>
+           </column>
+           <column>
+            <property name="text" >
+             <string>Nom</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0" colspan="3" >
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnClassCategorie" >
+           <property name="text" >
+            <string>&amp;Classement de la catégorie</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+C</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType" >
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>80</width>
+             <height>21</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="2" >
+        <layout class="QVBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnPointage" >
+           <property name="text" >
+            <string>&amp;Pointage</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+P</string>
+           </property>
+           <property name="autoDefault" >
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnAddRound" >
+           <property name="text" >
+            <string>Ajouter</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnEditRound" >
+           <property name="text" >
+            <string>E&amp;diter</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+D</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnDeleteRound" >
+           <property name="text" >
+            <string>Supprimer</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer>
+           <property name="orientation" >
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" >
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" >
+     <widget class="QGroupBox" name="groupBox" >
+      <property name="title" >
+       <string>Liste des courses</string>
+      </property>
+      <layout class="QVBoxLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="textLabel1" >
+           <property name="text" >
+            <string>Saison :</string>
+           </property>
+           <property name="wordWrap" >
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="seasonsList" />
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="racesList" >
+         <property name="editTriggers" >
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionMode" >
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <property name="selectionBehavior" >
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <column>
+          <property name="text" >
+           <string>id</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Lieu</string>
+          </property>
+         </column>
+         <column>
+          <property name="text" >
+           <string>Date</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" >
+         <property name="margin" >
+          <number>0</number>
+         </property>
+         <property name="spacing" >
+          <number>6</number>
+         </property>
+         <item row="0" column="0" >
+          <widget class="QPushButton" name="btnNewRace" >
+           <property name="text" >
+            <string>&amp;Nouvelle course</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+N</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1" >
+          <widget class="QPushButton" name="btnEditRace" >
+           <property name="text" >
+            <string>&amp;Editer</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+E</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" >
+          <widget class="QPushButton" name="btnPilotesPresents" >
+           <property name="text" >
+            <string>Pilotes présents</string>
+           </property>
+           <property name="shortcut" >
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" >
+          <widget class="QPushButton" name="btnDeleteRace" >
+           <property name="text" >
+            <string>&amp;Supprimer</string>
+           </property>
+           <property name="shortcut" >
+            <string>Alt+S</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2" >
+     <widget class="QFrame" name="frame" >
+      <property name="palette" >
+       <palette>
+        <active>
+         <colorrole role="Base" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window" >
+          <brush brushstyle="SolidPattern" >
+           <color alpha="255" >
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground" >
+       <bool>true</bool>
+      </property>
+      <property name="frameShape" >
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow" >
+       <enum>QFrame::Plain</enum>
+      </property>
+      <layout class="QGridLayout" >
+       <property name="margin" >
+        <number>9</number>
+       </property>
+       <property name="spacing" >
+        <number>6</number>
+       </property>
+       <item row="0" column="0" >
+        <widget class="QLabel" name="TextLabel1" >
+         <property name="sizePolicy" >
+          <sizepolicy>
+           <hsizetype>1</hsizetype>
+           <vsizetype>1</vsizetype>
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="palette" >
+          <palette>
+           <active>
+            <colorrole role="Base" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="Base" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="Base" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window" >
+             <brush brushstyle="SolidPattern" >
+              <color alpha="255" >
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="font" >
+          <font>
+           <pointsize>16</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="autoFillBackground" >
+          <bool>true</bool>
+         </property>
+         <property name="text" >
+          <string>C O U R S E S     E T     E P R E U V E S</string>
+         </property>
+         <property name="alignment" >
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap" >
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFen_tres" >
+    <property name="title" >
+     <string>Fenêtres</string>
+    </property>
+    <addaction name="actionParametres" />
+    <addaction name="separator" />
+    <addaction name="actionSaisons" />
+    <addaction name="actionPilotes" />
+    <addaction name="actionCategories" />
+    <addaction name="actionReglement" />
+   </widget>
+   <widget class="QMenu" name="menu" >
+    <property name="title" >
+     <string>?</string>
+    </property>
+    <addaction name="actionAPropos" />
+   </widget>
+   <widget class="QMenu" name="menuFichier" >
+    <property name="title" >
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionQuitter" />
+   </widget>
+   <addaction name="menuFichier" />
+   <addaction name="menuFen_tres" />
+   <addaction name="menu" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="actionNouvelleCourse" >
+   <property name="text" >
+    <string>Nouvelle course</string>
+   </property>
+  </action>
+  <action name="actionQuitter" >
+   <property name="text" >
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionParametres" >
+   <property name="text" >
+    <string>Paramètres</string>
+   </property>
+  </action>
+  <action name="actionSaisons" >
+   <property name="text" >
+    <string>Saisons</string>
+   </property>
+  </action>
+  <action name="actionPilotes" >
+   <property name="text" >
+    <string>Pilotes</string>
+   </property>
+  </action>
+  <action name="actionCategories" >
+   <property name="text" >
+    <string>Catégories</string>
+   </property>
+  </action>
+  <action name="actionReglement" >
+   <property name="text" >
+    <string>Règlement</string>
+   </property>
+  </action>
+  <action name="actionAPropos" >
+   <property name="text" >
+    <string>À propos...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

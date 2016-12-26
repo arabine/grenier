@@ -1,0 +1,18 @@
+Amorce50 0.2
+---------------
+
+Amorce50 est un logiciel de gestion de courses de 50cm3.
+Il a été développé pour l'association Amorce50.
+
+Merci de me rapporter les éventuels bugs et suggestions.
+
+email : anthony@ooso.org
+
+
+Bugs connus :
+--------------
+
+    * pas de lien entre le pointage et la liste des pilotes
+    * la suppression d'une manche peut entrainer des "trous" dans la numérotation 
+    (il est alors préférable de supprimer en commençant par la dernière manche)
+    

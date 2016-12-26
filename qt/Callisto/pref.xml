@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<preferences>
+	<ooso>
+		<mode>debug</mode>
+	</ooso>
+	<sqlserver>
+		<ip>127.0.0.1</ip>
+		<port>3306</port>
+		<user>root</user>
+		<password>abcd</password>
+		<jdbcdriver>org.gjt.mm.mysql.Driver</jdbcdriver>
+	</sqlserver>
+</preferences>

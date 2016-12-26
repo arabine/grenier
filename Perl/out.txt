@@ -1,0 +1,1053 @@
+HASH(0x1d198a8)	HASH(0x1d198b4)	HASH(0x1d198f0)	HASH(0x1d1992c)	HASH(0x1d19968)
+''	''	''	HASH(0x1d35438)	''
+'-'	'-'	'-'	HASH(0x1d3566c)	'-'
+'  Adresse  '	' Address '	'Adresse'	HASH(0x1d358a0)	'Indirizzo'
+"      version %0.%1.%2.%3"	"      release %0.%1.%2.%3"	"      version %0.%1.%2.%3"	HASH(0x1d35ad4)	"      versione %0.%1.%2.%3"
+" Alarme élémentaire %0"	" First level Alarm %0"	"Alarm Niveau 1 %0"	HASH(0x1d35d08)	" Primo livello di allarme %0"
+""	""	""	HASH(0x1d35f3c)	""
+"%"	"%"	"%"	HASH(0x1d36170)	"%"
+"%0 Bit(s) d'arret"	"%0 Stop bit"	"%0 Stop bit"	HASH(0x1d39f10)	HASH(0x1d39f70)
+"%0 Jour(s)"	"%0 Day(s)"	"%0 Tag(e)"	HASH(0x1d3a120)	"%0 Giorni"
+"%0 Jour(s), %1 heures"	"%0 Day(s), %1 hours"	"%0 Tag(e), %1 Stunden"	HASH(0x1d3a354)	"%0 Giorni, %1 ore"
+"%0 Jour(s), %1 heures, %2 minutes"	"%0 Day(s), %1 hours, %2 minutes"	"%0 Tag(e), %1 Stunden, %2 Minuten"	HASH(0x1d3a588)	"%0 Giorni, %1 ore, %2 minuti"
+"%0 Jour(s), %1 heures, %2 minutes, %3 secondes"	"%0 Day(s), %1 hours, %2 minutes, %3 seconds"	"%0 Tag(e), %1 Stunden, %2 Minuten, %3 Sekunden"	HASH(0x1d3a7bc)	"%0 Giorni, %1 ore, %2 minuti, %3 secondi"
+"%0 minutes"	"%0 minutes"	"%0 Minuten"	HASH(0x1d3a9f0)	"%0 minuti"
+"%0 secondes"	"%0 seconds"	"%0 Sekunden"	HASH(0x1d3ac24)	"%0 secondi"
+"%0:%1:%2"	"%0:%1:%2"	"%0:%1:%2"	HASH(0x1d3ae58)	"%0:%1:%2"
+"%1 heure(s), %2 minutes, %3 secondes"	"%1 hour(s), %2 minutes, %3 seconds"	"%1 Stunden, %2 Minuten, %3 Sekunden"	HASH(0x1d3dcb0)	"%1 ore, %2 minuti, %3 secondi"
+"%1 heures"	"%1 hours"	"%1 Stunden"	HASH(0x1d3dee4)	"%1 ore"
+"%1 heures, %2 minutes"	"%1 hours, %2 minutes"	"%1 Stunden, %2 Minuten"	HASH(0x1d3e118)	"%1 ore, %2 minuti"
+", "	", "	", "	HASH(0x1d3e34c)	", "
+"1 minute"	"1 minute"	"1 Minute"	HASH(0x1d3e580)	"1 minuto"
+"1 seconde"	"1 second"	"1 Sekunde"	HASH(0x1d3e7b4)	"1 secondo"
+"1"	"1"	"1"	HASH(0x1d3e9e8)	"1"
+"100 ms"	"100 ms"	"100 ms"	HASH(0x1d917b8)	"100 ms"
+"115200"	"115200"	"115200"	HASH(0x1d919ec)	"115200"
+"1200"	"1200"	"1200"	HASH(0x1d91c20)	"1200"
+"150 ms"	"150 ms"	"150 ms"	HASH(0x1d91e54)	"150 ms"
+"19200"	"19200"	"19200"	HASH(0x1d92088)	"19200"
+"2"	"2"	"2"	HASH(0x1d922bc)	"2"
+"200 ms"	"200 ms"	"200 ms"	HASH(0x1d924f0)	"200 ms"
+"2400"	"2400"	"2400"	HASH(0x1d97420)	"2400"
+"250 ms"	"250 ms"	"250 ms"	HASH(0x1d97654)	"250 ms"
+"300 ms"	"300 ms"	"300 ms"	HASH(0x1d97888)	"300 ms"
+"350 ms"	"350 ms"	"350 ms"	HASH(0x1d97abc)	"350 ms"
+"38400"	"38400"	"38400"	HASH(0x1d97cf0)	"38400"
+"400 Hz"	"400 Hz"	"400 Hz"	HASH(0x1d97f24)	"400 Hz"
+"400 ms"	"400 ms"	"400 ms"	HASH(0x1d98158)	"400 ms"
+"450 ms"	"450 ms"	"450 ms"	HASH(0x1d9bef0)	"450 ms"
+"4800"	"4800"	"4800"	HASH(0x1d9c124)	"4800"
+"50 Hz"	"50 Hz"	"50 Hz"	HASH(0x1d9c358)	"50 Hz"
+"50 ms"	"50 ms"	"50 ms"	HASH(0x1d9c58c)	"50 ms"
+"500 ms"	"500 ms"	"500 ms"	HASH(0x1d9c7c0)	"500 ms"
+"57600"	"57600"	"57600"	HASH(0x1d9c9f4)	"57600"
+"60 Hz"	"60 Hz"	"60 Hz"	HASH(0x1d9cc28)	"60 Hz"
+"9600"	"9600"	"9600"	HASH(0x1d9ce5c)	"9600"
+"A"	"A"	"A"	HASH(0x1d9fbcc)	"A"
+"Activation de la version Eset réalisée."	"E.set version activation successful."	"E.set Aktivierung erfolgreich"	HASH(0x1d9fe00)	"Versione E.set attivata con successo"
+"Activation de la version Eview réalisée."	"E.view version activation successful."	"E.view Aktivierung erfolgreich"	HASH(0x1da0034)	"Versione E.view attivata con successo"
+"Adr Ip : %0, Numéro de port : %1"	"IP Adr : %0, Port number : %1"	"IP Adr : %0, Portnummer : %1"	HASH(0x1da0268)	HASH(0x1da02c8)
+"Adr. Esc. : %0, Vitesse : %1, %2, %3 Bit(s) d'arret"	"Slave Adr : %0, Speed : %1, %2, %3 Stop bit"	"Slave Adr : %0, Speed : %1, %2, %3 Stop bit"	HASH(0x1da0478)	"Slave Adr : %0, Speed : %1, %2, %3 Stop bit"
+"Adresse esclave : %0"	"Slave address : %0"	HASH(0x1da064c)	HASH(0x1da06ac)	HASH(0x1da070c)
+"Adresse mémoire produit invalide"	"Equipment memory address invalid"	"Speicheradresse ungültig"	HASH(0x1da0898)	"Indirizzo di memoria non valido"
+"Al E%0"	"Al E%0"	"Al E%0"	HASH(0x1da3750)	"Al E%0"
+"Alarme globale %0"	"Global alarm %0"	"Allgemeiner Alarm %0"	HASH(0x1da3984)	"Allarme Globale %0"
+"Alarme globale 1"	"Global alarm 1"	"Allgemeiner Alarm 1"	HASH(0x1da3bb8)	"Allarme Globale 1"
+"Alarme globale 2"	"Global alarm 2"	"Allgemeiner Alarm 2"	HASH(0x1da3dec)	"Allarme Globale 2"
+"Alarme globale 3"	"Global alarm 3"	"Allgemeiner Alarm 3"	HASH(0x1da4020)	"Allarme Globale 3"
+"Alarme globale 4"	"Global alarm 4"	"Allgemeiner Alarm 4"	HASH(0x1da4254)	"Allarme Globale 4"
+"Alarme globale 5"	"Global alarm 5"	"Allgemeiner Alarm 5"	HASH(0x1da4488)	"Allarme Globale 5"
+"Alarme globale 6"	"Global alarm 6"	"Allgemeiner Alarm 6"	HASH(0x1da81f8)	"Allarme Globale 6"
+"Alarme globale 7"	"Global alarm 7"	"Allgemeiner Alarm 7"	HASH(0x1da842c)	"Allarme Globale 7"
+"Alarme globale 8"	"Global alarm 8"	"Allgemeiner Alarm 8"	HASH(0x1da8660)	"Allarme Globale 8"
+"Alarmes"	"Alarms"	"Alarm"	HASH(0x1da8894)	"Allarmi"
+"Annulation de la demande en cours"	"Request in progress cancelled"	"Laufende Anfrage abgebrochen"	HASH(0x1da8ac8)	"Richiesta cancellata"
+"Appareil inconnu"	"Unknown equipment"	"Unbekannte Einheit"	HASH(0x1da8cfc)	"Apparecchio sconosciuto"
+"Appel en cours"	"Dialling in progress"	"Anrufvorgang läuft"	HASH(0x1da8f30)	HASH(0x1da8f90)
+"Appuyer sur OK quand vous etes prêt pour continuer l'appel"	"Press OK when ready to keep on dialling"	"OK drücken wenn weiter gewählt werden soll"	HASH(0x1da9140)	HASH(0x1d94a0c)
+"Architecture métier"	"Installed base structure"	"Basisarchitektur"	HASH(0x1daf554)	"Installata struttura base"
+"Arrêt 50% après synchronisation (50% - 50%)"	"Stop 50% after synchro (50% - 50%)"	"Synchronisation bei 50% stoppen (50% - 50%)"	HASH(0x1daf788)	"Stop 50% dopo la sincronizzazione (50%-50%)"
+"Arrêt 75% après synchronisation (25% - 75%)"	"Stop 75% after synchro (25% - 75%)"	"Synchronisation bei 75% stoppen (25% - 75%)"	HASH(0x1daf9bc)	"Stop 75% dopo la sincronizzazione (25%-75%)"
+"Arrêt sur buffer plein"	"Stop on buffer full"	"stop wenn Datenpuffer voll"	HASH(0x1dafbf0)	"Arresto per buffer pieno"
+"Attente  tonalité carte de credit"	"waiting credit card tone"	"Warten auf Kreditkarten-Tonsignal"	HASH(0x1dafe24)	HASH(0x1dafe84)
+"Attente de la seconde tonalité d'appel"	"waiting second dial tone"	"Warten auf zweiten Wählton"	HASH(0x1db0034)	HASH(0x1db0094)
+"Attente la reponse de l'appelé"	"Waiting reply from destination"	"Warten auf Antwort des Empfängers"	HASH(0x1db0244)	HASH(0x1db02a4)
+"Attente tonalité carte de credit"	"Attente tonalité carte de credit"	"Attente tonalité carte de credit"	HASH(0x1db0454)	"Attente tonalité carte de credit"
+"Aucun"	"None"	"Keine"	HASH(0x1db3354)	"Nessuno"
+"Aucune énergie"	"No energy"	"Keine Energie"	HASH(0x1db3588)	"Nessuna alimentazione"
+"Aucune"	"None"	"Keine"	HASH(0x1db37bc)	"Nessuno"
+"Avertissement"	"Warning"	"Warnung"	HASH(0x1db39f0)	"Attenzione"
+"Buffer tournant avec arrêt sur synchronisation"	"FIFO mode with synchro stop"	"FIFO Modus mit Synchronisationsstop"	HASH(0x1db3c24)	"Modalità FIFO con stop sincronia"
+"Canal inconnu"	"Unknown Channel"	"Unbekannter Kanal"	HASH(0x1db3e58)	"Canale sconosciuto"
+"Carte alim. OK"	"Power supply board OK"	"Stromversorgung OK"	HASH(0x1db408c)	"Scheda di alimentazione OK"
+"Carte entrée TOR Ok"	"Binary input board OK"	"Binärer Eingang OK"	HASH(0x1db6e9c)	"Scheda ingresso digitale OK"
+"Carte ethernet Ok"	"Ethernet board OK"	"Ethernet OK"	HASH(0x1db70d0)	"Scheda ethernet OK"
+"Carte ihm Ok"	"MMI board OK"	"MMI OK"	HASH(0x1db7304)	"Scheda MMI OK"
+"Carte RS485 Ok"	"RS485 board OK"	"RS 485 OK"	HASH(0x1db7538)	"Scheda RS 485 OK"
+"Carte sortie ANA Ok"	"Analog output board OK"	"Analoger Ausgang OK"	HASH(0x1db776c)	"Scheda uscita analogica OK"
+"Carte sortie TOR Ok"	"Binary output board OK"	"Binärer Ausgang OK"	HASH(0x1db79a0)	"Scheda uscita digitale OK"
+"Cc-TOR1"	"Lc-BIN1"	"Lc-BIN1"	HASH(0x1db7bd4)	"Lc-BIN1"
+"Cc-TOR2"	"Lc-BIN2"	"Lc-BIN2"	HASH(0x1dba99c)	"Lc-BIN2"
+"Cc-TOR3"	"Lc-BIN3"	"Lc-BIN3"	HASH(0x1dbabd0)	"Lc-BIN3"
+"Cc-TOR4"	"Lc-BIN4"	"Lc-BIN4"	HASH(0x1dbae04)	"Lc-BIN4"
+"CH fonctionnement"	"HM operating"	"HM in Betrieb"	HASH(0x1dbb038)	"HM funzionante"
+"CH présence I"	"HM I presence"	"HM I bereit"	HASH(0x1dbb26c)	"HM I Presenza"
+"CH présence V"	"HM V presence"	"HM V bereit"	HASH(0x1dbb4a0)	"HM V Presenza"
+"Changement de configuration"	"Change of settings"	"Änderung der Konfiguration"	HASH(0x1dbb6d4)	HASH(0x1dbb734)
+"Changement de Date"	"Change of date"	HASH(0x1dbb884)	HASH(0x1dbb8e4)	HASH(0x1dbf510)
+"Clef d'activation invalide, saisissez votre code d'activation."	"Invalid activation key, enter your activation key."	"Ungültiger Aktivierungsschlüssel"	HASH(0x1dbf69c)	"Chiave d'attivazione non valida, inserire una chiave valida"
+"Code non implémenté"	"Code not implemented"	"Kode nicht erkannt"	HASH(0x1dbf8d0)	"Codice non implementato"
+"Commande Stop"	"Stop command"	"Stop-Befehl"	HASH(0x1dbfb04)	HASH(0x1dbfb64)
+"Compteur horaire"	"Hours meter"	"Betriebsstundenmesser"	HASH(0x1dbfd14)	"Conta-ore"
+"Compteurs horaire"	"Hours meters"	"Betriebsstundenmesser"	HASH(0x1dbff48)	"Conta-ore"
+"Configuration"	"Setting"	"Einstellungen"	HASH(0x1dc017c)	"Configurazione"
+"Connecté au %0"	"Connected to %0"	"Verbunden mit %0"	HASH(0x1dc03b0)	HASH(0x1dc0410)
+"Cos phi 1"	"Cos phi 1"	"Cos phi 1"	HASH(0x1dc5114)	"Cos phi 1"
+"Cos phi 2"	"Cos phi 2"	"Cos phi 2"	HASH(0x1dc5348)	"Cos phi 2"
+"Cos phi 3"	"Cos phi 3"	"Cos phi 3"	HASH(0x1dc557c)	"Cos phi 3"
+"Cos phi t générateur"	"Cos phi t generator"	"Cos phi t Abgabe"	HASH(0x1dc57b0)	"Cos phi t generatore"
+"Cos phi t récepteur"	"Cos phi t receiver"	"Cos phi t Bezug"	HASH(0x1dc59e4)	"Cos phi t recevitore"
+"Cos phi t"	"Cos phi t"	"Cos phi t"	HASH(0x1dc5c18)	"Cos phi t"
+"Cos phi T"	"Cos phi T"	"Cos phi T"	HASH(0x1dc5e4c)	"Cos phi T"
+"Cos phi Total"	"Cos phi Total"	"Cos phi Total"	HASH(0x1dc8bfc)	"Cos phi Total"
+"Coupure Secteur"	"Auxiliary power interruption"	"Netzunterbrechung"	HASH(0x1dc8e30)	HASH(0x1dc8e90)
+"Courant Moy Max"	"Current Avr Max"	"Maximaler Mittelwertsstrom"	HASH(0x1dc9040)	"Currente massima media"
+"Courant"	"Current"	"Strom"	HASH(0x1dc9274)	"Corrente"
+"Courbe arrêtée"	"Curve stopped"	"Kurve gestoppt"	HASH(0x1dc94a8)	"Curva fermata"
+"Courbe inactive"	"Curve inactive"	"Kurve inaktiv"	HASH(0x1dc96dc)	"Curva inattiva"
+"Data transfer and visualisation software"	"Data transfer and visualisation software"	"Datentransfer und Ansicht"	HASH(0x1dc9910)	"Software di trasferimento dati e visualizzazione"
+"Date / heure"	"Date / time"	"Datum / Zeit"	HASH(0x1dcc728)	"Data / Ora"
+"Date / Heure"	"Date / Time"	"Datum / Zeit"	HASH(0x1dcc95c)	"Data / Ora"
+"Date de début"	"Start date"	"Datum Start"	HASH(0x1dccb90)	"Start date"
+"Date de fin"	"End date"	"Datum Ende"	HASH(0x1dccdc4)	"End date"
+"Date maxima moyen"	"Date maxima average"	"Durchschnittlicher Maximalwert"	HASH(0x1dccff8)	"Data massima media"
+"Date maxima"	"Date maxima"	"Maximalwert"	HASH(0x1dcd22c)	"Data massima"
+"Date minima moyen"	"Date minima average"	"Durchschnittlicher Minimalwert"	HASH(0x1dcd460)	"Data minima media"
+"Date minima"	"Date minima"	"Minimalwert"	HASH(0x1dcd694)	"Data minima"
+"dd/mm/yyyy hh:nn"	"dd/mm/yyyy hh:nn"	"dd/mm/yyyy hh:nn"	HASH(0x1da9694)	"dd/mm/yyyy hh:nn"
+"dd/mm/yyyy hh:nn:ss"	"dd/mm/yyyy hh:nn:ss"	"dd/mm/yyyy hh:nn:ss"	HASH(0x1dd316c)	"dd/mm/yyyy hh:nn:ss"
+"Débordement"	"Overflow"	"Datenüberlauf"	HASH(0x1dd33a0)	"Overflow"
+"Défaut chevauchement de zone"	"Memory area overlapping failure"	"Speicherbereich überlappt"	HASH(0x1dd35d4)	"Errore di sovrapposizione di memoria"
+"Défaut de crc"	"CRC error"	"CRC Fehler"	HASH(0x1dd3808)	"CRC error"
+"Défaut de paramètre demandé"	"Requested parameter error"	"Falsche Parameter"	HASH(0x1dd3a3c)	"Errore del parametro richiesto"
+"Défaut de réponse"	"Reply error"	"Keine Antwort"	HASH(0x1dd3c70)	"Errore di risposta"
+"Défaut écriture produit"	"Data writing error"	"Fehler beim Schreiben"	HASH(0x1dd3ea4)	"Errore di scrittura dati"
+"Délai d'attente de l'interrogation en cours dépassé"	"Time out of the request in progress exceeded"	"Zeitüberschreitung"	HASH(0x1dd40d8)	"Tempo scaduto per la richiesta in corso"
+"Demande impossible, échange en cour. réessayez."	"Request impossible, data exchange in progress. retry."	"Datenaustausch - bitte warten"	HASH(0x1dd8ff0)	"Richiesta impossibile, scambio dati in corso. Riprovare"
+"demarrage du mail impossible"	"impossible to start e-mail"	"E-Mail kann nicht gestartet werden"	HASH(0x1dd9224)	HASH(0x1dd9284)
+"démarrage du navigateur WEB impossible"	"impossible to start WEB browser"	"Web-Browser kann nicht gestartet werden"	HASH(0x1dd9434)	HASH(0x1dd9494)
+"Démonstration de la version Eset limitée à %0 jours."	"%0 days E.set demo version."	"%0 Tage E.set demo version."	HASH(0x1dd9644)	"%0 giorni, E.set versione demo"
+"Démonstration de la version Eview limitée à %0 jours."	"%0 days E.view demo version."	"%0 Tage E.view demo version."	HASH(0x1dd9878)	"%0 giorni, E.view versione demo"
+"Description"	"Description"	"Beschreibung"	HASH(0x1dd9aac)	"Descrizione"
+"Deséquilibre U"	"Unbalance V"	"Symmetrie V"	HASH(0x1dd9ce0)	"Squilibrio V"
+"Déséquilibre U"	"Unbalance V"	"Symmetrie V"	HASH(0x1decbd0)	"Squilibrio V"
+"Diagnostic"	"Diagnostic"	"Diagnose"	HASH(0x1dece04)	"Diagnostica"
+"Donnée produit invalide"	"Equipment data invalid"	"Eingabe ungültig"	HASH(0x1ded038)	"Dati prodotto invalidi"
+"Durée"	"Duration"	"Dauer"	HASH(0x1ded26c)	"Durata"
+"E active générateur"	"E active generator"	"E Wirkleistung Abgabe"	HASH(0x1ded4a0)	"E generatore attivo"
+"E active récepteur"	"E active receiver"	"E Wirkleistung Bezug"	HASH(0x1ded6d4)	"E ricevitore attivo"
+"E apparente générateur"	"E apparent generator"	"E Scheinleistung Abgabe"	HASH(0x1ded908)	"E generatore apparente"
+"E apparente récepteur"	"E apparent receiver"	"E Scheinleistung Bezug"	HASH(0x1d25510)	"E ricevitore apparente"
+"E réactive Q1"	"E reactive Q1"	"E Blindleistung Q1"	HASH(0x1d25744)	"E reattiva Q1"
+"E réactive Q2"	"E reactive Q2"	"E Blindleistung Q2"	HASH(0x1d25978)	"E reattiva Q2"
+"E réactive Q3"	"E reactive Q3"	"E Blindleistung Q3"	HASH(0x1d25bac)	"E reattiva Q3"
+"E réactive Q4"	"E reactive Q4"	"E Blindleistung Q4"	HASH(0x1d25de0)	"E reattiva Q4"
+"Echec de communication"	"Communication failure"	"Kommunikationsfehler"	HASH(0x1d26014)	"Errore di comunicazione"
+"Ecran inconnu"	"Unknown screen"	"unbekannter Bildschirm"	HASH(0x1d26248)	"Schermata sconosciuta"
+"Ecran principal"	"Main screen"	"Hauptschirm"	HASH(0x1dee038)	"Schermata principale"
+"Ecran utilisateur 1"	"User screen 1"	"Benutzerbildschirm 1"	HASH(0x1dee26c)	"Schermata utente 1"
+"Ecran utilisateur 2"	"User screen 2"	"Benutzerbildschirm 2"	HASH(0x1dee4a0)	"Schermata utente 2"
+"Ecran utilisateur 3"	"User screen 3"	"Benutzerbildschirm 3"	HASH(0x1dee6d4)	"Schermata utente 3"
+"Ecraser toute la configuration du produit sauf les index d'énergies ?"	"Overwrite equipment settings except energy indexes ?"	"Konfiguration überschreiben ohne Energieindices ?"	HASH(0x1dee908)	"Sovrascrivere le impostazioni dello strumento eccetto gli indici di energia?"
+"Ecriture des time outs de communication impossible"	"Communication time out writing impossible"	"Zeitüberschreitung - schreiben nicht möglich"	HASH(0x1deeb3c)	"Timeout di comunicazione, scrittura impossibile"
+"Ecriture état du port de communication impossible"	"Communication port status writing impossible"	"Kommunikation - schreiben nicht möglich"	HASH(0x1deed70)	"Porta di comunicazione impegnata, scrittura impossibile"
+"Ecriture sur le port de communication impossible"	"Writing to the communication port impossible"	"Kommunikation - schreiben nicht möglich"	HASH(0x1deefa4)	"Scrittura sulla porta di comunicazione impossibile"
+"Effacement des erreurs du port de communication impossible"	"Communication port errors erasing impossible"	"Kommunikation - löschen nicht möglich"	HASH(0x1df3324)	"Errore sulla porta di comunicazione, eliminazione impossibile"
+"En cours de fonctionnement"	"Operation in progress"	"Daten werden gesichert, bitte warten"	HASH(0x1df3558)	"Operazione in corso"
+"En cours de programmation"	"Setting in progress"	"Daten werden gesichert, bitte warten"	HASH(0x1df378c)	"Configurazione in corso"
+"Energie active EP-"	"Active Energy EP-"	"Wirkenergie EP-"	HASH(0x1df39c0)	"Energia Attiva EP-"
+"Energie active EP+"	"Active Energy EP+"	"Wirkenergie EP+"	HASH(0x1df3bf4)	"Energia Attiva EP+"
+"Energie apparante ES-"	"Apparent Energy ES-"	"Scheinenergie  ES-"	HASH(0x1df3e28)	"Energia apparente ES-"
+"Energie apparante ES+"	"Apparent Energy ES+"	"Scheinenergie  ES+"	HASH(0x1df405c)	"Energia apparente ES+"
+"Energie réactive EQ1"	"Reactive Energy EQ1"	"Blindenergie EQ1"	HASH(0x1df6fdc)	"Energia reattiva EQ1"
+"Energie réactive EQ2"	"Reactive Energy EQ2"	"Blindenergie EQ2"	HASH(0x1df7210)	"Energia reattiva EQ2"
+"Energie réactive EQ3"	"Reactive Energy EQ3"	"Blindenergie EQ3"	HASH(0x1df7444)	"Energia reattiva EQ3"
+"Energie réactive EQ4"	"Reactive Energy EQ4"	"Blindenergie EQ4"	HASH(0x1df7678)	"Energia reattiva EQ4"
+"Enerium 100"	"Enerium 100"	"Enerium 100"	HASH(0x1df78ac)	"Enerium 100"
+"Enerium 110"	"Enerium 110"	"Enerium 110"	HASH(0x1df7ae0)	"Enerium 110"
+"Enerium 200"	"Enerium 200"	"Enerium 200"	HASH(0x1df7d14)	"Enerium 200"
+"Enerium 210"	"Enerium 210"	"Enerium 210"	HASH(0x1dfab24)	"Enerium 210"
+"Entrée A1"	"Input A1"	"Eingang  A1"	HASH(0x1dfad58)	"Ingresso A1"
+"Entrée A2"	"Input A2"	"Eingang A2"	HASH(0x1dfaf8c)	"Ingresso A2"
+"Entrée alarme"	"Alarm input"	"Eingang Alarm"	HASH(0x1dfb1c0)	"Ingresso Allarme"
+"Entrée B1"	"Input B1"	"Eingang B1"	HASH(0x1dfb3f4)	"Ingresso B1"
+"Entrée B2"	"Input B2"	"Eingang B2"	HASH(0x1dfb628)	"Ingresso B2"
+"Entrée C1"	"Input C1"	"Eingang C1"	HASH(0x1dfb85c)	"Ingresso C1"
+"Entrée C2"	"Input C2"	"Eingang C2"	HASH(0x1dfe5b4)	"Ingresso C2"
+"Entrée D1"	"Input D1"	"Eingang D1"	HASH(0x1dfe7e8)	"Ingresso D1"
+"Entrée D2"	"Input D2"	"Eingang D2"	HASH(0x1dfea1c)	"Ingresso D2"
+"Entrée impulsion"	"Pulse input"	"Eingang Impuls"	HASH(0x1dfec50)	"Impulso d'ingresso"
+"Entrée synchro"	"Synchro input"	"Eingang Synchronisation"	HASH(0x1dfee84)	"Ingresso Synchro"
+"Entrée TOR A1"	"BIN input A1 "	"Eingang A1 "	HASH(0x1dff0b8)	"Ingresso BIN A1"
+"Entrée TOR A2"	"BIN input A2"	"Eingang A2"	HASH(0x1dff2ec)	"Ingresso BIN A2"
+"Entrée TOR B1"	"BIN input B1"	"Eingang B1"	HASH(0x1dff520)	"Ingresso BIN B1"
+"Entrée TOR B2"	"BIN input B2"	"Eingang B2"	HASH(0x1e032e0)	"Ingresso BIN B2"
+"Entrée TOR C1"	"BIN input C1"	"Eingang C1"	HASH(0x1e03514)	"Ingresso BIN C1"
+"Entrée TOR C2"	"BIN input C2"	"Eingang C2"	HASH(0x1e03748)	"Ingresso BIN C2"
+"Entrée TOR D1"	"BIN input D1"	"Eingang D1"	HASH(0x1e0397c)	"Ingresso BIN D1"
+"Entrée TOR D2"	"BIN input D2"	"Binärer Eingang D2"	HASH(0x1e03bb0)	"Ingresso BIN D2"
+"Entrée TOR"	"Binary input"	"Binärer Eingang"	HASH(0x1e03de4)	"Ingresso digitale"
+"Envoyer tous les index ?"	"Send all the indexes ?"	"Indices senden?"	HASH(0x1e04018)	"Invio tutti gli indici?"
+"EP-"	"EP-"	"EP-"	HASH(0x1e08df8)	"EP-"
+"EP+"	"EP+"	"EP+"	HASH(0x1e0902c)	"EP+"
+"EQ1"	"EQ1"	"EQ1"	HASH(0x1e09260)	"EQ1"
+"EQ2"	"EQ2"	"EQ2"	HASH(0x1e09494)	"EQ2"
+"EQ3"	"EQ3"	"EQ3"	HASH(0x1e096c8)	"EQ3"
+"EQ4"	"EQ4"	"EQ4"	HASH(0x1e098fc)	"EQ4"
+"Erreur acquittement "	"Acknowledgement error"	"Bestätigungsfehler"	HASH(0x1e09b30)	"Errore di riconoscimento"
+"Erreur acquittement"	"Acknowledgement error"	"Bestätigungsfehler"	HASH(0x1e0d8a0)	HASH(0x1e0d900)
+"Erreur non acquittement "	"No acknowledgement error"	"Fehler: Bestätigung fehlt"	HASH(0x1e0dab0)	"Errore di nessun riconoscimento"
+"Erreur non acquittement"	"No acknowledgement error"	"Fehler: Bestätigung fehlt"	HASH(0x1e0dce4)	HASH(0x1e0dd44)
+"Erreur"	"Error"	"Fehler"	HASH(0x1e0def4)	"Errore"
+"ES-"	"ES-"	"ES-"	HASH(0x1e0e128)	"ES-"
+"ES+"	"ES+"	"ES+"	HASH(0x1e0e35c)	"ES+"
+"Esclave non pret"	"Slave not ready"	"Slave nicht bereit"	HASH(0x1e0e590)	"Slave non pronto"
+"ET"	"AND"	"UND"	HASH(0x1e112f0)	"AND"
+"Etat inconnu"	"Unknown status"	"Status unbekannt"	HASH(0x1e11524)	"Stato sconosciuto"
+"Etat"	"Status"	"Status"	HASH(0x1e11758)	"Stato"
+"Etendue de mesure "	"Measurement range"	"Messbereich"	HASH(0x1e1198c)	HASH(0x1e119ec)
+"Extrême"	"Extremes"	"Extreme"	HASH(0x1e11b9c)	"Estremi"
+"Facteur de crête I1"	"Peak factor I1"	"Spitzenwert I1"	HASH(0x1e11dd0)	"Fattore di cresta I1"
+"Facteur de crête I2"	"Peak factor I2"	"Spitzenwert I2"	HASH(0x1e12004)	"Fattore di cresta I2"
+"Facteur de crête I3"	"Peak factor I3"	"Spitzenwert I3"	HASH(0x1e12238)	"Fattore di cresta I3"
+"Facteur de crête V1"	"Peak factor V1"	"Spitzenwert V1"	HASH(0x1e16078)	"Fattore di cresta V1"
+"Facteur de crête V2"	"Peak factor V2"	"Spitzenwert V2"	HASH(0x1e162ac)	"Fattore di cresta V2"
+"Facteur de crête V3"	"Peak factor V3"	"Spitzenwert V3"	HASH(0x1e164e0)	"Fattore di cresta V3"
+"Fct."	"Fct."	"Fct."	HASH(0x1e16714)	"Fct."
+"Fermé"	"Closed"	"Geschlossen"	HASH(0x1e16948)	"Chiuso"
+"Fermeture port de communication impossible"	"Communication port closing impossible"	"Schliessen der Kommunikation nicht möglich"	HASH(0x1e16b7c)	"Chiusura porta di comunicazione impossibile"
+"Fonction inconnue par le produit"	"Unknown function in the product"	"Unbekannte Funktion"	HASH(0x1e16db0)	"Funzione sconosciuta"
+"Fonction oubliée"	"Function forgotten"	"Funktion vergessen"	HASH(0x1e1ac50)	"Funzione obsoleta"
+"FP1"	"PF1"	"PF1"	HASH(0x1e1ae84)	"FC1"
+"FP2"	"PF2"	"PF2"	HASH(0x1e1b0b8)	"FC2"
+"FP3"	"PF3"	"PF3"	HASH(0x1e1b2ec)	"FC3"
+"FPt générateur"	"PFt generator"	"PFt Abgabe"	HASH(0x1e1b520)	"FC generatore"
+"FPt récepteur"	"PFt receiver"	"PFt Bezug"	HASH(0x1e1b754)	"FC ricevitore"
+"FPt"	"PFt"	"PFt"	HASH(0x1e1b988)	"FCt"
+"Fréquence"	"Frequency"	"Frequenz"	HASH(0x1e1f6d8)	"Frequenza"
+"Générateur"	"Generator"	"Abgabe"	HASH(0x1e1f90c)	"Generatore"
+"Grandeur"	"Parameter"	"Messgrösse"	HASH(0x1e1fb40)	"Parametro"
+"h"	"h"	"h"	HASH(0x1e1fd74)	"h"
+"H%0"	"H%0"	"H%0"	HASH(0x1e1ffa8)	"H%0"
+"Harmonique Courant"	"Harmonic Current"	"Stromhanmonische"	HASH(0x1e201dc)	"Armoniche di corrente"
+"Harmonique Ph-Ph"	"Harmonic Ph-Ph"	"Spannungsharmonische Phase-Phase"	HASH(0x1e20410)	"Armoniche Ph-Ph"
+"http://www.enerdis.com"	"http://www.enerdis.com"	"http://www.enerdis.com"	"http://www.enerdis.com"	"http://www.enerdis.com"
+"Hz"	"Hz"	"Hz"	HASH(0x1e233b0)	"Hz"
+"I neutre"	"I neutral"	"I neutral"	HASH(0x1e235e4)	"I neutra"
+"I1"	"I1"	"I1"	HASH(0x1e23818)	"I1"
+"I2"	"I2"	"I2"	HASH(0x1e23a4c)	"I2"
+"I3"	"I3"	"I3"	HASH(0x1e23c80)	"I3"
+"Id CC"	"Id CC"	"Id CC"	HASH(0x1e23eb4)	"Id CC"
+"In"	"In"	"In"	HASH(0x1e27c94)	"In"
+"Incompatibilité avec le type de produit"	"Not compatible with the type of product"	"Nicht kompatibles Produkt"	HASH(0x1e27ec8)	"Non compatibile con il tipo di prodotto"
+"Incompatilité avec les cartes options"	"Not compatible with the option boards"	"Nicht kompatible Optionen"	HASH(0x1e280fc)	"Non compatibile con la scheda opzionale"
+"Inconnu"	"Unknown"	"Unbekannt"	HASH(0x1e28330)	"Sconosciuto"
+"Infos produit"	"Product Infos"	"Produkteinfo"	HASH(0x1e28564)	"Info prodotto"
+"kVA"	"kVA"	"kVA"	HASH(0x1e28798)	"kVA"
+"kVAh"	"kVAh"	"kVAh"	HASH(0x1e289cc)	"kVAh"
+"kvar"	"kvar"	"kvar"	HASH(0x1e28c00)	"kvar"
+"kvarh"	"kvarh"	"kvarh"	HASH(0x1dd0e50)	"kvarh"
+"kW"	"kW"	"kW"	HASH(0x1dd1084)	"kW"
+"kWh"	"kWh"	"kWh"	HASH(0x1dd12b8)	"kWh"
+"La période d'utilisation de la version de démonstration est terminée."	"Demo version license expired"	"Demolizenz abgelaufen"	HASH(0x1e2f67c)	"Versione demo scaduta"
+"Label"	"Label"	"Bezeichnung"	HASH(0x1e2f8b0)	"Etichetta"
+"le produit TP primaire * TC primaire doit toujours être inférieur à 693 M"	HASH(0x1e2fa48)	HASH(0x1e2fa84)	HASH(0x1e2fae4)	HASH(0x1e2fb20)
+"Lecture du port de communication impossible"	"Reading of the communication port impossible"	"Lesen vom Kommunikationsanschluss unmöglich"	HASH(0x1e2fcac)	"Lettura da porta di comunicazione impossibile"
+"Lecture état du port de communication impossible"	"Communication port status reading impossible"	"Lesen vom Kommunikationsanschluss unmöglich"	HASH(0x1e2fee0)	"Lettura stato porta di comunicazione impossibile"
+"ligne Occupé"	"line busy"	"Leitung belegt"	HASH(0x1e30114)	HASH(0x1e30174)
+"Logiciel de configuration"	"Setting software"	"Einstellung Software"	HASH(0x1e30324)	"Configurazione software!"
+"Logiciel de transfert et de visualisation des données"	"Data transfer and viewing software"	"Datentransfer und Visualisierung"	HASH(0x1e30558)	"Software di visione trasferimento dati"
+"mailto:info@enerdis.fr"	"mailto:export@enerdis.fr"	"mailto:export@enerdis.fr"	"mailto:export@enerdis.fr"	"mailto:export@enerdis.fr"
+"Max"	"Max"	"Max"	HASH(0x1e34710)	"Max"
+"maxima moyen"	"maxima average"	"Maximalwert"	HASH(0x1e34944)	"Media massima"
+"maxima"	"maxima"	"Max"	HASH(0x1e34b78)	"Massima"
+"Mémoire PC insuffisante"	"Insufficient PC memory"	"Nicht genügend PC Speicher"	HASH(0x1e34dac)	"Memoria PC insufficente"
+"Min"	"Min"	"Min"	HASH(0x1e34fe0)	"Min"
+"Minima moyen"	"Minima average"	"Minimalwert"	HASH(0x1e35214)	"Media minima"
+"minima"	"minima"	"Min"	HASH(0x1e39084)	"minima"
+"Minima"	"Minima"	"Min"	HASH(0x1e392b8)	"Minima"
+"Modbus erreur Appareil absent"	"ModBus error terminal not present"	"ModBus-Fehler: kein Terminal"	HASH(0x1e394ec)	HASH(0x1e3954c)
+"Modbus erreur chemin inconnu"	"Unknown path ModBus error"	"ModBus-Fehler: unbekannter Pfad"	HASH(0x1e396fc)	HASH(0x1e3975c)
+"ModBus/Jbus erreur inconnue"	"Unknown ModBus/Jbus error"	"Unbekannter ModBus/JBus-Fehler"	HASH(0x1e3990c)	HASH(0x1e3996c)
+"Modem distant raccroché"	"Remote modem hanged up"	"Empfänger-Modem hat aufgelegt"	HASH(0x1e39b1c)	HASH(0x1e39b7c)
+"Modification du mode d'éxécution"	"Running mode modification"	"Status änderung"	HASH(0x1e39d2c)	"Modifica modalità di esecuzione"
+"Moy. Générateur"	"Avr Generator"	"Mittelwert Abgabe"	HASH(0x1e3daac)	"Med. Generatore"
+"Moy. Récepteur"	"Avr Receiver"	"Mittelwert Bezug"	HASH(0x1e3dce0)	"Med. Ricevitore"
+"Moyenne Cos phi t générateur"	"Average Cos phi t generator"	"Mittelwert Abgabe Cos phi t"	HASH(0x1e3df14)	"Media CosPhi t generatore"
+"Moyenne Cos phi t récepteur"	"Average Cos phi t receiver"	"Mittelwert Bezug Cos phi t"	HASH(0x1e3e148)	"Media CosPhi t ricevitore"
+"Moyenne Cos phi1 générateur"	"Average Cos phi1 generator"	"Mittelwert Cos phi1 Abgabe"	HASH(0x1e3e37c)	"Media CosPhi1 generatore"
+"Moyenne Cos phi1 récepteur"	"Average Cos phi1 receiver"	"Mittelwert Cos phi1 Bezug"	HASH(0x1e3e5b0)	"Media CosPhi1 ricevitore"
+"Moyenne Cos phi2 générateur"	"Average Cos phi2 generator"	"Mittelwert Cos phi2 Abgabe"	HASH(0x1e3e7e4)	"Media CosPhi2 generatore"
+"Moyenne Cos phi2 récepteur"	"Average Cos phi2 receiver"	"Mittelwert Cos phi2 Bezug"	HASH(0x1e416ac)	"Media CosPhi2 ricevitore"
+"Moyenne Cos phi3 générateur"	"Average Cos phi3 generator"	"Mittelwert Cos phi3 Abgabe"	HASH(0x1e418e0)	"Media CosPhi3 generatore"
+"Moyenne Cos phi3 récepteur"	"Average Cos phi3 receiver"	"Mittelwert Cos phi3 Bezug"	HASH(0x1e41b14)	"Media CosPhi3 ricevitore"
+"Moyenne Facteur de crête I1"	"Average Peak factor I1"	"Mittelwert Peak Faktor I1"	HASH(0x1e41d48)	"Media fattore di cresta I1"
+"Moyenne Facteur de crête I2"	"Average Peak factor I2"	"Mittelwert Peak Faktor I2"	HASH(0x1e41f7c)	"Media fattore di cresta I2"
+"Moyenne Facteur de crête I3"	"Average Peak factor I3"	"Mittelwert Peak Faktor I3"	HASH(0x1e421b0)	"Media fattore di cresta I3"
+"Moyenne Facteur de crête V1"	"Average Peak factor V1"	"Mittelwert Peak Faktor V1"	HASH(0x1e423e4)	"Media fattore di cresta V1"
+"Moyenne Facteur de crête V2"	"Average Peak factor V2"	"Mittelwert Peak Faktor V2"	HASH(0x1e42618)	"Media fattore di cresta V2"
+"Moyenne Facteur de crête V3"	"Average Peak factor V3"	"Mittelwert Peak Faktor V3"	HASH(0x1e47580)	"Media fattore di cresta V3"
+"Moyenne FP1 générateur"	"Average PF1 generator"	"Mittelwert PF1 Abgabe"	HASH(0x1e477b4)	"Media FC1 generatore"
+"Moyenne FP1 récepteur"	"Average PF1 receiver"	"Mittelwert PF1 Bezug"	HASH(0x1e479e8)	"Media FC1 ricevitore"
+"Moyenne FP2 générateur"	"Average PF2 generator"	"Mittelwert PF2 Abgabe"	HASH(0x1e47c1c)	"Media FC2 generatore"
+"Moyenne FP2 récepteur"	"Average PF2 receiver"	"Mittelwert PF2 Bezug"	HASH(0x1e47e50)	"Media FC2 ricevitore"
+"Moyenne FP3 générateur"	"Average PF3 generator"	"Mittelwert PF3 Abgabe"	HASH(0x1e48084)	"Media FC3 generatore"
+"Moyenne FP3 récepteur"	"Average PF3 receiver"	"Mittelwert PF3 Bezug"	HASH(0x1e482b8)	"Media FC3 ricevitore"
+"Moyenne FPt générateur"	"Average PFt generator"	"Mittelwert PFt Abgabe"	HASH(0x1e4b1d8)	"Media FCt generatore"
+"Moyenne FPt récepteur"	"Average PFt receiver"	"Mittelwert PFt Bezug"	HASH(0x1e4b40c)	"Media FCt ricevitore"
+"Moyenne Fréquence"	"Average frequency"	"Mittelwert Frequenz"	HASH(0x1e4b640)	"Media frequenza"
+"Moyenne I1"	"Average I1"	"Mittelwert I1"	HASH(0x1e4b874)	"Media I1"
+"Moyenne I2"	"Average I2"	"Mittelwert I2"	HASH(0x1e4baa8)	"Media I2"
+"Moyenne I3"	"Average I3"	"Mittelwert I3"	HASH(0x1e4bcdc)	"Media I3"
+"Moyenne In"	"Average In"	"Mittelwert In"	HASH(0x1e4bf10)	"Media In"
+"Moyenne P1 générateur"	"Average P1 generator"	"Mittelwert P1 Abgabe"	HASH(0x1e4fd08)	"Media P1 generatore"
+"Moyenne P1 récepteur"	"Average P1 receiver"	"Mittelwert P1 Bezug"	HASH(0x1e4ff3c)	"Media P1 ricevitore"
+"Moyenne P2 générateur"	"Average P2 generator"	"Mittelwert P2 Abgabe"	HASH(0x1e50170)	"Media P2 generatore"
+"Moyenne P2 récepteur"	"Average P2 receiver"	"Mittelwert P2 Bezug"	HASH(0x1e503a4)	"Media P2 ricevitore"
+"Moyenne P3 générateur"	"Average P3 generator"	"Mittelwert P3 Abgabe"	HASH(0x1e505d8)	"Media P3 generatore"
+"Moyenne P3 récepteur"	"Average P3 receiver"	"Mittelwert P3 Bezug"	HASH(0x1e5080c)	"Media P3 ricevitore"
+"Moyenne Pt générateur"	"Average Pt generator"	"Mittelwert Pt Abgabe"	HASH(0x1e50a40)	"Media Pt generatore"
+"Moyenne Pt récepteur"	"Average Pt receiver"	"Mittelwert Pt Bezug"	HASH(0x1e53940)	"Media Pt ricevitore"
+"Moyenne Qt générateur"	"Average Qt generator"	"Mittelwert Qt Abgabe"	HASH(0x1e53b74)	"Media Qt generatore"
+"Moyenne Qt récepteur"	"Average Qt receiver"	"Mittelwert Qt Bezug"	HASH(0x1e53da8)	"Media Qt ricevitore"
+"Moyenne St"	"Average St"	"Mittelwert St"	HASH(0x1e53fdc)	"Media St"
+"Moyenne THD I1"	"Average THD I1"	"Mittelwert THD I1"	HASH(0x1e54210)	"Media THD I1"
+"Moyenne THD I2"	"Average THD I2"	"Mittelwert THD I2"	HASH(0x1e54444)	"Media THD I2"
+"Moyenne THD I3"	"Average THD I3"	"Mittelwert THD I3"	HASH(0x1e54678)	"Media THD I3"
+"Moyenne THD U12"	"Average THD U12"	"Mittelwert THD U12"	HASH(0x1e584e0)	"Media THD U12"
+"Moyenne THD U23"	"Average THD U23"	"Mittelwert THD U23"	HASH(0x1e58714)	"Media THD U23"
+"Moyenne THD U31"	"Average THD U31"	"Mittelwert THD U31"	HASH(0x1e58948)	"Media THD U31"
+"Moyenne THD V1"	"Average THD V1"	"Mittelwert THD V1"	HASH(0x1e58b7c)	"Media THD V1"
+"Moyenne THD V2"	"Average THD V2"	"Mittelwert THD V2"	HASH(0x1e58db0)	"Media THD V2"
+"Moyenne THD V3"	"Average THD V3"	"Mittelwert THD V3"	HASH(0x1e58fe4)	"Media THD V3"
+"Moyenne U12"	"Average U12"	"Mittelwert U12"	HASH(0x1e59218)	"Media U12"
+"Moyenne U23"	"Average U23"	"Mittelwert U23"	HASH(0x1e5944c)	"Media U23"
+"Moyenne U31"	"Average U31"	"Mittelwert U31"	HASH(0x1e5d214)	"Media U31"
+"Moyenne V1"	"Average V1"	"Mittelwert V1"	HASH(0x1e5d448)	"Media V1"
+"Moyenne V2"	"Average V2"	"Mittelwert V2"	HASH(0x1e5d67c)	"Media V2"
+"Moyenne V3"	"Average V3"	"Mittelwert V3"	HASH(0x1e5d8b0)	"Media V3"
+"Moyenne"	"Average"	"Mittelwert"	HASH(0x1e5dae4)	"Media"
+"N° Alarme"	"N° Alarm"	"N° Alarm"	HASH(0x1e5dd18)	"Allarme n°"
+"NF"	"NC"	"NC"	HASH(0x1e5df4c)	"NC"
+"Niveau"	"Level"	"Level"	HASH(0x1e60c64)	"Livello"
+"NO"	"NO"	"NO"	HASH(0x1e60e98)	"NO"
+"Nouveau canal"	"New channel"	"Neuer Kanal"	HASH(0x1e610cc)	"Nuovo canale"
+"Nouveau dossier"	"New folder"	"Neuer Ordner"	HASH(0x1e61300)	"Nuova cartella"
+"Nouvel appareil"	"New equipment"	"Neues Gerät"	HASH(0x1e61534)	"Nuovo apparcchio"
+"Numérotation en cours"	"Dialing in progress" 	"Wählvorgang läuft"	HASH(0x1e61768)	HASH(0x1e617c8)
+"Off"	"Off"	"Off"	HASH(0x1e61978)	"Off"
+"OK"	"OK"	"OK"	HASH(0x1e66700)	HASH(0x1e66760)
+"On"	"On"	"On"	HASH(0x1e66910)	"On"
+"OU"	"OU"	"ODER"	HASH(0x1e66b44)	"OU"
+"Ouvert"	"Open"	"Offen"	HASH(0x1e66d78)	"Aperto"
+"Ouverture port de communication impossible"	"Communication port opening impossible"	"Kommunikation nicht bereit"	HASH(0x1e66fac)	"Apertura della porta di comunicazione impossibile"
+"P-"	"P-"	"P-"	HASH(0x1e671e0)	"P-"
+"P+"	"P+"	"P+"	HASH(0x1e67414)	"P+"
+"P1 générateur"	"P1 generator"	"P1 Ausgang"	HASH(0x1e6a1bc)	"P1 generatore"
+"P1 récepteur"	"P1 receiver"	"P1 Eingang"	HASH(0x1e6a3f0)	"P1 ricevitore"
+"P1"	"P1"	"P1"	HASH(0x1e6a624)	"P1"
+"P2 générateur"	"P2 generator"	"P2 Ausgang"	HASH(0x1e6a858)	"P2 generatore"
+"P2 récepteur"	"P2 receiver"	"P2 Eingang"	HASH(0x1e6aa8c)	"P2 ricevitore"
+"P2"	"P2"	"P2"	HASH(0x1e6acc0)	"P2"
+"P3 générateur"	"P3 generator"	"P3 Ausgang"	HASH(0x1e6aef4)	"P3 generatore"
+"P3 récepteur"	"P3 receiver"	"P3 Eingang"	HASH(0x1e6b128)	"P3 ricevitore"
+"P3"	"P3"	"P3"	HASH(0x1e6eeb8)	"P3"
+"Parité impaire"	"Parity odd"	"Parität ungleich"	HASH(0x1e6f0ec)	"Parità dispari"
+"Parité paire"	"Parity even"	"Parität gleich"	HASH(0x1e6f320)	"Parità pari"
+"Perte synchronisation horaire"	"Loss of time Synchronisation"	"Zeitsynchronisation nicht ok"	HASH(0x1e6f554)	HASH(0x1e6f5b4)
+"Port de communication fermé"	"Communication port closed"	"Kommunikation geschlossen"	HASH(0x1e6f764)	"Porta di comunicazione chiusa"
+"Port de communication non défini"	"Communication port not defined"	"Kommunikation nicht definiert"	HASH(0x1e6f998)	"Porta di comunicazione non definita"
+"Problème carte Alim."	"Power supply board failure"	"Fehler Stromversorgung"	HASH(0x1e6fbcc)	"Errore scheda di alimentazione"
+"Problème carte Com."	"Com. board failure"	"Kommunikationsfehler"	HASH(0x1e739dc)	"Errore scheda Com"
+"Problème carte entrée TOR."	"binary input board failure"	"Fehler binärer Ausgang"	HASH(0x1e73c10)	"Errore scheda ingresso digitale"
+"Problème carte sortie ANA."	"Analog output board failure"	"Fehler analoger Ausgang"	HASH(0x1e73e44)	"Errore scheda uscita analogica"
+"Problème carte sortie TOR."	"Binary output board failure"	"Fehler binärer Ausgang"	HASH(0x1e74078)	"Errore scheda uscita digitale"
+"Problème sur carte IHM"	"MMI board failure"	"Fehler MMI"	HASH(0x1e742ac)	"Errore scheda MMI"
+"Pt générateur"	"Pt generator"	"Pt Abgabe"	HASH(0x1e744e0)	"Pt generatore"
+"Pt récepteur"	"Pt receiver"	"Pt Bezug"	HASH(0x1e74714)	"Pt ricevitore"
+"Pt"	"Pt"	"Pt"	HASH(0x1e78584)	"Pt"
+"Puissances Moyennes"	"Powers Averages"	"Strom Mittelwerte"	HASH(0x1e787b8)	"Potenza media"
+"Puissances"	"Powers"	"Strom"	HASH(0x1e789ec)	"Potenza"
+"Q1 générateur"	"Q1 generator"	"Q1 Abgabe"	HASH(0x1e78c20)	"Q1 generatore"
+"Q1 récepteur"	"Q1 receiver"	"Q1 Bezug"	HASH(0x1e78e54)	"Q1 ricevitore"
+"Q1"	"Q1"	"Q1"	HASH(0x1e79088)	"Q1"
+"Q2 générateur"	"Q2 generator"	"Q2 Abgabe"	HASH(0x1e792bc)	"Q2 generatore"
+"Q2 récepteur"	"Q2 receiver"	"Q2 Bezug"	HASH(0x1e7c06c)	"Q2 ricevitore"
+"Q2"	"Q2"	"Q2"	HASH(0x1e7c2a0)	"Q2"
+"Q3 générateur"	"Q3 generator"	"Q3 Abgabe"	HASH(0x1e7c4d4)	"Q3 generatore"
+"Q3 récepteur"	"Q3 receiver"	"Q3 Bezug"	HASH(0x1e7c708)	"Q3 ricevitore"
+"Q3"	"Q3"	"Q3"	HASH(0x1e7c93c)	"Q3"
+"Q4"	"Q4"	"Q4"	HASH(0x1e7cb70)	"Q4"
+"Qt générateur"	"Qt generator"	"Qt Abgabe"	HASH(0x1e7cda4)	"Qt generatore"
+"Qt récepteur"	"Qt receiver"	"Qt Bezug"	HASH(0x1e7cfd8)	"Qt ricevitore"
+"Qt"	"Qt"	"Qt"	HASH(0x1e80d68)	"Qt"
+"Rang Max."	"Order Max."	"Reihe Max."	HASH(0x1e80f9c)	"Ordine Max."
+"Récepteur"	"Receiver"	"Bezug"	HASH(0x1e811d0)	"Ricevitore"
+"Rechercher"	"Scan"	"Suchen"	HASH(0x1e81404)	"Scansione"
+"Remarque"	"Comment"	"Bemerkung"	HASH(0x1e81638)	"Commento"
+"Reseaux"	"Networks"	"Netzwerk"	HASH(0x1e8186c)	"Rete"
+"S"	"S"	"S"	HASH(0x1e81aa0)	"S"
+"S-"	"S-"	"S-"	HASH(0x1e847a8)	"S-"
+"S+"	"S+"	"S+"	HASH(0x1e849dc)	"S+"
+"S1"	"S1"	"S1"	HASH(0x1e84c10)	"S1"
+"S2"	"S2"	"S2"	HASH(0x1e84e44)	"S2"
+"S3"	"S3"	"S3"	HASH(0x1e85078)	"S3"
+"Sans arrêt (buffer tournant)"	"FIFO mode"	"FIFO Modus"	HASH(0x1e852ac)	"Modo FIFO"
+"Sans parité"	"No parity"	"Keine Parität"	HASH(0x1e854e0)	"Nessuna parità"
+"Sans"	"Without"	"Ohne"	HASH(0x1e8a288)	"Senza"
+"Saturation basse"	"Saturation low"	"Helligkeit -"	HASH(0x1e8a4bc)	"Saturazione bassa"
+"Saturation haute"	"Saturation high"	"Helligkeit +"	HASH(0x1e8a6f0)	"Saturazione alta"
+"Saturation"	"Saturation"	"Helligkeit"	HASH(0x1e8a924)	"Saturazione"
+"Set-up software"	"Set-up software"	"Einstellungen Software"	HASH(0x1e8ab58)	"Configurazione Software"
+"Seuil"	"threshold"	"Schwelle"	HASH(0x1e8ad8c)	"soglia"
+"Slot A voie 1"	"Slot A channel 1"	"Slot A Kanal 1"	HASH(0x1e8afc0)	"Slot A canale 1"
+"Slot A voie 2"	"Slot A channel 2"	"Slot A Kanal 2"	HASH(0x1e8dce8)	"Slot A canale 2"
+"Slot A"	"Slot A"	"Slot A"	HASH(0x1e8df1c)	"Slot A"
+"Slot A, voie 1"	"Slot A, channel 1"	"Slot A, Kanal 1"	HASH(0x1e8e150)	"Slot A canale 1"
+"Slot A, voie 2"	"Slot A, channel 2"	"Slot A, Kanal 2"	HASH(0x1e8e384)	"Slot A canale 2"
+"Slot B voie 1"	"Slot B channel 1"	"Slot B Kanal 1"	HASH(0x1e8e5b8)	"Slot B canale 1"
+"Slot B voie 2"	"Slot B channel 2"	"Slot B Kanal 2"	HASH(0x1e8e7ec)	"Slot B canale 2"
+"Slot B"	"Slot B"	"Slot B"	HASH(0x1e8ea20)	"Slot B"
+"Slot B, voie 1"	"Slot B, channel 1"	"Slot B, Kanal 1"	HASH(0x1e927c8)	"Slot B canale 1"
+"Slot B, voie 2"	"Slot B, channel 2"	"Slot B, Kanal 2"	HASH(0x1e929fc)	"Slot B canale 2"
+"Slot C voie 1"	"Slot C channel 1"	"Slot C Kanal 1"	HASH(0x1e92c30)	"Slot C canale 1"
+"Slot C voie 2"	"Slot C channel 2"	"Slot C Kanal 2"	HASH(0x1e92e64)	"Slot C canale 2"
+"Slot C"	"Slot C"	"Slot C"	HASH(0x1e93098)	"Slot C"
+"Slot C, voie 1"	"Slot C, channel 1"	"Slot C, Kanal 1"	HASH(0x1e932cc)	"Slot C canale 1"
+"Slot C, voie 2"	"Slot C, channel 2"	"Slot C, Kanal 2"	HASH(0x1e93500)	"Slot C canale 2"
+"Slot D voie 1"	"Slot D channel 1"	"Slot D Kanal 1"	HASH(0x1e93734)	"Slot D canale 1"
+"Slot D voie 2"	"Slot D channel 2"	"Slot D Kanal 2"	HASH(0x1e974b4)	"Slot D canale 2"
+"Slot D"	"Slot D"	"Slot D"	HASH(0x1e976e8)	"Slot D"
+"Slot D, voie 1"	"Slot D, channel 1"	"Slot D, Kanal 1"	HASH(0x1e9791c)	"Slot D canale 1"
+"Slot D, voie 2"	"Slot D, channel 2"	"Slot D, Kanal 2"	HASH(0x1e97b50)	"Slot D canale 2"
+"Sortie alarme"	"Alarm output"	"Alarm Ausgang"	HASH(0x1e97d84)	"Uscita allerme"
+"Sortie Analogique"	"Analog output"	"Analoger Ausgang"	HASH(0x1e97fb8)	"Uscita analogica"
+"Sortie impulsion"	"Pulse output"	"Impuls Ausgang"	HASH(0x1e981ec)	"Uscita impulso"
+"Sortie TOR"	"Binary output"	"Binärer Ausgang"	HASH(0x1e9bf44)	"Uscita digitale"
+"Sortie"	"Output"	"Ausgang"	HASH(0x1e9c178)	"Uscita"
+"Sous menu alarme"	"Sub menu alarm"	"Untermenü Alarm"	HASH(0x1e9c3ac)	"Sottomenu allarme"
+"Sous menu client"	"Sub menu customer"	"Untermenü Benutzer"	HASH(0x1e9c5e0)	"Sottomenu cliente"
+"Sous menu énergie"	"Sub menu energy"	"Untermenü Energie"	HASH(0x1e9c814)	"Sottomenu energia"
+"Sous menu mesure"	"Measurement sub-menu"	"Untermenü Messung"	HASH(0x1e9ca48)	"Sottomenu misure"
+"St"	"St"	"St"	HASH(0x1e9cc7c)	"St"
+"Statut"	"Status"	"Status"	HASH(0x1ea0a4c)	"Stato"
+"Synchro."	"Synchro."	"Synchro."	HASH(0x1ea0c80)	"Syncro"
+"Tempo.(s)"	"Tempo.(s)"	"Tempo.(s)"	HASH(0x1ea0eb4)	"Tempo.(s)"
+"Temps de fonctionnement"	"Operating time"	"Betriebszeit"	HASH(0x1ea10e8)	"Tempo di funzionamento"
+"Temps d'intégration"	"Integration period"	"Integrationszeit"	HASH(0x1ea131c)	"Periodo d'integrazione"
+"Temps présence courant"	"Current presence time"	"Präsenzzeit Strom"	HASH(0x1ea1550)	"Tempo presenza corrente"
+"Temps présence tension"	"Voltage presence time"	"Präsenzzeit Spannung"	HASH(0x1ea1784)	"Tempo presenza tensione"
+"Tension Ph-N"	"Voltage Ph-N"	"Spannung Ph-N"	HASH(0x1ea45ec)	"Tensione Ph-N"
+"Tension Ph-Ph"	"Voltage Ph-Ph"	"Spannung Ph-Ph"	HASH(0x1ea4820)	"Tensione Ph.Ph"
+"THD Courant"	"THD Current"	"THD Strom"	HASH(0x1ea4a54)	"Corrente THD"
+"THD I1"	"THD I1"	"THD I1"	HASH(0x1ea4c88)	"THD I1"
+"THD I2"	"THD I2"	"THD I2"	HASH(0x1ea4ebc)	"THD I2"
+"THD I3"	"THD I3"	"THD I3"	HASH(0x1ea50f0)	"THD I3"
+"THD Tension Ph-Ph"	"THD Voltage Ph-Ph"	"THD Spannung Ph-Ph"	HASH(0x1ea5324)	"Tensione THD Ph-Ph"
+"THD U12"	"THD U12"	"THD U12"	HASH(0x1ea5558)	"THD U12"
+"THD U23"	"THD U23"	"THD U23"	HASH(0x1ea92d8)	"THD U23"
+"THD U31"	"THD U31"	"THD U31"	HASH(0x1ea950c)	"THD U31"
+"THD V1"	"THD V1"	"THD V1"	HASH(0x1ea9740)	"THD V1"
+"THD V2"	"THD V2"	"THD V2"	HASH(0x1ea9974)	"THD V2"
+"THD V3"	"THD V3"	"THD V3"	HASH(0x1ea9ba8)	"THD V3"
+"Tonalité"	"Tone"	"Signalton"	HASH(0x1ea9ddc)	HASH(0x1ea9e3c)
+"TOR A1"	"BIN A1"	"BIN A1"	HASH(0x1ea9fec)	"BIN A1"
+"TOR A2"	"BIN A2"	"BIN A2"	HASH(0x1eacd54)	"BIN A2"
+"TOR B1"	"BIN B1"	"BIN B1"	HASH(0x1eacf88)	"BIN B1"
+"TOR B2"	"BIN B2"	"BIN B2"	HASH(0x1ead1bc)	"BIN B2"
+"TOR C1"	"BIN C1"	"BIN C1"	HASH(0x1ead3f0)	"BIN C1"
+"TOR C2"	"BIN C2"	"BIN C2"	HASH(0x1ead624)	"BIN C2"
+"TOR D1"	"BIN D1"	"BIN D1"	HASH(0x1ead858)	"BIN D1"
+"TOR D2"	"BIN D2"	"BIN D2"	HASH(0x1eada8c)	"BIN D2"
+"Type Cos phi T"	"Lead/lagg Cos phi T"	"Lead/lagg Cos phi T"	HASH(0x1eb17ec)	HASH(0x1eb184c)
+"Type FPt"	"Lead/lagg PFt"	"Lead/lagg PFt"	HASH(0x1eb19fc)	HASH(0x1eb1a5c)
+"Type"	"Type"	"Typ"	HASH(0x1eb1c0c)	"Tipo"
+"U12"	"U12"	"U12"	HASH(0x1eb1e40)	"U12"
+"U23"	"U23"	"U23"	HASH(0x1eb2074)	"U23"
+"U31"	"U31"	"U31"	HASH(0x1eb22a8)	"U31"
+"Unité"	"Unite"	"Einheit"	HASH(0x1eb24dc)	"Unito"
+"V Terre"	"V Neutral"	"V Neutral"	HASH(0x1eb61cc)	"V Terra"
+"V"	"V"	"V"	HASH(0x1eb6400)	"V"
+"V1"	"V1"	"V1"	HASH(0x1eb6634)	"V1"
+"V2"	"V2"	"V2"	HASH(0x1eb6868)	"V2"
+"V3"	"V3"	"V3"	HASH(0x1eb6a9c)	"V3"
+"VA"	"VA"	"VA"	HASH(0x1eb6cd0)	"VA"
+"Valeur 1s"	"Value 1s"	"Wert 1s"	HASH(0x1eb6f04)	"Valore 1s"
+"Valeur Max."	"Value Max."	"Wert Max."	HASH(0x1eb7138)	"Valore Max."
+"Valeur"	"Value"	"Wert"	HASH(0x1ebaec8)	"Valore"
+"var"	"var"	"var"	HASH(0x1ebb0fc)	"var"
+"Variable"	"Variable"	"Variable"	HASH(0x1ebb330)	"Variabile"
+"Variable(s)"	"Variable(s)"	"Variable(n)"	HASH(0x1ebb564)	"Variabile(i)"
+"Version : "	"Release : "	"Version : "	HASH(0x1ebb798)	"Versione: "
+"Version inconnue"	"Unknown version"	"Unbekannte Version"	HASH(0x1ebb9cc)	"Versione sconosciuta"
+"Vide"	"Empty"	"Leer"	HASH(0x1ebbc00)	"Vuoto"
+"Visualisation"	"Visualisation"	"Ansicht"	HASH(0x1ebe998)	"Visualizzazione"
+"Vitesse %0 Bits/s "	"Speed %0 Bits/s "	"Geschwindigkeit %0 Bits/s "	HASH(0x1ebebcc)	HASH(0x1ebec2c)
+"Voie 1"	"Channel 1"	"Kanal 1"	HASH(0x1ebeddc)	"Canale 1"
+"Voie 2"	"Channel 2"	"Kanal 2"	HASH(0x1ebf010)	"Canale 2"
+"Vous devez relancer le programme pour prendre en compte la modification\r\nVoulez-vous sortir du programme ?"	"You have to restart the software to take into account the modification\r\nDo you want to exit the software ?"	"Bitte starten Sie das Programm neu, um die Änderungen zu aktivieren."	HASH(0x1ebf244)	"Si deve resettare il software per rendere le modifiche effettive\r\nSi vuole procedere?"
+"Vt"	"Vn"	"Vn"	HASH(0x1ebf478)	"Vn"
+"W"	"W"	"W"	HASH(0x1ebf6ac)	"W"
+'### ###  ###,# V'	'### ###  ###,# V'	'### ###  ###,# V'	HASH(0x1ec4564)	'### ###  ###,# V'
+'###,# V'	'###,# V'	'###,# V'	HASH(0x1ec4798)	'###,# V'
+'*.csv|*.csv|*.xls|*.xls|*.*|*.*'	'*.csv|*.csv|*.xls|*.xls|*.*|*.*'	'*.csv|*.csv|*.xls|*.xls|*.*|*.*'	HASH(0x1ec49cc)	'*.csv|*.csv|*.xls|*.xls|*.*|*.*'
+'?'	'?'	'?'	HASH(0x1ec4c00)	'?'
+'+### °'	'+### °'	'+### °'	HASH(0x1ec4e34)	'+### °'
+'='	'='	'='	HASH(0x1ec5068)	'='
+'0'	'0'	'0'	HASH(0x1ec529c)	'0'
+'0,###'	'0,###'	'0,###'	HASH(0x1ec7f4c)	'0,###'
+'0.'	'0.'	'0.'	HASH(0x1ec8180)	'0.'
+'0.0'	'0.0'	'0.0'	HASH(0x1ec83b4)	'0.0'
+'0.00'	'0.00'	'0.00'	HASH(0x1ec85e8)	'0.00'
+'0.000'	'0.000'	'0.000'	HASH(0x1ec881c)	'0.000'
+'0.0000'	'0.0000'	'0.0000'	HASH(0x1ec8a50)	'0.0000'
+'03.80.53.70.82'	'03.80.53.70.82'	'03.80.53.70.82'	HASH(0x1ec8c84)	'03.80.53.70.82'
+'1'	'1'	'1'	HASH(0x1e29384)	'1'
+'1 000'	'1 000'	'1 000'	HASH(0x1e295b8)	'1 000'
+'1 minute'	'1 minute'	'1 minute'	HASH(0x1e297ec)	'1 minute'
+'1 Stop Bit'	'1 Stop Bit'	'1 Stop Bit'	HASH(0x1e29a20)	'1 Stop Bit'
+'10'	'10'	'10'	HASH(0x1e29c54)	'10'
+'10 000'	'10 000'	'10 000'	HASH(0x1e29e88)	'10 000'
+'10 minutes'	'10 minutes'	'10 Minuten'	HASH(0x1e2a0bc)	'10 minuti'
+'100'	'100'	'100'	HASH(0x1e2a2f0)	'100'
+'100 000'	'100 000'	'100 000'	HASH(0x1ed16e0)	'100 000'
+'115200'	'115200'	'115200'	HASH(0x1ed1914)	'115200'
+'12 minutes'	'12 minutes'	'12 Minuten'	HASH(0x1ed1b48)	'12 minuti'
+'1200'	'1200'	'1200'	HASH(0x1ed1d7c)	'1200'
+'15 minutes'	'15 minutes'	'15 Minuten'	HASH(0x1ed1fb0)	'15 minuti'
+'150'	'150'	'150'	HASH(0x1ed21e4)	'150'
+'1-9, rue d'#39'Arcueil - BP675'	'1-9, rue d'#39'Arcueil - BP675'	'1-9, rue d'#39'Arcueil - BP675'	HASH(0x1ed2418)	'1-9, rue d'#39'Arcueil - BP675'
+'19200'	'19200'	'19200'	HASH(0x1ed81c8)	'19200'
+'2'	'2'	'2'	HASH(0x1ed83fc)	'2'
+'2 minutes'	'2 minutes'	'2 Minuten'	HASH(0x1ed8630)	'2 minuti'
+'2 Stop Bit'	'2 Stop Bits'	'2 Stop Bits'	HASH(0x1ed8864)	'2 Stop Bits'
+'20 minutes'	'20 minutes'	'20 Minuten'	HASH(0x1ed8a98)	'20 minuti'
+'200'	'200'	'200'	HASH(0x1ed8ccc)	'200'
+'2400'	'2400'	'2400'	HASH(0x1ed8f00)	'2400'
+'250'	'250'	'250'	HASH(0x1edbc28)	'250'
+'3 I'	'3 I'	'3 I'	HASH(0x1edbe5c)	'3 I'
+'3 I + 3 U'	'3 I + 3 U'	'3 I + 3 U'	HASH(0x1edc090)	'3 I + 3 U'
+'3 I + 3 V'	'3 I + 3 V'	'3 I + 3 V'	HASH(0x1edc2c4)	'3 I + 3 V'
+'3 minutes'	'3 minutes'	'3 Minuten'	HASH(0x1edc4f8)	'3 minuti'
+'3 U'	'3 U'	'3 U'	HASH(0x1edc72c)	'3 U'
+'3 U + 3 I'	'3 U + 3 I'	'3 U + 3 I'	HASH(0x1edc960)	'3 U + 3 I'
+'3 V'	'3 V'	'3 V'	HASH(0x1edf6a8)	'3 V'
+'3 V + 3 I'	'3 V + 3 I'	'3 V + 3 I'	HASH(0x1edf8dc)	'3 V + 3 I'
+'30 minutes'	'30 minutes'	'30 Minuten'	HASH(0x1edfb10)	'30 minuti'
+'300'	'300'	'300'	HASH(0x1edfd44)	'300'
+'350'	'350'	'350'	HASH(0x1edff78)	'350'
+'38400'	'38400'	'38400'	HASH(0x1ee01ac)	'38400'
+'4 minutes'	'4 minutes'	'4 Minuten'	HASH(0x1ee03e0)	'4 minuti'
+'400'	'400'	'400'	HASH(0x1ee0614)	'400'
+'450'	'450'	'450'	HASH(0x1ee43e4)	'450'
+'4800'	'4800'	'4800'	HASH(0x1ee4618)	'4800'
+'5 minutes'	'5 minutes'	'5 Minuten'	HASH(0x1ee484c)	'5 minuti'
+'50'	'50'	'50'	HASH(0x1ee4a80)	'50'
+'500'	'500'	'500'	HASH(0x1ee4cb4)	'500'
+'57600'	'57600'	'57600'	HASH(0x1ee4ee8)	'57600'
+'6 minutes'	'6 minutes'	'6 Minuten'	HASH(0x1ee511c)	'6 minuti'
+'60 minutes'	'60 minutes'	'60 Minuten'	HASH(0x1ee7ebc)	'60 minuti'
+'92542 Montrouge Cedex'	'92542 Montrouge Cedex'	'92542 Montrouge Cedex'	HASH(0x1ee80f0)	'92542 Montrouge Cedex'
+'9600'	'9600'	'9600'	HASH(0x1ee8324)	'9600'
+'à'	'to'	'bis'	HASH(0x1ee8558)	'a'
+'A Propos'	'About'	'Info'	HASH(0x1ee878c)	'A proposito'
+'Activation'	'Activation'	'Aktivierung'	HASH(0x1ee89c0)	'Attivazione'
+'Activation du produit'	'Product activation'	'Produktaktivierung'	HASH(0x1ee8bf4)	'Attivazione prodotto'
+'Adresse'	'Address'	'Adresse'	HASH(0x1eed964)	'Address'
+'Adresse esclave'	'Slave address'	'Slave Adresse'	HASH(0x1eedb98)	'Indizzo Slave'
+'Adresse IP'	'IP address'	'IP Adresse'	HASH(0x1eeddcc)	'Indirizzo IP'
+'Adresse JBus'	'JBus address'	'JBus Adresse'	HASH(0x1eee000)	'Indirizzo JBus'
+'Adresse Jbus (HEX)'	'Jbus Address (HEX)'	'Jbus (HEX) Adresse'	HASH(0x1eee234)	'Indirizzo JBus (HEX)'
+'Adresse TCP-IP de la passerelle '	'TCP-IP gateway address '	'TCP-IP Gateway Adresse'	HASH(0x1eee468)	'Indirizzo TCP-IP gateway'
+'adresses esclaves'	'Slave addresses'	'Slave-Adresse'	HASH(0x1eee69c)	'Indirizzo slave'
+'AL E1'	'AL E1'	'AL E1'	HASH(0x1ef248c)	'AL E1'
+'AL E10'	'AL E10'	'AL E10'	HASH(0x1ef26c0)	'AL E10'
+'AL E11'	'AL E11'	'AL E11'	HASH(0x1ef28f4)	'AL E11'
+'AL E12'	'AL E12'	'AL E12'	HASH(0x1ef2b28)	'AL E12'
+'AL E13'	'AL E13'	'AL E13'	HASH(0x1ef2d5c)	'AL E13'
+'AL E14'	'AL E14'	'AL E14'	HASH(0x1ef2f90)	'AL E14'
+'AL E15'	'AL E15'	'AL E15'	HASH(0x1ef31c4)	'AL E15'
+'AL E16'	'AL E16'	'AL E16'	HASH(0x1ef5f64)	'AL E16'
+'AL E2'	'AL E2'	'AL E2'	HASH(0x1ef6198)	'AL E2'
+'AL E3'	'AL E3'	'AL E3'	HASH(0x1ef63cc)	'AL E3'
+'AL E4'	'AL E4'	'AL E4'	HASH(0x1ef6600)	'AL E4'
+'AL E5'	'AL E5'	'AL E5'	HASH(0x1ef6834)	'AL E5'
+'AL E6'	'AL E6'	'AL E6'	HASH(0x1ef6a68)	'AL E6'
+'AL E7'	'AL E7'	'AL E7'	HASH(0x1ef6c9c)	'AL E7'
+'AL E8'	'AL E8'	'AL E8'	HASH(0x1ef6ed0)	'AL E8'
+'AL E9'	'AL E9'	'AL E9'	HASH(0x1efac60)	'AL E9'
+'Alarme élémentaire 1'	'First level alarm 1'	'Grundalarm Stufe 1'	HASH(0x1efae94)	'Primo livello di allarme 1'
+'Alarme élémentaire 10'	'First level alarm 10'	'Grundalarm Stufe 10'	HASH(0x1efb0c8)	'Primo livello di allarme 10'
+'Alarme élémentaire 11'	'First level alarm 11'	'Grundalarm Stufe 11'	HASH(0x1efb2fc)	'Primo livello di allarme 11'
+'Alarme élémentaire 12'	'First level alarm 12'	'Grundalarm Stufe 12'	HASH(0x1efb530)	'Primo livello di allarme 12'
+'Alarme élémentaire 13'	'First level alarm 13'	'Grundalarm Stufe 13'	HASH(0x1efb764)	'Primo livello di allarme 13'
+'Alarme élémentaire 14'	'First level alarm 14'	'Grundalarm Stufe 14'	HASH(0x1efb998)	'Primo livello di allarme 14'
+'Alarme élémentaire 15'	'First level alarm 15'	'Grundalarm Stufe 15'	HASH(0x1eff898)	'Primo livello di allarme 15'
+'Alarme élémentaire 16'	'First level alarm 16'	'Grundalarm Stufe 16'	HASH(0x1effacc)	'Primo livello di allarme 16'
+'Alarme élémentaire 2'	'First level alarm 2'	'Grundalarm Stufe 2'	HASH(0x1effd00)	'Primo livello di allarme 2'
+'Alarme élémentaire 3'	'First level alarm 3'	'Grundalarm Stufe 3'	HASH(0x1efff34)	'Primo livello di allarme 3'
+'Alarme élémentaire 4'	'First level alarm 4'	'Grundalarm Stufe 4'	HASH(0x1f00168)	'Primo livello di allarme 4'
+'Alarme élémentaire 5'	'First level alarm 5'	'Grundalarm Stufe 5'	HASH(0x1f0039c)	'Primo livello di allarme 5'
+'Alarme élémentaire 6'	'First level alarm 6'	'Grundalarm Stufe 6'	HASH(0x1f005d0)	'Primo livello di allarme 6'
+'Alarme élémentaire 7'	'First level alarm 7'	'Grundalarm Stufe 7'	HASH(0x1f044f8)	'Primo livello di allarme 7'
+'Alarme élémentaire 8'	'First level alarm 8'	'Grundalarm Stufe 8'	HASH(0x1f0472c)	'Primo livello di allarme 8'
+'Alarme élémentaire 9'	'First level alarm 9'	'Grundalarm Stufe 9'	HASH(0x1f04960)	'Primo livello di allarme 9'
+'Alarme globale 1'	'Global alarm 1'	'allgemeiner Alarm 1'	HASH(0x1f04b94)	'Allarme globale 1'
+'Alarme globale 2'	'Global alarm 2'	'allgemeiner Alarm 2'	HASH(0x1f04dc8)	'Allarme globale 2'
+'Alarme globale 3'	'Global alarm 3'	'allgemeiner Alarm 3'	HASH(0x1f04ffc)	'Allarme globale 3'
+'Alarme globale 4'	'Global alarm 4'	'allgemeiner Alarm 4'	HASH(0x1f05230)	'Allarme globale 4'
+'Alarme globale 5'	'Global alarm 5'	'allgemeiner Alarm 5'	HASH(0x1f08028)	'Allarme globale 5'
+'Alarme globale 6'	'Global alarm 6'	'allgemeiner Alarm 6'	HASH(0x1f0825c)	'Allarme globale 6'
+'Alarme globale 7'	'Global alarm 7'	'allgemeiner Alarm 7'	HASH(0x1f08490)	'Allarme globale 7'
+'Alarme globale 8'	'Global alarm 8'	'allgemeiner Alarm 8'	HASH(0x1f086c4)	'Allarme globale 8'
+'Alarmes'	'First level alarms'	'Alarme'	HASH(0x1f088f8)	'Primo livello di allarme'
+'Alarmes élémentaires'	'First level alarms'	'Niveau 1 Alarme '	HASH(0x1f08b2c)	'Primo livello di allarme'
+'Alarmes globales'	'Global alarms'	'allgemeine Alarme '	HASH(0x1f08d60)	'Allarme globale'
+'Alarmes Globales'	'Global alarms'	'allgemeine Alarme '	HASH(0x1f0cba0)	'Allarme globale'
+'Annuler'	'Cancel'	'abbrechen'	HASH(0x1f0cdd4)	'Annulla'
+'Appareil trouvé'	'Equipment found'	'Apparat nicht gefunden'	HASH(0x1f0d008)	HASH(0x1f0d068)
+'Appareil virtuel|Crée un appareil virtuel'	'Virtual equipment|Create virtual equipment'	'Virtueller Apparat (anlegen)'	HASH(0x1f0d218)	'Apparecchio virtuale|Crea apparecchio virtuale'
+'Arrêt de l'#39'enregistrement'	'Recording stop'	'Stop Aufnahme'	HASH(0x1f0d44c)	'Ferma registrazione'
+'Arreter'	'Stop'	'anhalten'	HASH(0x1f0d680)	'Stop'
+'Assignation des entrées TOR à la courbe de charge'	'BIN input assignment to counters'	'BIN Eingabe zu Zähler'	HASH(0x1f0d8b4)	HASH(0x1f0d914)
+'Assignation des entrées TOR aux compteurs'	'BIN input assignment to counters'	'BIN Eingabe zu Zähler'	HASH(0x1f0dac4)	'Ingresso BIN assegnato ai contatori'
+'Aucune'	'None'	'Keine'	HASH(0x1f1195c)	'Nessuno'
+'Automatique'	'Automatic'	'Automatisch'	HASH(0x1f11b90)	HASH(0x1f11bf0)
+'Bits de stop COM RS485'	'RS485 COM stop bit'	'RS485 COM stop bit'	HASH(0x1f11da0)	'Bit di stop COM RS485'
+'Canal actif'	'Active channel'	'Aktiver Kanal'	HASH(0x1f11fd4)	'Canale attivo'
+'Canal de communication'	'Communication channel'	'Kanal Kommunikation'	HASH(0x1f12208)	'Canale comunicazione'
+'Capacitif'	'Capacitive'	HASH(0x1f123dc)	HASH(0x1f1243c)	HASH(0x1f1249c)
+'Carte de communication'	'Communication board'	'Schnittstelle Kommunikation'	HASH(0x1f12628)	'Scheda di comunicazione'
+'Carte IHM'	'MMI board'	'Schnittstelle MMI'	HASH(0x1f153c8)	'Scheda MMI'
+'Carte Mère'	'Main board'	'Mainboard'	HASH(0x1f155fc)	'Scheda madre'
+'Cartes Options'	'Options boards'	'Schnittstelle Optionen'	HASH(0x1f15830)	'Schede Opzionali'
+'Cc-TOR1'	'Lc-BIN1'	'Lc-BIN1'	HASH(0x1f15a64)	'Lc-BIN1'
+'Cc-TOR2'	'Lc-BIN2'	'Lc-BIN2'	HASH(0x1f15c98)	'Lc-BIN2'
+'Cc-TOR3'	'Lc-BIN3'	'Lc-BIN3'	HASH(0x1f15ecc)	'Lc-BIN3'
+'Cc-TOR4'	'Lc-BIN4'	'Lc-BIN4'	HASH(0x1f16100)	'Lc-BIN4'
+'Ce 1'	'Tr 1'	'Tr 1'	HASH(0x1f19e88)	'Tr 1'
+'Ce 2'	'Tr 2'	'Tr 2'	HASH(0x1f1a0bc)	'Tr 2'
+'Ce 3'	'Tr 3'	'Tr 3'	HASH(0x1f1a2f0)	'Tr 3'
+'Ce 4'	'Tr 4'	'Tr 4'	HASH(0x1f1a524)	'Tr 4'
+'Choix des grandeurs'	'Choice of parameters'	HASH(0x1f1a6f8)	HASH(0x1f1a758)	HASH(0x1f1a7b8)
+'Choix des grandeurs à enregistrer'	'Choice of the parameters to record'	'Auswahl der aufzuzeichnenden Parameter'	HASH(0x1f1a944)	'Scelta dei parametri da registrare'
+'Clef d'#39'activation'	'Activation key'	'Aktivierungsschlüssel'	HASH(0x1f1ab78)	'Chiave di attivazione'
+'clef d'#39'activation du produit.'	'product activation key.'	'Aktivierungsschlüssel'	HASH(0x1f1adac)	'Chiave di attivazione prodotto'
+'Communication'	'Communication'	'Kommunikation'	HASH(0x1f1ec04)	'Comunicazione'
+'Compteurs'	'Counters'	'Zähler'	HASH(0x1f1ee38)	'Contatori'
+'Compteurs horaires'	'Hours meters'	'Stundenzähler'	HASH(0x1f1f06c)	'Conta-ora'
+'Configuration'	'Configuration'	'Einstellungen'	HASH(0x1f1f2a0)	'Configurazione'
+'Configuration de la communication'	'Communication setting'	'Einstellungen Kommunikation'	HASH(0x1f1f4d4)	'Configurazione della comunicazione'
+'Configuration de la communication Ethernet'	'Ethernet communication setting'	HASH(0x1f1f6a8)	HASH(0x1f1f708)	HASH(0x1f1f768)
+'Configuration de la communication JBus'	'JBus communication setting'	'Einstellungen JBus Kommunikation'	HASH(0x1f1f8f4)	'Configurazione comunicazione JBus '
+'Connecter'	'Connect'	'Verbinden'	HASH(0x1f2469c)	'Connesso'
+'Connecter|Ouvre le canal de communication avec l'#39'appareil'	'Connect|Open communication channel with equipment'	'Verbinden und Kommunikation starten'	HASH(0x1f248d0)	'Connessione|Aperta comunicazione con strumento'
+'Contact'	'Contact'	'Verbindung überprüfen'	HASH(0x1f24b04)	'Contatto'
+'Contraste'	'Contrast'	'Kontrast'	HASH(0x1f24d38)	'Contrasto'
+'Contrôle de l'#39'affichage'	'Display control'	'Bildschirm'	HASH(0x1f24f6c)	'Controllo display'
+'cos Phi 1='	'cos Phi 1='	'cos Phi 1='	HASH(0x1f251a0)	'cos Phi 1='
+'cos Phi 2 ='	'cos Phi 2 ='	'cos Phi 2='	HASH(0x1f253d4)	'cos Phi 2='
+'cos Phi 3 ='	'cos Phi 3 ='	'cos Phi 3='	HASH(0x1f281bc)	'cos Phi 3='
+'cos Phi T.='	'cos Phi T.='	'cos Phi T.='	HASH(0x1f283f0)	'cos Phi T.='
+'Couleur'	'Color'	HASH(0x1f285c4)	HASH(0x1f28624)	HASH(0x1f28684)
+'Couleur(s) de fond'	'Background colour'	HASH(0x1f287b0)	HASH(0x1f28810)	HASH(0x1f28870)
+'Courant'	'Current'	'Strom'	HASH(0x1f289fc)	'Corrente'
+'Courant moy max'	'Current max aver'	'Strom Max Avg'	HASH(0x1f28c30)	'Corrente massima'
+'Courbe de charge'	'Load curve'	'Lastkurve'	HASH(0x1f28e64)	'Curva di carico'
+'Courbes d'#39'enregistrements'	'Trend curves'	'Trendkurve'	HASH(0x1f29098)	'Andamento curve'
+'Date'	'Date'	'Datum'	HASH(0x1f2bdc8)	HASH(0x1f2be28)
+'Date / Heure'	'Date / Time'	'Datum / Zeit'	HASH(0x1f2bfd8)	'Data / Ora'
+'Date de création'	'Creation date'	'Erstellt am'	HASH(0x1f2c20c)	'Data di creazione'
+'Date de début'	'Start date'	'Start'	HASH(0x1f2c440)	'Data d'#39'inizio'
+'Date de fin'	'End date'	'Ende'	HASH(0x1f2c674)	'Data di fine'
+'Date début de purge'	'Start date of purge'	HASH(0x1f2c848)	HASH(0x1f2c8a8)	HASH(0x1f2c908)
+'Date du dernier accès au produit'	'Last equipment access date'	'letzter Zugriff'	HASH(0x1f2ca94)	'Ultimo accesso all'#39'apparecchio'
+'Date et heure'	'Date and time'	'Datum und Zeit'	HASH(0x1f307ac)	'Data e ora'
+'Date fin de purge'	'End date of purge'	HASH(0x1f30980)	HASH(0x1f309e0)	HASH(0x1f30a40)
+'de'	'From'	'Von'	HASH(0x1f30bcc)	'Da'
+'Débordement'	'Overflow'	'Datenüberfluss'	HASH(0x1f30e00)	'Overflow'
+'Début'	'Beginning'	"Start"	HASH(0x1f31034)	HASH(0x1f31094)
+'Deconnecter'	'Disconnect'	'Getrennt'	HASH(0x1f31244)	'Disconnesso'
+'Déconnecter|Ferme le canal de communication avec l'#39'appareil'	'Disconnect|close the communication channel with equipment'	'Trennen|Kommunikation beenden'	HASH(0x1f31478)	'Disconnesso|Il canale di comunicazione è stato chiuso'
+'Défilement automatique'	'Automatic scrolling'	'Automatisch scrollen'	HASH(0x1f316ac)	'Scorrimento automatico'
+'Défilement des écrans'	'Screen scrolling'	'Bildschirm scrollen'	HASH(0x1f35474)	'Scorrimento schermo'
+'Dépassement'	'Overflow'	'Datenüberfluss'	HASH(0x1f356a8)	'Overflow'
+'Dépassement autorisé de 10% sur la sortie'	'10 % output overload allowed'	'10 % Ausgang Überlast zulässig'	HASH(0x1f358dc)	'Sovraccarico del 10% dell'#39'uscita ammessa'
+'Dernière erreur enregistrée'	'Last error recorded'	'Letzter Fehler aufgezeichnet'	HASH(0x1f35b10)	'Ultimo errore registrato'
+'Descendre'	'Down'	'Runter'	HASH(0x1f35d44)	'Sotto'
+'Description de l'#39'appareil'	'Equipment description'	'Bezeichnung'	HASH(0x1f35f78)	'Descrizione equipaggiamento'
+'Description du dossier'	'Folder description'	'Ordner Bezeichnung'	HASH(0x1f361ac)	'Descrizione cartella'
+'Deutsch'	'Deutsch'	'Deutsch'	HASH(0x1f3a054)	'Tedesco'
+'Double Word (32bits)'	'Double Word (32bits)'	'Double Word (32bits)'	HASH(0x1f3a288)	'Double Word (32bits)'
+'Ecran 1'	'Screen 1'	'Bildschirm1'	HASH(0x1f3a4bc)	'Schermo 1'
+'Ecran 2'	'Screen 2'	'Bildschirm2'	HASH(0x1f3a6f0)	'Schermo 2'
+'Ecran 3'	'Screen 3'	'Bildschirm3'	HASH(0x1f3a924)	'Schermo 3'
+'Écran à afficher'	'Screen to be displayed'	'Bildschirm anzeigen'	HASH(0x1f3ab58)	'Schermata da mostrare'
+'Écran actuel'	'Active screen'	'Aktiver Bildschirm'	HASH(0x1f3ad8c)	'Schermo attivo'
+'Ecrans utilisateur'	'User screens'	'Benutzerbildschirme'	HASH(0x1f3db6c)	'Schermo utente'
+'Ecrans utilisateur 1'	'User screen 1'	'Benutzerschirm 1'	HASH(0x1f3dda0)	'Schermo utente 1'
+'Ecrans utilisateur 2'	'User screen 2'	'Benutzerschirm 2'	HASH(0x1f3dfd4)	'Schermo utente 2'
+'Ecrans utilisateur 3'	'User screen 3'	'Benutzerschirm 3'	HASH(0x1f3e208)	'Schermo utente 3'
+'Effacer la courbe de charge'	'Delete load curve'	'Lösche Lastkurve'	HASH(0x1f3e43c)	HASH(0x1f3e49c)
+'ENERDIS'	'ENERDIS'	'ENERDIS'	HASH(0x1f3e64c)	'ENERDIS'
+'Energie Active'	'Active Energy'	'Aktive Energie'	HASH(0x1f3e880)	'Energia Attiva'
+'Energie active EP-'	'Active Energy EP-'	'Aktive Energie -EP'	HASH(0x1f415a0)	'Energia Attiva EP-'
+'Energie active EP+'	'Active Energy EP+'	'Aktive Energie +EP'	HASH(0x1f417d4)	'Energia Attiva EP+'
+'Energie active totale'	'Active Energy total'	'Aktive Energie Total'	HASH(0x1f41a08)	'Energia attiva totale'
+'Energie Apparente'	'Apparent Energy'	'Offensichtliche Energie'	HASH(0x1f41c3c)	'Energia Apparente'
+'Energie apparente ES-'	'Apparent power ES-'	'Offensichtliche Energie ES-'	HASH(0x1f41e70)	'Potenza apparente ES-'
+'Energie apparente ES+'	'Apparent Energy ES+'	'Offensichtliche Energie ES+'	HASH(0x1f420a4)	'Energia apparente ES+'
+'Energie apparente totale'	'Apparent Energy total'	'Offensichtliche Energie Total'	HASH(0x1f422d8)	'Energia apparente totale'
+'Energie associée'	'Associated energy'	'Wirkleistung'	HASH(0x1f46238)	'Energia associata'
+'Energie Réactive'	'Reactive Energy'	'Blindleistung'	HASH(0x1f4646c)	'Energia reattiva'
+'Energie réactive EQ1'	'Reactive Energy EQ1'	'Blindleistung EQ1'	HASH(0x1f466a0)	'Energia reattiva EQ1'
+'Energie réactive EQ2'	'Reactive Energy EQ2'	'Blindleistung EQ2'	HASH(0x1f468d4)	'Energia reattiva EQ2'
+'Energie réactive EQ3'	'Reactive Energy EQ3'	'Blindleistung EQ3'	HASH(0x1f46b08)	'Energia reattiva EQ3'
+'Energie réactive EQ4'	'Reactive Energy EQ4'	'Blindleistung EQ4'	HASH(0x1f46d3c)	'Energia reattiva EQ4'
+'Energie réactive totale'	'Reactive Energy total'	'Blindleistung Total'	HASH(0x1f46f70)	'Energia reattiva totale'
+'English'	'English'	'English'	HASH(0x1f471a4)	'English'
+'Enregistrer'	'Save'	'Speichern'	HASH(0x1f4d03c)	'Salva'
+'Enregistrer dans un fichier|Enregistre la page dans un fichier'	'Save in file|Save page in file'	'Speichern in Datei|Seite speichern'	HASH(0x1f4d270)	'Salva su file|Salva la pagina in un file'
+'Enregistrer dans un fichier|Enregistre le contenu et l'#39'état dans un fichier'	'Sans in a file|Save the content and the status in a file'	'Speichern in Datei|Inhalt und Status speichern'	HASH(0x1f4d4a4)	'Salva in un file|Salva il contenuto e lo stato su un file'
+'Enregistrer DB'	'Database record'	HASH(0x1f4d678)	HASH(0x1f4d6d8)	HASH(0x1f4d738)
+'Enregistrer sous ...'	'Save As ...'	'Speichern unter ...'	HASH(0x1f4d8c4)	'Salva come...'
+'Enregistrer|Enregistre la configuration'	'Save|Save configuration'	HASH(0x1f4da98)	HASH(0x1f4daf8)	HASH(0x1f4db58)
+'Enregistrer|Enregistre la page'	'Save|Save page'	'Speichern|Seite speichern'	HASH(0x1f4dce4)	'Salva|Salva pagina'
+'Enregistrer|Enregistre les modifications'	'Save|Save changes'	'Speichern|Einstellungen speichern'	HASH(0x1f50b3c)	'Salva|Salva cambiamento'
+'Entrée TOR'	'Binary input'	'Binäre Eingabe'	HASH(0x1f50d70)	'Ingresso digitale'
+'Entrée TOR A1'	'Input TOR A1'	'Eingang TOR A1'	HASH(0x1f50fa4)	'Ingresso BIN A1'
+'Entrée TOR A2'	'Input TOR A2'	'Eingang TOR A2'	HASH(0x1f511d8)	'Ingresso BIN A2'
+'Entrée TOR B1'	'Input TOR B1'	'Eingang TOR B1'	HASH(0x1f5140c)	'Ingresso BIN B1'
+'Entrée TOR B2'	'Input TOR B2'	'Eingang TOR B2'	HASH(0x1f51640)	'Ingresso BIN B2'
+'Entrée TOR C1'	'Input TOR C1'	'Eingang TOR C1'	HASH(0x1f51874)	'Ingresso BIN C1'
+'Entrée TOR C2'	'Input TOR C2'	'Eingang TOR C2'	HASH(0x1f5461c)	'Ingresso BIN C2'
+'Entrée TOR D1'	'Input TOR D1'	'Eingang TOR D1'	HASH(0x1f54850)	'Ingresso BIN D1'
+'Entrée TOR D2'	'InputTOR D2'	'Eingang TOR D2'	HASH(0x1f54a84)	'Ingresso BIN D2'
+'Entrées impulsions'	'Pulse inputs'	'Impuls Eingänge'	HASH(0x1f54cb8)	'Ingressi impulsi'
+'Entrées TOR'	'BIN inputs'	'Binäre Eingänge'	HASH(0x1f54eec)	'Ingresso BIN'
+'Envoyer'	'Send'	'Senden'	HASH(0x1f55120)	'Invia'
+'Envoyer tout'	'Send all'	'Alles senden'	HASH(0x1f55354)	'Invia tutto'
+'Envoyer tout|Envoie tout vers l'#39'appareil'	'Send all|Send all to equipment'	'Alles senden|an Einheit übertragen'	HASH(0x1f55588)	'Invia tutto|Invia tutto allo strumento'
+'Envoyer|Envoie la page'	'Send|Send page'	'Senden|Seite senden'	HASH(0x1f58370)	'Invia|Invia pagina'
+'EQ1'	'EQ1'	'EQ1'	HASH(0x1f585a4)	'EQ1'
+'EQ2'	'EQ2'	'EQ2'	HASH(0x1f587d8)	'EQ2'
+'EQ3'	'EQ3'	'EQ3'	HASH(0x1f58a0c)	'EQ3'
+'EQ4'	'EQ4'	'EQ4'	HASH(0x1f58c40)	'EQ4'
+'Español'	'Español'	'Español'	HASH(0x1f58e74)	'Español'
+'ET'	'AND'	'UND'	HASH(0x1f590a8)	'AND'
+'Etat'	'Status'	'Status'	HASH(0x1f5ee68)	'Stato'
+'Etat de la courbe'	'Curve status'	'Kurvenstatus'	HASH(0x1f5f09c)	'Stato curve'
+'Etendue de mesure'	'Measurement range'	'Messbereich'	HASH(0x1f5f2d0)	'Campo di misura'
+'Etendue de sortie'	'Output range'	'Ausgangsbereich'	HASH(0x1f5f504)	'Campo di uscita'
+'Etendue de sortie (mA)'	'Output rang (mA)'	'Ausgangsbereich (mA)'	HASH(0x1f5f738)	'Campo di uscita (mA)'
+'Ethernet'	'Ethernet'	'Ethernet'	HASH(0x1f5f96c)	'Ethernet'
+'Export'	'Export'	'Export'	HASH(0x1f5fba0)	'Esporta'
+'Exporter ...'	'Explore ...'	'Exportieren'	HASH(0x1f62948)	'Esplora...'
+'Exporter|Enregistre dans un fichier texte'	'Explore|Save in a text file'	'Exportieren|speichern als text Datei'	HASH(0x1f62b7c)	'Esplora|Salva in un file di testo'
+'Exporter|Enregistre la page dans un fichier texte'	'Export|Save page in a text file'	'Exportieren|Seite speichern als Datei'	HASH(0x1f62db0)	'Esporta|Salva pagina in un file di testo'
+'Extrêma instantanées'	'Instant extremes'	'Instant extremes'	HASH(0x1f62fe4)	'Estremi istantanei'
+'Extrêmas instantanées'	'Instant extremes'	'Instant extremes'	HASH(0x1f63218)	'Estremi istantanei'
+'F0 = 50 Hz'	'F0 = 50 Hz'	'F0 = 50 Hz'	HASH(0x1f6344c)	'F0 = 50 Hz'
+'Fax : +33 1 42 53 64 78'	'Fax : +33 1 42 53 64 78'	'Fax : +33 1 42 53 64 78'	HASH(0x1f63680)	'Fax : +33 1 42 53 64 78'
+'Fermé'	'Closed'	'Geschlossen'	HASH(0x1f66510)	'Chiuso'
+'Fermer'	'Close'	'Schliessen'	HASH(0x1f66744)	'Chiusura'
+'Fichier'	'File'	'Datei'	HASH(0x1f66978)	'File'
+'fichier de paramètre (*.xml)|*.xml|tous|*.*'	'setting file (*.xml)|*.xml|all|*.*'	'Konfigurationsdatei (*.xml)|*.xml|all|*.*'	HASH(0x1f66bac)	'configurazione file (*.xml)|*.xml|all|*.*'
+'Fin'	'End'	'Ende'	HASH(0x1f66de0)	HASH(0x1f66e40)
+'Fonction logique'	'Boolean function'	'Boolean Funktion'	HASH(0x1f66ff0)	'Funzione booleana'
+'Forcer la sortie'	'Set output'	'Ausgang wählen'	HASH(0x1f67224)	'Configura l'#39'uscita'
+'Français'	'English'	'Deutsch'	HASH(0x1f67458)	'Italiano'
+'France'	'France'	'France'	HASH(0x1f6a228)	'France'
+'Fréquence réseau'	'Network frequency'	'Netzwerk Frequenz'	HASH(0x1f6a45c)	'Frequenza di rete'
+'Fresnel'	'Phasors'	HASH(0x1f6a630)	HASH(0x1f6a690)	HASH(0x1f6a6f0)
+'Général'	'General'	'Allgemein'	HASH(0x1f6a87c)	'Generale'
+'Générateur'	'Generator'	'Abgabe'	HASH(0x1f6aab0)	'Generatore'
+'Générateur / Récepteur'	'Generator / Receiver'	'Abgabe / Bezug'	HASH(0x1f6ace4)	'Generatore / Rcevitore'
+'Grandeur'	'Parameter'	'Parameter'	HASH(0x1f6af18)	'Parameto'
+'Grandeur à enregistrer'	'Parameter to record'	'Aufzuzeichnende Parameter'	HASH(0x1f6dc50)	'Parametro da registrare'
+'Grandeur assignée à la LED métrologique'	'Parameter assigned to metrology LED'	'Parameter'	HASH(0x1f6de84)	'Parametro assegnato al LED'
+'Grandeur associée'	'Associated parameter'	'Zugeordnete Messgrösse'	HASH(0x1f6e0b8)	'Parametro associato'
+'Graph CC'	'Graph Lc'	HASH(0x1f6e28c)	HASH(0x1f6e2ec)	HASH(0x1f6e34c)
+'Graph CE'	'Graph Tc'	HASH(0x1f6e478)	HASH(0x1f6e4d8)	HASH(0x1f6e538)
+'Graphique d'#39'harmoniques'	'Harmonic graph'	HASH(0x1f6e664)	HASH(0x1f6e6c4)	HASH(0x1f6e724)
+'GraphProperty'	'Graph Properties'	HASH(0x1f6e850)	HASH(0x1f6e8b0)	HASH(0x1f6e910)
+'Harmonique courant'	'Current Harmonic'	'Strom Harmonische'	HASH(0x1f6ea9c)	'Harmoniche di corrente'
+'Harmonique Ph-Ph'	'Ph-Ph Harmonic'	'Ph-Ph Harmonische'	HASH(0x1f747c4)	'Armoniche Ph-Ph'
+'Harmoniques'	'Harmonics'	'Harmonische'	HASH(0x1f749f8)	'Armoniche'
+'Heure locale'	'Local time'	'Lokale Zeit'	HASH(0x1f74c2c)	'Ora locale'
+'Heure produit'	'Equipment time'	'Geräte Uhrzeit'	HASH(0x1f74e60)	'Ora dell'#39'apparecchio'
+'I1'	'I1'	'I1'	HASH(0x1f75094)	'I1'
+'I2'	'I2'	'I2'	HASH(0x1f752c8)	'I2'
+'I3'	'I3'	'I3'	HASH(0x1f754fc)	'I3'
+'IHM'	'MMI'	'MMI'	HASH(0x1f7a284)	'MMI'
+'Impaire'	'Odd'	'Ungleich'	HASH(0x1f7a4b8)	'Dispari'
+'imprimée sur la pochette du disque d'#39'installation.'	'printed on the package of the installation CD.'	'Auf dem Packet der InstallationsCD aufgedruckt'	HASH(0x1f7a6ec)	'stampato sulla confezione del CD'
+'Imprimer'	'Print'	'Drucken'	HASH(0x1f7a920)	'Stampa'
+'Imprimer tous'	'Print all'	'Alles drucken'	HASH(0x1f7ab54)	'Stampa tutto'
+'Imprimer tout|Imprime  toutes les pages'	'Print all|Print all pages'	'Alles drucken|Alle Seiten drucken'	HASH(0x1f7ad88)	'Stampa tutto|Stampa tutto sulle pagine'
+'Imprimer|Imprime la page '	'Print|Print page'	'Drucken|Seite drucken'	HASH(0x1f7afbc)	'Stampa|Stampa pagina'
+'Inconnu'	'Unknown'	'Unbekannt'	HASH(0x1f7de1c)	'Sconosciuto'
+'Index énergies'	'Energy indexes'	'Energie Index'	HASH(0x1f7e050)	'Indice di energia'
+'Index entrées impulsions'	'Pulse input index'	'Impuls Eingang Index'	HASH(0x1f7e284)	'Indice impulso in ingresso'
+'Inductif'	'Inductive'	HASH(0x1f7e458)	HASH(0x1f7e4b8)	HASH(0x1f7e518)
+'info@enerdis.fr'	'info@enerdis.fr'	'info@enerdis.fr'	HASH(0x1f7e6a4)	'info@enerdis.fr'
+'Infos produit'	'Product Infos'	'Produktinfo'	HASH(0x1f7e8d8)	'Info prodotto'
+'Infra Rouge'	'Infra red'	'Infrarot'	HASH(0x1f7eb0c)	'Infrarossi'
+'Italiano'	'Italiano'	'Italiano'	HASH(0x1f81804)	'Italiano'
+'Journal des alarmes'	'Alarms journal'	'Alarm-Protokoll'	HASH(0x1f81a38)	'Storico allarmi'
+'kVAh'	'kVAh'	'kVAh'	HASH(0x1f81c6c)	'kVAh'
+'kvarh'	'kvarh'	'kvarh'	HASH(0x1f81ea0)	'kvarh'
+'kWh'	'kWh'	'kWh'	HASH(0x1f820d4)	'kWh'
+'Label'	'Label'	'Bezeichnung'	HASH(0x1f82308)	'Etichetta'
+'Label '	'Label '	'Bezeichnung '	HASH(0x1f8253c)	'Etichetta '
+'Label de la grandeur sur 7 caractères maximum'	'Parameter label on 7 characters maximum'	'Bezeichnung maximal 7 Zeichen'	HASH(0x1f82770)	'Etichetta di 7 caratteri massimo'
+'Label(s) concerné(s)'	'Label(s) concerned'	HASH(0x1f87530)	HASH(0x1f87590)	HASH(0x1f875f0)
+'Langage'	'Language'	'Sprache'	HASH(0x1f8777c)	'Lingua'
+'Langue'	'Language'	'Sprache'	HASH(0x1f879b0)	'Lingua'
+'Largeur d'#39'une impulsion'	'Pulse width'	'Impulsbreite'	HASH(0x1f87be4)	'Ampiezza impulso'
+'Ligne 1'	'Line 1'	'Leitung 1'	HASH(0x1f87e18)	'Linea 1'
+'Ligne 2'	'Line 2'	'Leitung 2'	HASH(0x1f8804c)	'Linea 2'
+'Ligne 3'	'Line 3'	'Leitung 3'	HASH(0x1f88280)	'Linea 3'
+'Ligne 4'	'Line 4'	'Leitung 4'	HASH(0x1f8bf70)	'Linea 4'
+'Listes des appareils de l'#39'architecture métier'	'Equipment list in the installed base structure'	'Liste der Einheiten'	HASH(0x1f8c1a4)	'Lista apparecchi installata sulla struttura base'
+'Listes des grandeurs'	'List of parameters'	HASH(0x1f8c378)	HASH(0x1f8c3d8)	HASH(0x1f8c438)
+'Logiciel de configuration '	'Setting software'	'Einstellungen Software'	HASH(0x1f8c5c4)	'Configurazione software'
+'M1'	'M1'	'M1'	HASH(0x1f8c7f8)	'M1'
+'M2'	'M2'	'M2'	HASH(0x1f8ca2c)	'M2'
+'M3'	'M3'	'M3'	HASH(0x1f8cc60)	'M3'
+'M4'	'M4'	'M4'	HASH(0x1f8fa38)	'M4'
+'Marqueurs'	'Markers'	HASH(0x1f8fc0c)	HASH(0x1f8fc6c)	HASH(0x1f8fccc)
+'Masque de sous réseau'	'Network Mask'	HASH(0x1f8fdf8)	HASH(0x1f8fe58)	HASH(0x1f8feb8)
+'max'	'max'	'max'	HASH(0x1f90044)	'max'
+'Max'	'Max'	'Max'	HASH(0x1f90278)	'Max'
+'MAX'	'MAX'	'MAX'	HASH(0x1f904ac)	'MAX'
+'Max.'	'Max.'	'Max.'	HASH(0x1f906e0)	'Max.'
+'Maxima puissances'	'Power Max'	'Maximaler Strom'	HASH(0x1f90914)	'Potenza Max'
+'Métrologie'	'Metrology'	'Metrologie'	HASH(0x1f93634)	'Metrologia'
+'min'	'min'	'min'	HASH(0x1f93868)	'min'
+'Min'	'Min'	'Min'	HASH(0x1f93a9c)	'Min'
+'MIN'	'MIN'	'MIN'	HASH(0x1f93cd0)	'MIN'
+'Minima puissances'	'Power Min'	'Minimaler Strom'	HASH(0x1f93f04)	'Potenza Min'
+'Mise à l'#39'heure du produit'	'Equipment time setting'	'Einheit Zeiteinstellung'	HASH(0x1f94138)	'Configurazione ora prodotto'
+'Mise à l'#39'heure manuelle'	'Manual time setting'	'manuelle Zeiteinstellung'	HASH(0x1f9436c)	'Configurazione manuale ora'
+'Mode d'#39'arrêt'	'Stop mode'	'Stop'	HASH(0x1f9813c)	'Modo arresto'
+'Modem'	'Modem'	'Modem'	HASH(0x1f98370)	'Modem'
+'Modem et numéro de téléphonne'	'Modem and phone number'	'Modem und Telefonnummer'	HASH(0x1f985a4)	'Modem e numero telefonico'
+'Monter'	'Up'	'Auf'	HASH(0x1f987d8)	'Su'
+'Mot de passe'	'Password'	'Passwort'	HASH(0x1f98a0c)	'Password'
+'Mot de passe pour l'#39'IHM locale du produit'	'Equipment local MMI password'	'Lokales Passwort der Einheit'	HASH(0x1f98c40)	'Password locale del prodotto MMI'
+'Nb. stop bit'	'Stop bit Nb'	'Stop bit Nb'	HASH(0x1f98e74)	'Nb bit di stop'
+'NF'	'NC'	'NC'	HASH(0x1f9cc3c)	'NC'
+'Niveau d'#39'activation'	'Activation level'	'Aktivierungsniveau'	HASH(0x1f9ce70)	'Livello di attivazione'
+'NO'	'NO'	'NEIN'	HASH(0x1f9d0a4)	'NO'
+'Nom de l'#39'appareil'	'Equipment name'	'Name der Einheit'	HASH(0x1f9d2d8)	'Nome prodotto'
+'Nom de l'#39'entrée|indiquez le nom de l'#39'entrée Tor'	'Input name|Give BIN input name'	'Eingangsname|BIN Eingang benennen'	HASH(0x1f9d50c)	'Nome ingresso|Assegnare nome ingresso DIG'
+'Nombre de digit après la virgule'	'Number of digit after decimal point'	'Dezimalstellung'	HASH(0x1f9d740)	'Numero di cifre dopo la virgola'
+'Nouveau Canal de communication'	'New communication channel'	'Neuer Kommunikationskanal'	HASH(0x1f9d974)	'Nuovo canale di comunicazione'
+'Nouveau canal de communication|Crée un nouveau canal de communication'	'New communication channel|Create new communication channel'	'Neuer Kommunikationskanal|einen neuen Kommunikationskanal erstellen'	HASH(0x1fa1824)	'Nuovo canale di comunicazione|Crea un nuovo canale di comunicazione'
+'Nouveau dossier'	'New folder'	'Neues Verzeichnis'	HASH(0x1fa1a58)	'Nuova cartella'
+'Nouveau dossier|Crée un nouveau dossier'	'New folder|Create new folder'	'Neues Verzeichnis|ein neues Verzeichnis anlegen'	HASH(0x1fa1c8c)	'Nuova cartella|Crea una nuova cartella'
+'Nouvel Appareil'	'New Equipment'	'Neues Gerät'	HASH(0x1fa1ec0)	'Nuovo apparcchio'
+'Numéro d'#39'appareil'	'Equipment number'	'Nummer der Einheit'	HASH(0x1fa20f4)	'Apparecchio numero'
+'Numéro de port'	'Port number'	'Portnummer'	HASH(0x1fa2328)	'Porta numero'
+'OK'	'OK'	'OK'	HASH(0x1fa255c)	'OK'
+'Onglets à droite'	'Right-hand folder'	'Rechter Ordner'	HASH(0x1fa2790)	'Cartelle a destra'
+'Onglets à gauche'	'Left-hand folder'	'Linker Ordner'	HASH(0x1fa66e8)	'Cartelle a sinistra'
+'Onglets en bas'	'Lower folders'	'Unterer Ordner'	HASH(0x1fa691c)	'Cartelle inferiori'
+'Onglets en haut'	'Upper folders'	'Oberer Ordner'	HASH(0x1fa6b50)	'Cartelle superiori'
+'Onglets sur plusieurs lignes'	'Folders over more than one line'	'Ordner auf mehreren Linien'	HASH(0x1fa6d84)	'Cartelle su più di una linea'
+'Options d'#39'affichage ...'	'Display options ...'	'Optionen Anzeige ...'	HASH(0x1fa6fb8)	'Opzioni schermo...'
+'Ordre de Phase'	'Phase sequence'	'Anordnung Phase'	HASH(0x1fa71ec)	'Ordine delle frasi'
+'OU'	'OR'	'ODER'	HASH(0x1fa7420)	'OR'
+'Ouvert'	'Open'	'Öffnen'	HASH(0x1faa270)	'Aperto'
+'Ouvrir'	'Open'	'Öffnen'	HASH(0x1faa4a4)	'Aprire'
+'Ouvrir|Ouvre la page enregistrée'	'Open|Open saved page'	'Öffnen|Öffnen gespeicherte Seite'	HASH(0x1faa6d8)	'Aprire|Apri salvataggio di pagina'
+'Ouvrir|Recharge le contenu d'#39'un ficher'	'Open|Reload the content of a file'	'Öffnen|Erneutes Laden einer gespeicherte Seite'	HASH(0x1faa90c)	'Aprire|Riapri il contenuto del file'
+'P-'	'P-'	'P-'	HASH(0x1faab40)	'P-'
+'P+'	'P+'	'P+'	HASH(0x1faad74)	'P+'
+'Page d'#39'acceuil'	'Home page'	'Home page'	HASH(0x1faafa8)	'Home page'
+'Pair'	'Even'	'Gleich'	HASH(0x1fafda0)	'Pari'
+'Paramètrage'	'Setting'	'Einstellungen'	HASH(0x1faffd4)	'Configurazione'
+'Paramètre de recherche'	'Scanning parameters'	'Parameter Suchlauf'	HASH(0x1fb0208)	'Parametri di ricerca'
+'Paramètres'	'Parameters'	'Parameter'	HASH(0x1fb043c)	'Parametri'
+'Parité'	'Parity'	'Parität'	HASH(0x1fb0670)	'Parità'
+'Parité COM RS485'	'RS485 COM parity'	'RS485 COM Parität'	HASH(0x1fb08a4)	'Parità RS485 COM'
+'Passerelle IP'	'IP Gateway'	'IP Gateway'	HASH(0x1fb0ad8)	'Gateway IP'
+'Passerelle réseau'	'Network getway'	HASH(0x1fb3820)	HASH(0x1fb3880)	HASH(0x1fb38e0)
+'Période d'#39'enregistrement'	'Recording time period'	'Aufzeichnungsperiode'	HASH(0x1fb3a6c)	'Periodo di registrazione'
+'Période d'#39'intégration des valeurs moyennes'	'Average values integration period'	'Aufzeichnungsperiode Mittelwerte'	HASH(0x1fb3ca0)	'Media periodo di integrazione'
+'Phase 1'	'Phase 1'	'Phase 1'	HASH(0x1fb3ed4)	'Phase 1'
+'Phase 2'	'Phase 2'	'Phase 2'	HASH(0x1fb4108)	'Phase 2'
+'Phase 3'	'Phase 3'	'Phase 3'	HASH(0x1fb433c)	'Phase 3'
+'Poids'	'Weigh'	'Weigh'	HASH(0x1fb4570)	'Peso'
+'Poids d'#39'impulsion'	'Pulse weigh'	'Impulsweite'	HASH(0x1fb47a4)	'Periodo di impulso'
+'Port de communication'	'Communication port'	'Kommunikationsanschluss'	HASH(0x1fb85a4)	'Porta di comunicazione'
+'Port série'	'Serial port'	'Serieller Anschluss'	HASH(0x1fb87d8)	'Porta seriale'
+'Pour les versions de démonstrations, la clef d'#39'activation est '	'For the demo versions, the activation key is '	'Der Aktivierungsschlüssel für die Demo version ist '	HASH(0x1fb8a0c)	'Per la versione demo la chiave è'
+'Précision'	'Accuracy'	'Präzision'	HASH(0x1fb8c40)	'Precisione'
+'Présence Tension / Courant'	'Presence Voltage / Current'	'Präsenz Spannung / Strom'	HASH(0x1fb8e74)	'Presenza di Tensione / Corrente'
+'Produit'	'Equipment'	'Produkt'	HASH(0x1fb90a8)	'Prodotto'
+'Propriété'	'Properties'	HASH(0x1fb927c)	HASH(0x1fb92dc)	HASH(0x1fb933c)
+'Puissance'	'Power'	'Energie'	HASH(0x1fbc0ec)	'Potenza'
+'Puissance moyenne'	'Average Power'	'Mittelwert Energie'	HASH(0x1fbc320)	'Potenza media'
+'Puissances'	'Powers'	'Energien'	HASH(0x1fbc554)	'Potenze'
+'Purge'	'Purge'	HASH(0x1fbc728)	HASH(0x1fbc788)	HASH(0x1fbc7e8)
+'Purge de la base de données'	'Database Purge'	HASH(0x1fbc914)	HASH(0x1fbc974)	HASH(0x1fbc9d4)
+'Q1'	'Q1'	'Q1'	HASH(0x1fbcb60)	'Q1'
+'Q2'	'Q2'	'Q2'	HASH(0x1fbcd94)	'Q2'
+'Q3'	'Q3'	'Q3'	HASH(0x1fc09fc)	'Q3'
+'Q4'	'Q4'	'Q4'	HASH(0x1fc0c30)	'Q4'
+'Quitter'	'Quit'	'Verlassen'	HASH(0x1fc0e64)	'Esci'
+'Rafraîchir'	'Refresh'	'Aktualisieren'	HASH(0x1fc1098)	'Rinfresca'
+'Rafraîchir tout'	'Refresh all'	'Alles Aktualisieren'	HASH(0x1fc12cc)	'Rinfresca tutto'
+'Rafraîchir tout|Recharge toutes les données de l'#39'appareil'	'Refresh all|Reload all the data of the equipment'	'Alles Aktualisieren|Daten aller Geräte auslesen'	HASH(0x1fc1500)	'Rinfresca tutto|Ricarica tutti i dati del prodotto'
+'Rafraîchir|Rafraîchir la page'	'Refresh|Refresh page'	'Aktualisieren|Seite aktualisieren'	HASH(0x1fc1734)	'Rinfresca|Rinfresca la pagina'
+'RAZ'	'Reset'	'Zurücksetzen'	HASH(0x1fc1968)	'Reset'
+'RAZ complet des alarmes'	'Alarm total reset'	'Alarm Total zurücksetzen'	HASH(0x1fc5820)	'Reset allarmi globali'
+'RAZ Compteur horaire temps de fonctionnement'	'Operating hour meter reset'	'Betriebsdauermesser zurücksetzen'	HASH(0x1fc5a54)	'Reset del conta-ora'
+'RAZ Compteur horaire temps présence courant'	'Current presence hour meter reset'	'Strom Betriebsdauermesser zurücksetzen'	HASH(0x1fc5c88)	'Reset del conta-ora di corrente'
+'RAZ Compteur horaire temps présence tension'	'Voltage presence hour meter reset'	'Spannung Betriebsdauermesser zurücksetzen'	HASH(0x1fc5ebc)	'Reset del conta-ora di tensione'
+'RAZ des index d'#39'énergies'	'Energy indexes reset'	'Energieindices zurücksetzen'	HASH(0x1fc60f0)	'Reset indice di energia'
+'RAZ des maxima'	'Maxima reset'	'Maximalwert zurücksetzen'	HASH(0x1fc6324)	'Reset Maxima'
+'RAZ des minima'	'Minima reset'	'Minimalwert zurücksetzen'	HASH(0x1fc6558)	'Reset Minima'
+'RAZ des moyennes'	'Average reset'	'Mittelwert zurücksetzen'	HASH(0x1fc9480)	'Reset media'
+'Raz des valeurs Max'	'Maxima reset'	'Maximalwert zurücksetzen'	HASH(0x1fc96b4)	'Reset Maxima'
+'Raz des valeurs Min'	'Minima reset'	'Minimalwert zurücksetzen'	HASH(0x1fc98e8)	'Reset Minima'
+'Raz des valeurs Min / Max'	'Min / Max reset'	'Minimal- / Maximalwert zurücksetzen'	HASH(0x1fc9b1c)	'Reset Min / Max'
+'Raz des valeurs moyennes'	'Average values reset'	'Mittelwerte zurücksetzen'	HASH(0x1fc9d50)	'Reset valori medi'
+'RAZ du compteur'	'Counter reset'	'Zähler zurücksetzen'	HASH(0x1fc9f84)	'Reset contatore'
+'RAZ du journal des alarmes'	'Alarm journal reset'	'Alarmjournal zurücksetzen'	HASH(0x1fca1b8)	'Reset storico allarmi'
+'RAZ du mot d'#39'état des alarmes'	'Alarm status reset'	'Alarmstatus zurücksetzen'	HASH(0x1fcdfd8)	'Reset stato degli allarmi'
+'RAZ sortie impulsion'	'Pulse output reset'	'Impulsausgang zurücksetzen'	HASH(0x1fce20c)	'Reset uscita impulso'
+'Récepteur'	'Receiver'	'Empfänger'	HASH(0x1fce440)	'Ricevitore'
+'Rechercher'	'Scan'	'Suchen'	HASH(0x1fce674)	'Ricerca'
+'Rechercher des appareils|Recherche sur un canal les appareils actifs apparants'	'Scan equipments|Scan on a channel the active equipments'	'Einheiten Suchen|auf einem Kanal nach aktiven Einheiten suchen'	HASH(0x1fce8a8)	'Ricerca prodotto|Ricerca sul canale attivo del prodotto'
+'Réglage de l'#39'écran'	'Display setting'	'Einstellungen Anzeige'	HASH(0x1fceadc)	'Configurazione display'
+'Relève'	'Upload'	'Hochladen'	HASH(0x1fced10)	'Upload'
+'Relève complète'	'Complete upload'	'Komplett Hochladen'	HASH(0x1fd3c08)	'Upload completo'
+'Relève partielle'	'Partial upload'	'Teilweise Hochladen'	HASH(0x1fd3e3c)	'Upload parziale'
+'Renommer'	'Rename'	'Umbennen'	HASH(0x1fd4070)	'Rinomina'
+'Renommer|Renommer'	'Rename|Rename'	HASH(0x1fd4244)	HASH(0x1fd42a4)	HASH(0x1fd4304)
+'Rétro éclairage'	'Back-Light'	HASH(0x1fd4430)	HASH(0x1fd4490)	HASH(0x1fd44f0)
+'Rétro élclairage'	'Back-Light'	'Hintergrundbeleuchtung'	HASH(0x1fd467c)	'Retroilluminazione'
+'S-'	'S-'	'S-'	HASH(0x1fd48b0)	'S-'
+'S+'	'S+'	'S+'	HASH(0x1fd4ae4)	'S+'
+'Sans'	'None'	'Keine'	HASH(0x1fd77e4)	'Nessuno'
+'Saturation'	'Saturation'	'Sättigung'	HASH(0x1fd7a18)	'Saturazione'
+'Saturation Basse'	'Saturation Low'	'Sättigung tief'	HASH(0x1fd7c4c)	'Saturazione bassa'
+'Saturation Haute'	'Saturation High'	'Sättigung hoch'	HASH(0x1fd7e80)	'Saturazione alta'
+'Sauvegarde configuation'	'Save configuration'	HASH(0x1fd8054)	HASH(0x1fd80b4)	HASH(0x1fd8114)
+'Sélection de la langue sur le produit'	'Equipment language selection'	'Einstellung Sprache'	HASH(0x1fd82a0)	'Selezione lingua del prodotto'
+'Set-up Software'	'Set-up Software'	'Set-up Software'	HASH(0x1fd84d4)	'Set-up Software'
+'Seuil'	'Threshold'	'Schwellwert'	HASH(0x1fdc25c)	'Soglia'
+'Slot A'	'Slot A'	'Slot A'	HASH(0x1fdc490)	'Slot A'
+'Slot A compteur 1'	'Slot A counter 1'	'Slot A Zähler 1'	HASH(0x1fdc6c4)	'Contatore 1 Slot A'
+'Slot A compteur 2'	'Slot A counter 2'	'Slot A Zähler 2'	HASH(0x1fdc8f8)	'Contatore 2 Slot A'
+'Slot A, voie 1'	'Slot A, Channel 1'	'Slot A, Kanal 1'	HASH(0x1fdcb2c)	'Slot A, Canale 1'
+'Slot A, voie 2'	'Slot A, Channel 2'	'Slot A, Kanal 2'	HASH(0x1fdcd60)	'Slot A, Canale 2'
+'Slot B'	'Slot B'	'Slot B'	HASH(0x1fdcf94)	'Slot B'
+'Slot B compteur 1'	'Slot B counter 1'	'Slot B Zähler 1'	HASH(0x1fdfce4)	'Contatore 1 Slot B'
+'Slot B compteur 2'	'Slot B counter 2'	'Slot B Zähler 2'	HASH(0x1fdff18)	'Contatore 2 Slot B'
+'Slot B, voie 1'	'Slot B, Channel 1'	'Slot B, Kanal 1'	HASH(0x1fe014c)	'Slot B, Canale 1'
+'Slot B, voie 2'	'Slot B, Channel 2'	'Slot B, Kanal 2'	HASH(0x1fe0380)	'Slot B, Canale 2'
+'Slot C'	'Slot C'	'Slot C'	HASH(0x1fe05b4)	'Slot C'
+'Slot C compteur 1'	'Slot C counter 1'	'Slot C Zähler 1'	HASH(0x1fe07e8)	'Contatore 1 Slot C'
+'Slot C compteur 2'	'Slot C counter 2'	'Slot C Zähler 2'	HASH(0x1fe0a1c)	'Contatore 2 Slot C'
+'Slot C, voie 1'	'Slot C, Channel 1'	'Slot C, Kanal 1'	HASH(0x1fe580c)	'Slot C, Canale 1'
+'Slot C, voie 2'	'Slot C, Channel 2'	'Slot C, Kanal 2'	HASH(0x1fe5a40)	'Slot C, Canale 2'
+'Slot D'	'Slot D'	'Slot D'	HASH(0x1fe5c74)	'Slot D'
+'Slot D compteur 1'	'Slot D counter 1'	'Slot D Zähler 1'	HASH(0x1fe5ea8)	'Contatore 1 Slot C'
+'Slot D compteur 2'	'Slot D counter 2'	'Slot D Zähler 2'	HASH(0x1fe60dc)	'Contatore 2 Slot C'
+'Slot D, voie 1'	'Slot D, Channel 1'	'Slot D, Kanal 1'	HASH(0x1fe6310)	'Slot D, Canale 1'
+'Slot D, voie 2'	'Slot D, Channel 2'	'Slot D, Kanal 2'	HASH(0x1fe6544)	'Slot D, Canale 2'
+'Slot X'	'Slot X'	'Slot X'	HASH(0x1fe6778)	'Slot X'
+'Slot Y'	'Slot Y'	'Slot Y'	HASH(0x1fe9508)	'Slot Y'
+'Sortie'	'Output'	'Ausgang'	HASH(0x1fe973c)	'Uscita'
+'Sortie Analogique'	'Analog output'	'Analogausgang'	HASH(0x1fe9970)	'Uscita analogica'
+'Sortie relais associée'	'Associated relay output'	'Verbundener Relaisausgang'	HASH(0x1fe9ba4)	'Uscita relè associata'
+'Sortie TOR'	'Binary output'	'Binärausgang'	HASH(0x1fe9dd8)	'Uscita digitale'
+'Sorties analogique'	'Analog outputs'	'Analogausgänge'	HASH(0x1fea00c)	'Uscite analogiche'
+'Sorties analogiques'	'Analog outputs'	'Analogausgänge'	HASH(0x1fea240)	'Uscite analogiche'
+'Sorties Analogiques'	'Analog outputs'	'Analogausgänge'	HASH(0x1fedfe8)	'Uscite analogiche'
+'Sorties automates'	'PLC outputs'	HASH(0x1fee1bc)	HASH(0x1fee21c)	HASH(0x1fee27c)
+'Sorties impulsions'	'Pulse outputs'	'Impulsausgänge'	HASH(0x1fee408)	'Uscita impulso'
+'Sorties TOR'	'BIN outputs'	'Binärausgänge'	HASH(0x1fee63c)	'Uscita BIN'
+'Supprimer'	'Delete'	'Löschen'	HASH(0x1fee870)	'Cancella'
+'Supprimer|Supprime l'#39'éléments sélectionnés'	'Delete|Delete the selected item'	'Löschen|Auswahl löschen'	HASH(0x1feeaa4)	'Cancella|Cancella l'#39'oggetto selezionato'
+'Synchro horaire'	'Time synchro'	'Zeitsynchronisation'	HASH(0x1feecd8)	'Sincronizza ora'
+'Synchro Horaire'	'Time Synchro'	'Zeitsynchronisation'	HASH(0x1ff1a78)	'Sincronizza Ora'
+'Synchronisation|Verifie la cohérence de la configuration par rapport à l'#39'appareil'	'Synchronize|Check the consistency of the configuration vs equipment'	'Synchronisation|überprüfung der Konfiguration und dem Modell'	HASH(0x1ff1cac)	'Sincronizzazione|Controlla la della configurazione con il prodotto'
+'Synchroniser'	'Synchronise'	'Synchronisation'	HASH(0x1ff1ee0)	'Sincronizza'
+'T = '	'T = '	'T = '	HASH(0x1ff2114)	'T = '
+'Tableau d'#39'harmoniques'	'Harmonic table'	HASH(0x1ff22e8)	HASH(0x1ff2348)	HASH(0x1ff23a8)
+'Taille'	'Size'	'Grösse'	HASH(0x1ff2534)	'Dimensione'
+'Taille de la courbe'	'Size of the curve'	'Grösse der Kurve'	HASH(0x1ff2768)	'Dimensione della curva'
+'Taille de la variable'	'Variable format'	'Format Variable'	HASH(0x1ff299c)	'Formato variabile'
+'Taux d'#39'harmoniques'	'Harmonic rates'	'Rate der Harmonische'	HASH(0x1ff582c)	'Tasso di armoniche'
+'Taux de remplissage'	'Filling rate'	'Füllrate'	HASH(0x1ff5a60)	'Tasso di riempimento'
+'TBCommAdr'	'TBCommAdr'	'TBCommAdr'	HASH(0x1ff5c94)	'TBCommAdr'
+'TC primaire'	'Primary CT'	'Primar CT'	HASH(0x1ff5ec8)	'CT Primario'
+'TC secondaire'	'Secondary CT'	'Sekundär CT'	HASH(0x1ff60fc)	'CT Secondario'
+'Tél. : +33 1 47 46 78 00'	'Tél. : +33 1 47 46 78 00'	'Tél. : +33 1 47 46 78 00'	HASH(0x1ff6330)	'Tél. : +33 1 47 46 78 00'
+'Tempo. (s)'	'Tempo. (s)'	'Zeit(en)'	HASH(0x1ff6564)	'Tempo. (s)'
+'Temps d'#39'intégration'	'Integration period'	'Integrationszeit'	HASH(0x1ffb3a4)	'Periodo di integrazione'
+'Temps de défilement (s)'	'Scrolling time (s)'	'Blättern Zeit'	HASH(0x1ffb5d8)	'Tempo di ricerca (s)'
+'Temps de retournement (ms)'	'Junction switchover delay (ms)'	'Umschalten verzögern (ms)'	HASH(0x1ffb80c)	'Tempo di ritorno (ms)'
+'Temps de retournement RS485 (ms)'	'RS485 junction switchover delay (ms)'	'RS485 junction umschalten verzögern (ms)'	HASH(0x1ffba40)	'Tempo di ritorno RS485 (ms)'
+'temps maximum d'#39'attente'	'Maximum waiting time'	'Maximale Wartezeit'	HASH(0x1ffbc74)	'Tempo massimo di attesa'
+'Tension Ph-N'	'Voltage Ph-N'	'Spannung Ph-N'	HASH(0x1ffbea8)	'Tensione Ph-N'
+'Tension Ph-Ph'	'Voltage Ph-Ph'	'Spannung Ph-Ph'	HASH(0x1ffc0dc)	'Tensione Ph-Ph'
+'Tensions Composées'	'Ph-Ph Voltage'	'Spannung Ph-Ph'	HASH(0x2000f14)	'Ph-Ph Tensione'
+'THD courant'	'THD Current'	'THD Strom'	HASH(0x2001148)	'THD Corrente'
+'THD tension Ph-Ph'	'THD Voltage Ph-Ph'	'THD Spannung Ph-Ph'	HASH(0x200137c)	'THD Tensione Ph-Ph'
+'Time out (ms)'	'Time out (ms)'	'Zeitüberschreitung (ms)'	HASH(0x20015b0)	'Time out'
+'Titre'	'Title'	'Titel'	HASH(0x20017e4)	'Titolo'
+'Titre de la page sur 24 caractères maximum'	'Title of the page on 24 characters maximum'	'Seitenüberschrift max. 24 Zeichen'	HASH(0x2001a18)	'Massimo 24 caratteri per il titolo della pagina'
+'Titre1'	'Title1'	'Titel 1'	HASH(0x2001c4c)	'Titolo 1'
+'Titre2'	'Title2'	'Titel 2'	HASH(0x2004a74)	'Titolo 2'
+'Titre3'	'Title3'	'Titel 3'	HASH(0x2004ca8)	'Titolo 3'
+'TP primaire'	'Primary PT'	'Primär PT'	HASH(0x2004edc)	'PT primario'
+'TP secondaire'	'Secondary PT'	'Sekundär PT'	HASH(0x2005110)	'PT secondario'
+'Transmettez votre clef personnelle à votre distributeur pour obtenir la '	'Send your personal key to your distributor to get the '	'Senden Sie ihren persönlichen Schlüssel an die Verkaufsstelle, um die folgende Linzenz zu erhalten '	HASH(0x2005344)	'Invia la tua chiave personale al tuo distributore per avere il '
+'Type de canal'	'Channel type'	'Kanal Typ'	HASH(0x2005578)	'Tipo di canale'
+'Type de détection'	'Detection type'	'Aufspüren via'	HASH(0x20057ac)	'Tipo di rilevamento'
+'Type de Fresnel'	'Type of phasors'	HASH(0x2005980)	HASH(0x1ec9264)	HASH(0x1ec92c4)
+'Type de produit'	'Equipment type'	'Einheit Typ'	HASH(0x1ec9450)	'Tipo di prodotto'
+'Type de synchronisation'	'Synchronisation type'	'Synchronisationstyp'	HASH(0x1ec9684)	'Sincronizzazione tipo'
+'U12='	'U12='	'U12='	HASH(0x1ec98b8)	'U12='
+'U23='	'U23='	'U23='	HASH(0x1ec9aec)	'U23='
+'U31='	'U31='	'U31='	HASH(0x1ec9d20)	'U31='
+'Unité'	'Unit'	'Einheit'	HASH(0x1ec9f54)	'Unità'
+'Unité dans la courbe de charge sur 8 caractères maximum'	'loadcurve unit on 8 characteres maximum'	'Lastkurve Einheit (max. 8 Zeichen lang)'	HASH(0x1eca188)	'Massimo 8 caratteri per ogni curva di carico'
+'unité de la grandeur sur 4 caractères maximum'	'Parameter unit on 4 characters maximum'	'Grösseneinheit (max. 4 Zeichen lang)'	HASH(0x1eca3bc)	'Massimo 4 caratteri per ogni parametro'
+'V1'	'V1'	'V1'	HASH(0x1eca5f0)	'V1'
+'V2'	'V2'	'V2'	HASH(0x1eca824)	'V2'
+'V3'	'V3'	'V3'	HASH(0x1ecaa58)	'V3'
+'Valeur'	'Value'	'Werte'	HASH(0x1ecac8c)	'Valore'
+'Valeur (mA)'	'Value (mA)'	'Werte (mA)'	HASH(0x1ecaec0)	'Valore (mA)'
+'Valeurs instantanées'	'Instant values'	'Aktuelle Werte'	HASH(0x1ecb0f4)	'Valore istantaneo'
+'Vide'	'Empty'	'Leer'	HASH(0x2013eb0)	'Vuoto'
+'Visualisation des évènements'	'Events view'	HASH(0x2014084)	HASH(0x20140e4)	HASH(0x2014144)
+'Vitesse'	'Speed'	'Geschwindigkeit'	HASH(0x20142d0)	'Velocità'
+'Vitesse JBus'	'JBus speed'	'JBus Geschwindigkeit'	HASH(0x2014504)	'Velocità JBus'
+'Vitesse RS485'	'RS485 speed'	'RS485 Geschwindigkeit'	HASH(0x2014738)	'Velocità RS485'
+'Voie 1'	'Channel 1'	'Kanal 1'	HASH(0x201496c)	'Canale 1'
+'Voie 2'	'Channel 2'	'Kanal 2'	HASH(0x2014ba0)	'Canale 2'
+'Votre clef personnelle'	'Your personal Key'	'Ihr persönlicher Schlüssel'	HASH(0x2018890)	'Chiave personale'
+'Word (16 bits)'	'Word (16 bits)'	'Word (16 bits)'	HASH(0x2018ac4)	'Word (16 bits)'
+'Zoom -'	'Zoom -'	'Zoom -'	HASH(0x2018cf8)	'Zoom -'
+'Zoom +'	'Zoom +'	'Zoom +'	HASH(0x2018f2c)	'Zoom +'
+'Zoom 1'	'Zoom 1'	'Zoom 1'	HASH(0x2019160)	'Zoom 1'
+'Zoom1'	'Zoom1'	'Zoom1'	HASH(0x2019394)	'Zoom1'
+'ZoomM'	'ZoomM'	'ZoomM'	HASH(0x20195c8)	'ZoomM'
+'ZoomP'	'ZoomP'	'ZoomP'	HASH(0x20197fc)	'ZoomP'

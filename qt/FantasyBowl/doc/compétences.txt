@@ -1,0 +1,102 @@
+COMPETENCES
+-------------
+
+100 Général
+101 Arracher le ballon  
+102 Blocage  
+103 Blocage de passe  
+104 Chef  
+105 Dextérité  
+106 Frappe précise  
+107 Frénésie  
+108 Intrépidité  
+109 Joueur vicieux  
+110 Nerfs d'acier  
+111 Poursuite  
+112 Pro  
+113 Tacle
+
+200 Force
+201 Blocage multiple  
+202 Châtaigne  
+203 Ecrasement  
+204 Esquive en force  
+205 Garde  
+206 Lancer un coéquipier  
+207 Stabilité  
+
+300 Agilité
+301 Bond  
+302 Equilibre  
+303 Esquive  
+304 Glissade contrôlée  
+305 Plongeon  
+306 Poids plume  
+307 Réception  
+308 Saut  
+309 Sprint  
+310 Tacle plongeant  
+
+400 Passe
+401 Costaud  
+402 La Main de Dieu  
+403 Lancer précis  
+404 Passe  
+405 Passe rapide  
+406 Précision  
+
+500 Spécial
+501 Aspect  
+502 Baton à ressort  
+503 Bénédiction  
+504 Bombes  
+505 Chaîne et boulet  
+506 Dague empoisonnée  
+507 Ethere  
+508 Garou  
+509 Mutation Golémique  
+510 Puissance  
+511 Roule mort  
+512 Soins  
+513 Spécial  
+514 Tromblon  
+515 Tronçonneuse  
+
+600 Physique
+601 Bras supplémentaires  
+602 Cornes  
+603 Crâne épais  
+604 Crocs acérés  
+605 Deux têtes  
+606 Griffes  
+607 Main démesurée  
+608 Minus  
+609 Pointes  
+610 Queue préhensile  
+611 Regard hypnotique  
+612 Régénération  
+613 Répulsion  
+614 Tentacules  
+615 Très longues jambes  
+
+700 Négative
+701 Animal sauvage  
+702 Calcairite aigue  
+703 Débile  
+704 Fragile  
+705 Gro'Déb  
+706 Monstre  
+707 Nature froide  
+708 Pas d'bras  
+709 Pas de ce monde  
+710 Petite soif  
+711 PPPLPALI  
+712 Prendre racines  
+713 Toujours affamé  
+
+TYPE DE COMPETENCE :
+----------------------
+
+0 Compétence
+1 Trait
+2 Caractéristique raciale

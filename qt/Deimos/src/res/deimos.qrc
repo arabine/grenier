@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>deimos.png</file>
+    </qresource>
+</RCC>
